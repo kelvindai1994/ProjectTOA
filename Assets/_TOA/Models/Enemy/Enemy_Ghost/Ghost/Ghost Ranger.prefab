@@ -1,0 +1,3125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &145954512719599405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926993924857001893}
+  m_Layer: 0
+  m_Name: WraithSpine4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &926993924857001893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145954512719599405}
+  m_LocalRotation: {x: -0.035850674, y: -0.023614815, z: -0.16070361, w: 0.9860687}
+  m_LocalPosition: {x: -0.12075676, y: 0.000000076293944, z: -0.000000038146972}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6720352944401341617}
+  m_Father: {fileID: 304456382694147012}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.70995283, y: -0.8711395, z: -31.162329}
+--- !u!1 &241592783458897231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8520948245444779984}
+  m_Layer: 0
+  m_Name: WraithWeaponR001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8520948245444779984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241592783458897231}
+  m_LocalRotation: {x: 0.000011673744, y: 0.000046022367, z: -0.5518241, w: 0.8339606}
+  m_LocalPosition: {x: -0.10317112, y: -0.04047142, z: -0.00018428802}
+  m_LocalScale: {x: 0.99994504, y: 1.0000212, z: 1.0000328}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4120459412656293598}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0.001919676, y: 0.002763257, z: -66.98396}
+--- !u!1 &684590714543986765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5446049720090113561}
+  m_Layer: 0
+  m_Name: WraithRDigit41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5446049720090113561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684590714543986765}
+  m_LocalRotation: {x: 0.078138374, y: 0.068181224, z: 0.73184615, w: 0.67353314}
+  m_LocalPosition: {x: -0.12901656, y: -0.0024771881, z: 0.018416023}
+  m_LocalScale: {x: 1.0000073, y: 0.99988985, z: 1.0001063}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1251237338640778060}
+  m_Father: {fileID: 2156729244486268094}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.54058, y: 11.107713, z: 82.94652}
+--- !u!1 &721220712496366873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 985223421232511759}
+  m_Layer: 0
+  m_Name: WraithEye_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &985223421232511759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721220712496366873}
+  m_LocalRotation: {x: 0.06663305, y: 0.028474089, z: -0.7681192, w: 0.6361935}
+  m_LocalPosition: {x: -0.05310623, y: 0.12450298, z: 0.029838962}
+  m_LocalScale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 7.3844237, y: -3.8237448, z: -100.98044}
+--- !u!1 &724898466793994829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5859848366245975809}
+  m_Layer: 0
+  m_Name: WraithHair_2_L1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5859848366245975809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724898466793994829}
+  m_LocalRotation: {x: -0.4495941, y: -0.21459456, z: 0.8657506, w: 0.047857024}
+  m_LocalPosition: {x: -0.05487228, y: 0.030152129, z: 0.060016163}
+  m_LocalScale: {x: 0.9999996, y: 1.0000004, z: 1.0000013}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 3.535395, y: -54.882565, z: 174.00674}
+--- !u!1 &745198045384161819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5813420580427815634}
+  m_Layer: 0
+  m_Name: WraithRUpperarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5813420580427815634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745198045384161819}
+  m_LocalRotation: {x: 0.36509472, y: -0.33980066, z: -0.16207498, w: 0.8514535}
+  m_LocalPosition: {x: -0.17046936, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000014, y: 0.9999947, z: 1.0000039}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6198787369192783668}
+  m_Father: {fileID: 1647253776700636347}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 21.066471, y: -71.581375, z: -37.788612}
+--- !u!1 &849378914910096523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7588336428432590771}
+  m_Layer: 0
+  m_Name: WraithHair_1_R1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7588336428432590771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849378914910096523}
+  m_LocalRotation: {x: 0.08756058, y: -0.2109152, z: 0.9559646, w: -0.18433547}
+  m_LocalPosition: {x: -0.07236175, y: 0.103813626, z: -0.06888097}
+  m_LocalScale: {x: 1.0000001, y: 1.0000008, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -1.2930257, y: 12.394665, z: -153.96266}
+--- !u!1 &996176268498442961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2523114288685013740}
+  - component: {fileID: 4535141549193544890}
+  m_Layer: 0
+  m_Name: Preview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2523114288685013740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996176268498442961}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7521912836991350206}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4535141549193544890
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996176268498442961}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 94524dd6bf041a84cb99cab06cf97327, type: 2}
+  - {fileID: 2100000, guid: c458d844cb5085e4b89f69e8671c102e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 2834358113746516898, guid: 10a5c388d95bcb94ebb6de217d6a1de0, type: 3}
+  m_Bones:
+  - {fileID: 5943407476847377962}
+  - {fileID: 6885147212787053853}
+  - {fileID: 4411884904920777637}
+  - {fileID: 154610894754908133}
+  - {fileID: 304456382694147012}
+  - {fileID: 926993924857001893}
+  - {fileID: 6720352944401341617}
+  - {fileID: 8259461653849020947}
+  - {fileID: 2854750739928316686}
+  - {fileID: 7090038599544452792}
+  - {fileID: 4120459412656293598}
+  - {fileID: 3727040840026747393}
+  - {fileID: 8462540869496757553}
+  - {fileID: 1620107370372474289}
+  - {fileID: 5938897961851688442}
+  - {fileID: 8983629469439421780}
+  - {fileID: 9176981990095998198}
+  - {fileID: 653294489177980130}
+  - {fileID: 5302713807847114011}
+  - {fileID: 3228426398287031264}
+  - {fileID: 8541855309440464698}
+  - {fileID: 8889809270381398448}
+  - {fileID: 4669367477841999395}
+  - {fileID: 7248447560039973524}
+  - {fileID: 2463296163504864842}
+  - {fileID: 5355250053193011821}
+  - {fileID: 8520948245444779984}
+  - {fileID: 1647253776700636347}
+  - {fileID: 5813420580427815634}
+  - {fileID: 6198787369192783668}
+  - {fileID: 2156729244486268094}
+  - {fileID: 5043707236769494675}
+  - {fileID: 7808538393623783838}
+  - {fileID: 7506079216765555501}
+  - {fileID: 674607372852013292}
+  - {fileID: 8673274826432343612}
+  - {fileID: 4568214640499529265}
+  - {fileID: 5168414735092072988}
+  - {fileID: 8732750391631851014}
+  - {fileID: 7483181694590580054}
+  - {fileID: 5446049720090113561}
+  - {fileID: 1251237338640778060}
+  - {fileID: 6691346406533727167}
+  - {fileID: 4700784242707007943}
+  - {fileID: 7202159024338949863}
+  - {fileID: 8902314492661997071}
+  - {fileID: 5742400399025656883}
+  - {fileID: 2062988906767455628}
+  - {fileID: 118406198806888542}
+  - {fileID: 57028027087188115}
+  - {fileID: 3870739817803377352}
+  - {fileID: 4781955975362711450}
+  - {fileID: 985223421232511759}
+  - {fileID: 7588336428432590771}
+  - {fileID: 7018880355032163049}
+  - {fileID: 3941365887725317842}
+  - {fileID: 5859848366245975809}
+  - {fileID: 7339783454170523910}
+  - {fileID: 1057062759414063503}
+  - {fileID: 8336901407322077470}
+  - {fileID: 1197801865729929270}
+  - {fileID: 6747615184874823477}
+  - {fileID: 3095327204533945337}
+  - {fileID: 4473700892608374472}
+  - {fileID: 3499021553422505335}
+  - {fileID: 7078613231179216620}
+  - {fileID: 4109501541953183358}
+  - {fileID: 53942374280850977}
+  - {fileID: 1426191305422855991}
+  - {fileID: 5824473786568597860}
+  - {fileID: 7142243965376068196}
+  - {fileID: 6723682773572873256}
+  - {fileID: 3439211754148763186}
+  - {fileID: 4139745812760500837}
+  - {fileID: 4686242666657054976}
+  - {fileID: 4541307512947358994}
+  - {fileID: 6903369860061930999}
+  - {fileID: 1697685814990641817}
+  - {fileID: 2645222488682556768}
+  - {fileID: 7327976651979539581}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5943407476847377962}
+  m_AABB:
+    m_Center: {x: 0.020870566, y: 0.24690062, z: 1.1661236}
+    m_Extent: {x: 0.7611016, y: 1.0441856, z: 0.7589714}
+  m_DirtyAABB: 0
+--- !u!1 &1017090268282194337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4473700892608374472}
+  m_Layer: 0
+  m_Name: WraithClothL1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4473700892608374472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017090268282194337}
+  m_LocalRotation: {x: -0.002005869, y: 0.020005113, z: -0.80008763, w: 0.59954613}
+  m_LocalPosition: {x: -0.046438523, y: 0.03537857, z: 0.12593473}
+  m_LocalScale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3499021553422505335}
+  m_Father: {fileID: 6720352944401341617}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.12865455, y: 0.12255808, z: -104.262375}
+--- !u!1 &1120711898405079762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674607372852013292}
+  m_Layer: 0
+  m_Name: WraithRDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674607372852013292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120711898405079762}
+  m_LocalRotation: {x: -0.1303639, y: -0.06621833, z: 0.73924756, w: 0.65736866}
+  m_LocalPosition: {x: -0.1259191, y: -0.0005882263, z: -0.039395142}
+  m_LocalScale: {x: 1.0000063, y: 0.99988836, z: 1.000109}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8673274826432343612}
+  m_Father: {fileID: 2156729244486268094}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2.6786861, y: -14.563303, z: 87.42304}
+--- !u!1 &1134718185552571129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653294489177980130}
+  m_Layer: 0
+  m_Name: WraithLDigit31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &653294489177980130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134718185552571129}
+  m_LocalRotation: {x: 0.037614133, y: 0.0054412126, z: 0.026369357, w: 0.99892956}
+  m_LocalPosition: {x: -0.13147736, y: -0.0018254851, z: 0.011780662}
+  m_LocalScale: {x: 1.0000275, y: 1.0000674, z: 0.99990755}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5302713807847114011}
+  m_Father: {fileID: 4120459412656293598}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 3.7193532, y: -0.2864292, z: -15.246623}
+--- !u!1 &1277307231440374554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7506079216765555501}
+  m_Layer: 0
+  m_Name: WraithRDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7506079216765555501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277307231440374554}
+  m_LocalRotation: {x: -0.00000014499223, y: 0.000000022623954, z: 0.26043758, w: 0.9654907}
+  m_LocalPosition: {x: -0.035469208, y: 7.105427e-17, z: -0.000000038146972}
+  m_LocalScale: {x: 0.99990344, y: 1.0001038, z: 1.000006}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7808538393623783838}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0008647181, y: -0.0005066905, z: 59.143135}
+--- !u!1 &1403960660476243327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7248447560039973524}
+  m_Layer: 0
+  m_Name: WraithLDigit51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7248447560039973524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403960660476243327}
+  m_LocalRotation: {x: -0.06723264, y: -0.21973504, z: 0.14872602, w: 0.96180916}
+  m_LocalPosition: {x: -0.117026895, y: 0.00051567075, z: -0.04542629}
+  m_LocalScale: {x: 1.0000366, y: 1.0000687, z: 0.9998975}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2463296163504864842}
+  m_Father: {fileID: 4120459412656293598}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -2.1485577, y: -28.912783, z: 5.6205807}
+--- !u!1 &1459727180372883494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3439211754148763186}
+  m_Layer: 0
+  m_Name: WraithDress_Front2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3439211754148763186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459727180372883494}
+  m_LocalRotation: {x: 0.0000662293, y: 0.13062017, z: 0.005412424, w: 0.9914177}
+  m_LocalPosition: {x: -0.23396805, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4139745812760500837}
+  m_Father: {fileID: 6723682773572873256}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 5.9326954, y: -3.670434, z: 15.188681}
+--- !u!1 &1727291337983702838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4411884904920777637}
+  m_Layer: 0
+  m_Name: WraithSpine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4411884904920777637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727291337983702838}
+  m_LocalRotation: {x: -0.004168867, y: -0.018513009, z: 0.026550079, w: 0.9994674}
+  m_LocalPosition: {x: -0.045809403, y: -0.0035049438, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 154610894754908133}
+  m_Father: {fileID: 6885147212787053853}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.26459375, y: -0.19281922, z: 0.29736495}
+--- !u!1 &1761564326448225463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4139745812760500837}
+  m_Layer: 0
+  m_Name: WraithDress_Front3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4139745812760500837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761564326448225463}
+  m_LocalRotation: {x: 0.25410154, y: 0.028120441, z: -0.15841244, w: 0.95370185}
+  m_LocalPosition: {x: -0.25000006, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3439211754148763186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.21192741, y: 9.917835, z: 41.642944}
+--- !u!1 &1839195367145039245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3228426398287031264}
+  m_Layer: 0
+  m_Name: WraithLDigit33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3228426398287031264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839195367145039245}
+  m_LocalRotation: {x: 0.00000015577896, y: 0.0000005719887, z: 0.17289315, w: 0.9849406}
+  m_LocalPosition: {x: -0.043543473, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0001311, y: 1.0002475, z: 0.9996313}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5302713807847114011}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0018374163, y: -0.0000837135, z: 38.239067}
+--- !u!1 &1931445614614195401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5168414735092072988}
+  m_Layer: 0
+  m_Name: WraithRDigit31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5168414735092072988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931445614614195401}
+  m_LocalRotation: {x: -0.028779313, y: 0.024740633, z: 0.7682613, w: 0.63901037}
+  m_LocalPosition: {x: -0.13147545, y: -0.0018255615, z: -0.011780319}
+  m_LocalScale: {x: 1.0000064, y: 0.999893, z: 1.0001045}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8732750391631851014}
+  m_Father: {fileID: 2156729244486268094}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -3.72969, y: -0.22905393, z: 89.08775}
+--- !u!1 &1976731431046616848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1251237338640778060}
+  m_Layer: 0
+  m_Name: WraithRDigit42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1251237338640778060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976731431046616848}
+  m_LocalRotation: {x: 0.00000053895656, y: -0.0000010930755, z: 0.61904, w: 0.78535944}
+  m_LocalPosition: {x: -0.05945671, y: 0, z: -7.105427e-17}
+  m_LocalScale: {x: 1.0000478, y: 0.99975115, z: 1.000208}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6691346406533727167}
+  m_Father: {fileID: 5446049720090113561}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00019224593, y: 0.00026372174, z: 101.272316}
+--- !u!1 &2043925412399107978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1647253776700636347}
+  m_Layer: 0
+  m_Name: WraithRCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1647253776700636347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043925412399107978}
+  m_LocalRotation: {x: -0.04387217, y: -0.7681598, z: 0.24448308, w: 0.59011346}
+  m_LocalPosition: {x: -0.010411301, y: 0.116123654, z: -0.030109996}
+  m_LocalScale: {x: 0.9999999, y: 1.0000005, z: 1.000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5813420580427815634}
+  m_Father: {fileID: 6720352944401341617}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 18.42137, y: -100.938736, z: 22.585466}
+--- !u!1 &2269334164824811788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4686242666657054976}
+  m_Layer: 0
+  m_Name: WraithDress_Back1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4686242666657054976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2269334164824811788}
+  m_LocalRotation: {x: 0.008955748, y: -0.020938568, z: 0.9682145, w: 0.24908239}
+  m_LocalPosition: {x: -0.017758789, y: -0.068822324, z: -3.5527136e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4541307512947358994}
+  m_Father: {fileID: 6885147212787053853}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.027138501, y: 0.14154041, z: 169.5544}
+--- !u!1 &2385564827865555822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5043707236769494675}
+  m_Layer: 0
+  m_Name: WraithRDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5043707236769494675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2385564827865555822}
+  m_LocalRotation: {x: -0.58646166, y: -0.4247419, z: 0.13922547, w: 0.67548007}
+  m_LocalPosition: {x: -0.023274459, y: -0.00438385, z: -0.025046578}
+  m_LocalScale: {x: 0.999984, y: 0.9999488, z: 1.0000707}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7808538393623783838}
+  m_Father: {fileID: 2156729244486268094}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -44.70017, y: -89.66731, z: 59.58599}
+--- !u!1 &2417427764850532741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4109501541953183358}
+  m_Layer: 0
+  m_Name: WraithCape1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4109501541953183358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2417427764850532741}
+  m_LocalRotation: {x: -0.0052442197, y: -0.026750667, z: 0.9992888, w: -0.026055694}
+  m_LocalPosition: {x: 0.13039817, y: -0.13245483, z: 0.000000019073486}
+  m_LocalScale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 53942374280850977}
+  m_Father: {fileID: 6720352944401341617}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.9511764, y: 0.99135375, z: -157.59613}
+--- !u!1 &2659143426069498248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4568214640499529265}
+  m_Layer: 0
+  m_Name: WraithRDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4568214640499529265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659143426069498248}
+  m_LocalRotation: {x: -0.00000026843028, y: -0.0000005932425, z: 0.53494424, w: 0.8448874}
+  m_LocalPosition: {x: -0.032498397, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000639, y: 0.9995357, z: 1.0004146}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8673274826432343612}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.05057496, y: -0.9186315, z: 67.766716}
+--- !u!1 &2679096042880611992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824473786568597860}
+  m_Layer: 0
+  m_Name: WraithDress_R2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824473786568597860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2679096042880611992}
+  m_LocalRotation: {x: -0.081791244, y: 0.10165188, z: 0.08240249, w: 0.98802173}
+  m_LocalPosition: {x: -0.2609813, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 0.99999976, y: 1, z: 1.0000006}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7142243965376068196}
+  m_Father: {fileID: 1426191305422855991}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.2854302, y: -5.8231716, z: -41.103603}
+--- !u!1 &2684485252178815219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3941365887725317842}
+  m_Layer: 0
+  m_Name: WraithHair_2_R1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3941365887725317842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684485252178815219}
+  m_LocalRotation: {x: 0.4288838, y: -0.17039365, z: 0.8845742, w: 0.06747745}
+  m_LocalPosition: {x: -0.05487213, y: 0.030152205, z: -0.060016155}
+  m_LocalScale: {x: 0.9999992, y: 1.0000002, z: 1.0000012}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 5.7645125, y: 52.34555, z: 175.0258}
+--- !u!1 &2733005371363884823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7327976651979539581}
+  m_Layer: 0
+  m_Name: WraithDress_L3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7327976651979539581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2733005371363884823}
+  m_LocalRotation: {x: 0.1925744, y: -0.11945766, z: 0.26984236, w: 0.93585795}
+  m_LocalPosition: {x: -0.24999997, y: 0.000000076293944, z: -0.000000076293944}
+  m_LocalScale: {x: 0.9999997, y: 1.0000004, z: 1.0000005}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2645222488682556768}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.19035053, y: -12.921057, z: -41.588566}
+--- !u!1 &3008035828712236741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4120459412656293598}
+  m_Layer: 0
+  m_Name: WraithLPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120459412656293598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3008035828712236741}
+  m_LocalRotation: {x: -0.70221263, y: -0.27115452, z: -0.14271948, w: 0.64265376}
+  m_LocalPosition: {x: -0.32229394, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000061, y: 1.0000055, z: 0.99998766}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3727040840026747393}
+  - {fileID: 5938897961851688442}
+  - {fileID: 653294489177980130}
+  - {fileID: 8541855309440464698}
+  - {fileID: 7248447560039973524}
+  - {fileID: 8520948245444779984}
+  m_Father: {fileID: 7090038599544452792}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -84.92519, y: -139.239, z: 165.44643}
+--- !u!1 &3193888021516256417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 514616546002668224}
+  - component: {fileID: 192834855752618204}
+  - component: {fileID: 7482951071655838892}
+  m_Layer: 0
+  m_Name: S_WraithScythe_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &514616546002668224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193888021516256417}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 879370277138964941}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &192834855752618204
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193888021516256417}
+  m_Mesh: {fileID: -3880499002223523514, guid: 1d4737fc58824ae47a2c9e7520b1be16, type: 3}
+--- !u!23 &7482951071655838892
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193888021516256417}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bb2cc45cdb275e04f84603de8919b0b6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3439762740273940637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8336901407322077470}
+  m_Layer: 0
+  m_Name: Wraithnecklace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8336901407322077470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3439762740273940637}
+  m_LocalRotation: {x: -0.000000008413406, y: 0.000000012015585, z: -0.819152, w: 0.57357657}
+  m_LocalPosition: {x: 0.0076908874, y: 0.09849365, z: 0}
+  m_LocalScale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6720352944401341617}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -0.0000043255022, y: 0.000002342202, z: -109.99999}
+--- !u!1 &3472342272601628991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879370277138964941}
+  m_Layer: 0
+  m_Name: S_WraithScythe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879370277138964941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3472342272601628991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 815714132284391062}
+  - {fileID: 1251645031442512345}
+  - {fileID: 514616546002668224}
+  m_Father: {fileID: 8467527584703410164}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3554815388494792421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7090038599544452792}
+  m_Layer: 0
+  m_Name: WraithLForearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7090038599544452792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3554815388494792421}
+  m_LocalRotation: {x: 0.25615904, y: -0.05428923, z: -0.5517067, w: 0.79186803}
+  m_LocalPosition: {x: -0.29245588, y: 0.000000028610229, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000081, y: 0.9999763, z: 1.0000182}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4120459412656293598}
+  m_Father: {fileID: 2854750739928316686}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 19.387548, y: -22.821825, z: -72.769135}
+--- !u!1 &3588196851437959992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2463296163504864842}
+  m_Layer: 0
+  m_Name: WraithLDigit52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2463296163504864842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3588196851437959992}
+  m_LocalRotation: {x: 0.0016923044, y: 0.0046484135, z: 0.34791127, w: 0.9375144}
+  m_LocalPosition: {x: -0.042040136, y: 1.4210854e-16, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000396, y: 1.0001508, z: 0.99981505}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5355250053193011821}
+  m_Father: {fileID: 7248447560039973524}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0046399846, y: 0.54517996, z: 27.310524}
+--- !u!1 &3711037198235247102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6747615184874823477}
+  m_Layer: 0
+  m_Name: WraithClothR2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6747615184874823477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3711037198235247102}
+  m_LocalRotation: {x: -0.4587181, y: 0.026174854, z: -0.08866642, w: 0.88375956}
+  m_LocalPosition: {x: -0.3357028, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000012, y: 1.0000018, z: 0.99999964}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3095327204533945337}
+  m_Father: {fileID: 1197801865729929270}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.1100401, y: -1.2890577, z: -3.0111537}
+--- !u!1 &3768691979363864891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 304456382694147012}
+  m_Layer: 0
+  m_Name: WraithSpine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &304456382694147012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3768691979363864891}
+  m_LocalRotation: {x: -0.029682657, y: -0.038196504, z: 0.016963253, w: 0.99868524}
+  m_LocalPosition: {x: -0.11237091, y: 0.000000076293944, z: -3.5527136e-17}
+  m_LocalScale: {x: 1.0000006, y: 1.0000004, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 926993924857001893}
+  m_Father: {fileID: 154610894754908133}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.77155507, y: -0.6558305, z: -11.43906}
+--- !u!1 &3811225909430849626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4541307512947358994}
+  m_Layer: 0
+  m_Name: WraithDress_Back2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4541307512947358994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3811225909430849626}
+  m_LocalRotation: {x: -0.050792392, y: 0.3299922, z: 0.14351702, w: 0.9316266}
+  m_LocalPosition: {x: -0.2609813, y: 0, z: -3.5527136e-17}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6903369860061930999}
+  m_Father: {fileID: 4686242666657054976}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.6016885, y: -6.81886, z: -30.993185}
+--- !u!1 &3858360320409815504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8673274826432343612}
+  m_Layer: 0
+  m_Name: WraithRDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8673274826432343612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3858360320409815504}
+  m_LocalRotation: {x: 0.005425247, y: 0.006353064, z: 0.64700097, w: 0.7624434}
+  m_LocalPosition: {x: -0.05746864, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000494, y: 0.9997506, z: 1.0002074}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4568214640499529265}
+  m_Father: {fileID: 674607372852013292}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.013727088, y: 0.65199864, z: 87.04259}
+--- !u!1 &4000330397599413206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6691346406533727167}
+  m_Layer: 0
+  m_Name: WraithRDigit43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6691346406533727167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4000330397599413206}
+  m_LocalRotation: {x: -0.00000018856026, y: -0.00000029321652, z: 0.24372107, w: 0.96984535}
+  m_LocalPosition: {x: -0.03242958, y: 0, z: 7.105427e-17}
+  m_LocalScale: {x: 0.9999369, y: 0.99966073, z: 1.0004158}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1251237338640778060}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000030679745, y: 0.0003019328, z: 43.213207}
+--- !u!1 &4084196284218996285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2854750739928316686}
+  m_Layer: 0
+  m_Name: WraithLUpperarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2854750739928316686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4084196284218996285}
+  m_LocalRotation: {x: -0.2639415, y: 0.52532417, z: -0.2992732, w: 0.75153506}
+  m_LocalPosition: {x: -0.17046936, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000008, y: 0.9999974, z: 1.0000019}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7090038599544452792}
+  m_Father: {fileID: 8259461653849020947}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -27.647343, y: 67.61888, z: -36.851765}
+--- !u!1 &4124284411462548799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197801865729929270}
+  m_Layer: 0
+  m_Name: WraithClothR1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1197801865729929270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124284411462548799}
+  m_LocalRotation: {x: -0.011161849, y: -0.013935855, z: -0.829108, w: 0.55880344}
+  m_LocalPosition: {x: -0.046438597, y: 0.035378873, z: -0.12593476}
+  m_LocalScale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6747615184874823477}
+  m_Father: {fileID: 6720352944401341617}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.42516705, y: -0.017114043, z: -104.0892}
+--- !u!1 &4187160258671205258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8259461653849020947}
+  m_Layer: 0
+  m_Name: WraithLCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8259461653849020947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187160258671205258}
+  m_LocalRotation: {x: 0.04309337, y: 0.76837635, z: 0.24459258, w: 0.5898434}
+  m_LocalPosition: {x: -0.010411148, y: 0.116123505, z: 0.030109959}
+  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 1.0000006}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2854750739928316686}
+  m_Father: {fileID: 6720352944401341617}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -17.339268, y: 100.334724, z: 23.727457}
+--- !u!1 &4248175532925735858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8889809270381398448}
+  m_Layer: 0
+  m_Name: WraithLDigit42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8889809270381398448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4248175532925735858}
+  m_LocalRotation: {x: -0.00000071685275, y: 0.0000009573848, z: 0.5325832, w: 0.8463777}
+  m_LocalPosition: {x: -0.05945671, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000219, y: 1.0001689, z: 0.9998151}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4669367477841999395}
+  m_Father: {fileID: 8541855309440464698}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.006738105, y: -0.0073782355, z: 50.95116}
+--- !u!1 &4302497247597914223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057062759414063503}
+  m_Layer: 0
+  m_Name: WraithHair_3_R1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1057062759414063503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302497247597914223}
+  m_LocalRotation: {x: 0.53804314, y: 0.26445955, z: 0.7299927, w: 0.32814848}
+  m_LocalPosition: {x: -0.07137924, y: -0.035654105, z: -0.030431336}
+  m_LocalScale: {x: 1.0000018, y: 1.0000005, z: 0.9999989}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -18.272608, y: 62.69636, z: 123.098595}
+--- !u!1 &4644322555121127426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3870739817803377352}
+  m_Layer: 0
+  m_Name: WraithJaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3870739817803377352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4644322555121127426}
+  m_LocalRotation: {x: 0.00000003775386, y: 0.00000017541697, z: 0.87046385, w: -0.49223238}
+  m_LocalPosition: {x: -0.004579315, y: 0.030688439, z: 0.000000014305114}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -0.00034175487, y: -0.00030192337, z: -130.73317}
+--- !u!1 &4753402611329092489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6903369860061930999}
+  m_Layer: 0
+  m_Name: WraithDress_Back3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6903369860061930999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4753402611329092489}
+  m_LocalRotation: {x: 0.3670577, y: 0.09540305, z: -0.19203438, w: 0.90514624}
+  m_LocalPosition: {x: -0.25, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000005}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4541307512947358994}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.830626, y: -1.2340293, z: -0.9755306}
+--- !u!1 &4952974150591556921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 53942374280850977}
+  m_Layer: 0
+  m_Name: WraithCape2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &53942374280850977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952974150591556921}
+  m_LocalRotation: {x: 0.060407363, y: 0.061299313, z: 0.12936908, w: 0.9878547}
+  m_LocalPosition: {x: -0.3100959, y: 2.842171e-16, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000011, y: 1.0000012, z: 1.0000004}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4109501541953183358}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 17.191128, y: -10.712084, z: 3.1513324}
+--- !u!1 &5088011205601784440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697685814990641817}
+  m_Layer: 0
+  m_Name: WraithDress_L1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697685814990641817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088011205601784440}
+  m_LocalRotation: {x: -0.04665739, y: 0.6667181, z: 0.7416118, w: 0.057637975}
+  m_LocalPosition: {x: -0.01748764, y: 0.008907318, z: 0.16175042}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2645222488682556768}
+  m_Father: {fileID: 6885147212787053853}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -84.1909, y: -17.020649, z: -165.21162}
+--- !u!1 &5184797177513020436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7078613231179216620}
+  m_Layer: 0
+  m_Name: WraithClothL3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7078613231179216620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184797177513020436}
+  m_LocalRotation: {x: -0.19578429, y: -0.30572224, z: -0.100356735, w: 0.9263536}
+  m_LocalPosition: {x: -0.33390144, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000031, y: 1.0000021, z: 0.9999995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3499021553422505335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.86299706, y: 4.8684444, z: -19.010715}
+--- !u!1 &5230104380877165963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2645222488682556768}
+  m_Layer: 0
+  m_Name: WraithDress_L2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2645222488682556768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5230104380877165963}
+  m_LocalRotation: {x: -0.15453875, y: -0.105224036, z: -0.3165937, w: 0.9299538}
+  m_LocalPosition: {x: -0.26098135, y: -0.000000038146972, z: -0.000000076293944}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7327976651979539581}
+  m_Father: {fileID: 1697685814990641817}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 5.2891636, y: -2.5881763, z: -25.16932}
+--- !u!1 &5688521483361631486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8541855309440464698}
+  m_Layer: 0
+  m_Name: WraithLDigit41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8541855309440464698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5688521483361631486}
+  m_LocalRotation: {x: -0.005476734, y: -0.10376547, z: 0.025737679, w: 0.99425364}
+  m_LocalPosition: {x: -0.12901855, y: -0.0024771118, z: -0.018416595}
+  m_LocalScale: {x: 1.00003, y: 1.0000671, z: 0.9999057}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8889809270381398448}
+  m_Father: {fileID: 4120459412656293598}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.62244904, y: -10.335645, z: -17.333742}
+--- !u!1 &5707881480378059759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7018880355032163049}
+  m_Layer: 0
+  m_Name: WraithHair_1_L1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7018880355032163049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707881480378059759}
+  m_LocalRotation: {x: -0.06755515, y: -0.041086257, z: 0.98111105, w: -0.1765487}
+  m_LocalPosition: {x: -0.07236175, y: 0.10381359, z: 0.06888097}
+  m_LocalScale: {x: 1.000001, y: 0.9999999, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -5.179357, y: -13.299946, z: -146.52213}
+--- !u!1 &5832829059036439793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4669367477841999395}
+  m_Layer: 0
+  m_Name: WraithLDigit43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4669367477841999395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5832829059036439793}
+  m_LocalRotation: {x: 0.00000013445717, y: 0.00000025977153, z: 0.13982803, w: 0.99017584}
+  m_LocalPosition: {x: -0.03242958, y: 0, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0001378, y: 1.000243, z: 0.99963}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8889809270381398448}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0035639275, y: -0.000105026644, z: 11.704544}
+--- !u!1 &6120496325233537140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6720352944401341617}
+  m_Layer: 0
+  m_Name: WraithRibcage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6720352944401341617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6120496325233537140}
+  m_LocalRotation: {x: -0.0214194, y: 0.0146693, z: -0.008059162, w: 0.9996305}
+  m_LocalPosition: {x: -0.16272369, y: 0, z: -3.5527136e-17}
+  m_LocalScale: {x: 0.99999934, y: 0.99999934, z: 1.0000006}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4109501541953183358}
+  - {fileID: 4473700892608374472}
+  - {fileID: 1197801865729929270}
+  - {fileID: 8259461653849020947}
+  - {fileID: 2062988906767455628}
+  - {fileID: 8336901407322077470}
+  - {fileID: 1647253776700636347}
+  m_Father: {fileID: 926993924857001893}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.106143385, y: -0.19851458, z: -2.7709527}
+--- !u!1 &6153925203573646077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6723682773572873256}
+  m_Layer: 0
+  m_Name: WraithDress_Front1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6723682773572873256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6153925203573646077}
+  m_LocalRotation: {x: -0.0029678382, y: 0.004497149, z: 0.99998283, w: 0.002312711}
+  m_LocalPosition: {x: 0.029591521, y: 0.17920387, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3439211754148763186}
+  m_Father: {fileID: 6885147212787053853}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.00048786402, y: -0.32698423, z: -73.49053}
+--- !u!1 &6181122993169692058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 118406198806888542}
+  m_Layer: 0
+  m_Name: WraithNeck2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &118406198806888542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6181122993169692058}
+  m_LocalRotation: {x: -0.0816087, y: -0.034923647, z: 0.25909874, w: 0.9617631}
+  m_LocalPosition: {x: -0.07075092, y: -0.00000015258789, z: 1.7763568e-17}
+  m_LocalScale: {x: 1, y: 0.9999997, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 57028027087188115}
+  m_Father: {fileID: 2062988906767455628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.8255132, y: 1.5149868, z: 28.458704}
+--- !u!1 &6299324374060987054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5943407476847377962}
+  m_Layer: 0
+  m_Name: root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5943407476847377962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6299324374060987054}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6885147212787053853}
+  m_Father: {fileID: 7521912836991350206}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &6366678294109799045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8462540869496757553}
+  m_Layer: 0
+  m_Name: WraithLDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8462540869496757553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6366678294109799045}
+  m_LocalRotation: {x: 0.00000013985914, y: 0.000000078739355, z: 0.13189569, w: 0.9912636}
+  m_LocalPosition: {x: -0.056665495, y: 0.000000076293944, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000578, y: 0.999926, z: 1.0000213}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1620107370372474289}
+  m_Father: {fileID: 3727040840026747393}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00012929534, y: -0.00010438177, z: 1.747163}
+--- !u!1 &6376721829174889365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8732750391631851014}
+  m_Layer: 0
+  m_Name: WraithRDigit32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8732750391631851014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376721829174889365}
+  m_LocalRotation: {x: 0.000000686725, y: -0.0000014861942, z: 0.7578062, w: 0.6524797}
+  m_LocalPosition: {x: -0.061664656, y: -1.4210854e-16, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0000504, y: 0.9997491, z: 1.000208}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7483181694590580054}
+  m_Father: {fileID: 5168414735092072988}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00016921191, y: 0.00012367842, z: 95.044464}
+--- !u!1 &6389830896128557206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3727040840026747393}
+  m_Layer: 0
+  m_Name: WraithLDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3727040840026747393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389830896128557206}
+  m_LocalRotation: {x: 0.44497684, y: 0.3920749, z: 0.08692297, w: 0.8004482}
+  m_LocalPosition: {x: -0.023274878, y: -0.0043836976, z: 0.025047302}
+  m_LocalScale: {x: 1.0000429, y: 1, z: 0.9999595}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8462540869496757553}
+  m_Father: {fileID: 4120459412656293598}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 40.552864, y: 63.791412, z: 24.097935}
+--- !u!1 &6436031489405926574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8902314492661997071}
+  m_Layer: 0
+  m_Name: WraithRDigit53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8902314492661997071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6436031489405926574}
+  m_LocalRotation: {x: -0.0000002313493, y: -0.0000000050240603, z: 0.27849635, w: 0.9604373}
+  m_LocalPosition: {x: -0.02999998, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 0.99994934, y: 0.99964994, z: 1.000415}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7202159024338949863}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.1968776, y: 0.25059003, z: 63.557457}
+--- !u!1 &6458885617071260362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7339783454170523910}
+  m_Layer: 0
+  m_Name: WraithHair_3_L1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7339783454170523910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6458885617071260362}
+  m_LocalRotation: {x: -0.41410884, y: -0.5533838, z: 0.6426744, w: 0.3305296}
+  m_LocalPosition: {x: -0.07137924, y: -0.035654183, z: 0.030431347}
+  m_LocalScale: {x: 1.000002, y: 1.0000002, z: 0.999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 16.344376, y: -75.19031, z: 121.32}
+--- !u!1 &6570892019828376139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426191305422855991}
+  m_Layer: 0
+  m_Name: WraithDress_R1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1426191305422855991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6570892019828376139}
+  m_LocalRotation: {x: -0.014235525, y: -0.66989654, z: 0.7422869, w: -0.006798391}
+  m_LocalPosition: {x: -0.01748741, y: 0.008907318, z: -0.16175048}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824473786568597860}
+  m_Father: {fileID: 6885147212787053853}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 85.19918, y: 12.498613, z: -168.84073}
+--- !u!1 &6582684161888566304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5938897961851688442}
+  m_Layer: 0
+  m_Name: WraithLDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5938897961851688442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6582684161888566304}
+  m_LocalRotation: {x: 0.051218808, y: 0.13740368, z: 0.09922884, w: 0.9842005}
+  m_LocalPosition: {x: -0.12592086, y: -0.00058799743, z: 0.039395902}
+  m_LocalScale: {x: 1.0000312, y: 1.000068, z: 0.99990344}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8983629469439421780}
+  m_Father: {fileID: 4120459412656293598}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 2.2618809, y: 13.01904, z: -18.47895}
+--- !u!1 &6922872967490801807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5355250053193011821}
+  m_Layer: 0
+  m_Name: WraithLDigit53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5355250053193011821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922872967490801807}
+  m_LocalRotation: {x: 0.00000023805106, y: 0.000000044005105, z: 0.18177603, w: 0.98333997}
+  m_LocalPosition: {x: -0.03, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0001339, y: 1.0002464, z: 0.9996301}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2463296163504864842}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.012659533, y: -0.014623847, z: 34.040833}
+--- !u!1 &7145210895153606404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7521912836991350206}
+  - component: {fileID: 8064129037547959828}
+  m_Layer: 0
+  m_Name: Ghost Ranger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7521912836991350206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7145210895153606404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.6563225, y: 0.08040047, z: 14.304081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2523114288685013740}
+  - {fileID: 5943407476847377962}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &8064129037547959828
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7145210895153606404}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 10a5c388d95bcb94ebb6de217d6a1de0, type: 3}
+  m_Controller: {fileID: 22100000, guid: 08e5ee98dda370646a650b2acfa8d71f, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &7268660986229723391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2062988906767455628}
+  m_Layer: 0
+  m_Name: WraithNeck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2062988906767455628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7268660986229723391}
+  m_LocalRotation: {x: -0.020444872, y: -0.0201506, z: -0.055313032, w: 0.99805635}
+  m_LocalPosition: {x: -0.0007959747, y: -0.0035049438, z: -0.000000038146972}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 118406198806888542}
+  m_Father: {fileID: 6720352944401341617}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -0.29755917, y: 0.5327974, z: -4.558582}
+--- !u!1 &7271949076678315581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4700784242707007943}
+  m_Layer: 0
+  m_Name: WraithRDigit51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4700784242707007943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271949076678315581}
+  m_LocalRotation: {x: 0.1741978, y: 0.1490814, z: 0.641096, w: 0.73241097}
+  m_LocalPosition: {x: -0.11702499, y: 0.00051605224, z: 0.04542469}
+  m_LocalScale: {x: 1.0000058, y: 0.9998825, z: 1.0001153}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7202159024338949863}
+  m_Father: {fileID: 2156729244486268094}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 1.7948151, y: 23.805836, z: 86.35399}
+--- !u!1 &7277505542915757129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154610894754908133}
+  m_Layer: 0
+  m_Name: WraithSpine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &154610894754908133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7277505542915757129}
+  m_LocalRotation: {x: -0.02106233, y: -0.039071865, z: -0.08533565, w: 0.99536306}
+  m_LocalPosition: {x: -0.13191155, y: -0.000000076293944, z: 0.000000019073486}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 304456382694147012}
+  m_Father: {fileID: 4411884904920777637}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.6235556, y: -0.48982337, z: -20.514551}
+--- !u!1 &7282584150000506747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4781955975362711450}
+  m_Layer: 0
+  m_Name: WraithEye_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4781955975362711450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282584150000506747}
+  m_LocalRotation: {x: -0.066633046, y: -0.028474012, z: -0.76811916, w: 0.6361936}
+  m_LocalPosition: {x: -0.053106382, y: 0.12450305, z: -0.029838953}
+  m_LocalScale: {x: 1.0000004, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57028027087188115}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -7.3844066, y: 3.823729, z: -100.98044}
+--- !u!1 &7389450312197958503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 57028027087188115}
+  m_Layer: 0
+  m_Name: WraithHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &57028027087188115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389450312197958503}
+  m_LocalRotation: {x: -0.007911616, y: -0.024120092, z: 0.17286427, w: 0.98461854}
+  m_LocalPosition: {x: -0.07075103, y: -0.000000076293944, z: -0.000000019073486}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 985223421232511759}
+  - {fileID: 4781955975362711450}
+  - {fileID: 7018880355032163049}
+  - {fileID: 7588336428432590771}
+  - {fileID: 5859848366245975809}
+  - {fileID: 3941365887725317842}
+  - {fileID: 7339783454170523910}
+  - {fileID: 1057062759414063503}
+  - {fileID: 3870739817803377352}
+  m_Father: {fileID: 118406198806888542}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.0569978, y: 0.20527922, z: 16.793198}
+--- !u!1 &7502668393400559126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2156729244486268094}
+  m_Layer: 0
+  m_Name: WraithRPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2156729244486268094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7502668393400559126}
+  m_LocalRotation: {x: 0.5897944, y: 0.014824438, z: 0.5338083, w: 0.60578173}
+  m_LocalPosition: {x: -0.32229394, y: -0.000000038146972, z: 0}
+  m_LocalScale: {x: 0.9999896, y: 0.99996763, z: 1.0000418}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5043707236769494675}
+  - {fileID: 674607372852013292}
+  - {fileID: 5168414735092072988}
+  - {fileID: 5446049720090113561}
+  - {fileID: 4700784242707007943}
+  - {fileID: 5742400399025656883}
+  m_Father: {fileID: 6198787369192783668}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 50.207962, y: 167.71252, z: -172.74948}
+--- !u!1 &7550546696566937935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7202159024338949863}
+  m_Layer: 0
+  m_Name: WraithRDigit52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7202159024338949863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7550546696566937935}
+  m_LocalRotation: {x: -0.002144065, y: -0.0044558365, z: 0.4392292, w: 0.8983615}
+  m_LocalPosition: {x: -0.042040177, y: 0.000000038146972, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000159, y: 0.99978364, z: 1.0002075}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8902314492661997071}
+  m_Father: {fileID: 4700784242707007943}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.01104912, y: -0.24365039, z: 64.399315}
+--- !u!1 &7696780356734284380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9176981990095998198}
+  m_Layer: 0
+  m_Name: WraithLDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9176981990095998198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696780356734284380}
+  m_LocalRotation: {x: -2.4697605e-11, y: 0.00000066639484, z: 0.178879, w: 0.9838711}
+  m_LocalPosition: {x: -0.032498512, y: 0, z: -0.000000038146972}
+  m_LocalScale: {x: 1.0001286, y: 1.0002478, z: 0.99963415}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8983629469439421780}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.026710372, y: 0.022425335, z: 34.13271}
+--- !u!1 &7735978528992842790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1251645031442512345}
+  - component: {fileID: 1721587331095733506}
+  - component: {fileID: 8963324707401055679}
+  m_Layer: 0
+  m_Name: S_WraithScythe_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1251645031442512345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735978528992842790}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 879370277138964941}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1721587331095733506
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735978528992842790}
+  m_Mesh: {fileID: 861554537757656762, guid: 1d4737fc58824ae47a2c9e7520b1be16, type: 3}
+--- !u!23 &8963324707401055679
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735978528992842790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bb2cc45cdb275e04f84603de8919b0b6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8135907142598801500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7808538393623783838}
+  m_Layer: 0
+  m_Name: WraithRDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7808538393623783838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8135907142598801500}
+  m_LocalRotation: {x: -0.00000010010357, y: -0.0000001556531, z: 0.2949073, w: 0.9555259}
+  m_LocalPosition: {x: -0.056665495, y: 0.000000019073486, z: -7.105427e-17}
+  m_LocalScale: {x: 0.9999598, y: 1.0000441, z: 1.000003}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7506079216765555501}
+  m_Father: {fileID: 5043707236769494675}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0010222467, y: -0.001117792, z: 63.71839}
+--- !u!1 &8153908861979093380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5302713807847114011}
+  m_Layer: 0
+  m_Name: WraithLDigit32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5302713807847114011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8153908861979093380}
+  m_LocalRotation: {x: -0.0000011083456, y: 0.0000011503289, z: 0.49850488, w: 0.8668869}
+  m_LocalPosition: {x: -0.061664656, y: -0.000000076293944, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0000229, y: 1.0001665, z: 0.9998157}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3228426398287031264}
+  m_Father: {fileID: 653294489177980130}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0016171238, y: -0.0011270476, z: 38.148}
+--- !u!1 &8261801366355381365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6198787369192783668}
+  m_Layer: 0
+  m_Name: WraithRForearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6198787369192783668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8261801366355381365}
+  m_LocalRotation: {x: -0.2618257, y: 0.0033978699, z: -0.6952703, w: 0.66935414}
+  m_LocalPosition: {x: -0.29245582, y: -0.000000038146972, z: 1.4210854e-16}
+  m_LocalScale: {x: 1.0000036, y: 1.0000081, z: 0.9999906}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2156729244486268094}
+  m_Father: {fileID: 5813420580427815634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -19.707684, y: 22.711658, z: -78.30676}
+--- !u!1 &8345774855111791089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3499021553422505335}
+  m_Layer: 0
+  m_Name: WraithClothL2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3499021553422505335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8345774855111791089}
+  m_LocalRotation: {x: 0.1436213, y: 0.12179204, z: -0.38157228, w: 0.9049543}
+  m_LocalPosition: {x: -0.33570266, y: 0, z: -7.105427e-17}
+  m_LocalScale: {x: 1.0000011, y: 1.0000011, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7078613231179216620}
+  m_Father: {fileID: 4473700892608374472}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.1627922, y: -1.671043, z: 19.55718}
+--- !u!1 &8372836448634501528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7483181694590580054}
+  m_Layer: 0
+  m_Name: WraithRDigit33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7483181694590580054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8372836448634501528}
+  m_LocalRotation: {x: -0.00000041503807, y: -0.0000003901832, z: 0.6049594, w: 0.7962563}
+  m_LocalPosition: {x: -0.043543547, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000893, y: 0.99950993, z: 1.0004159}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8732750391631851014}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000260466, y: 0.0001514398, z: 70.192696}
+--- !u!1 &8581113791160006407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3095327204533945337}
+  m_Layer: 0
+  m_Name: WraithClothR3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3095327204533945337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8581113791160006407}
+  m_LocalRotation: {x: 0.42992654, y: -0.24180649, z: -0.5457605, w: 0.6773761}
+  m_LocalPosition: {x: -0.3339013, y: 0.000000009536743, z: 0.000000019073486}
+  m_LocalScale: {x: 1.0000021, y: 1.0000035, z: 0.99999887}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6747615184874823477}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.5560322, y: 0.20659256, z: 12.16875}
+--- !u!1 &8585141838253856295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6885147212787053853}
+  m_Layer: 0
+  m_Name: WraithPelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6885147212787053853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585141838253856295}
+  m_LocalRotation: {x: -0.5945722, y: -0.22806679, z: 0.70357203, w: 0.31536627}
+  m_LocalPosition: {x: -0.008239772, y: 0.13728142, z: 1.2756163}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4686242666657054976}
+  - {fileID: 6723682773572873256}
+  - {fileID: 1697685814990641817}
+  - {fileID: 1426191305422855991}
+  - {fileID: 4411884904920777637}
+  m_Father: {fileID: 5943407476847377962}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.5626798, y: -91.87218, z: 163.08337}
+--- !u!1 &8983165613165141437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8983629469439421780}
+  m_Layer: 0
+  m_Name: WraithLDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8983629469439421780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8983165613165141437}
+  m_LocalRotation: {x: -0.0033083977, y: -0.007674682, z: 0.3929647, w: 0.9195156}
+  m_LocalPosition: {x: -0.057468526, y: 0, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0000314, y: 1.000157, z: 0.999817}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9176981990095998198}
+  m_Father: {fileID: 5938897961851688442}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0057694423, y: -0.9210211, z: 27.090038}
+--- !u!1 &9060422671518623281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1620107370372474289}
+  m_Layer: 0
+  m_Name: WraithLDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620107370372474289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9060422671518623281}
+  m_LocalRotation: {x: 0.000000083266286, y: 0.00000006793673, z: 0.09627548, w: 0.9953548}
+  m_LocalPosition: {x: -0.035469282, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001149, y: 0.9998529, z: 1.0000427}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8462540869496757553}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0003624102, y: 0.00015317043, z: 26.525166}
+--- !u!1 &9073957679281379020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7142243965376068196}
+  m_Layer: 0
+  m_Name: WraithDress_R3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7142243965376068196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073957679281379020}
+  m_LocalRotation: {x: 0.41643482, y: 0.16163807, z: -0.19234714, w: 0.8737607}
+  m_LocalPosition: {x: -0.20835167, y: -0.000000019073486, z: -1.4210854e-16}
+  m_LocalScale: {x: 0.9999993, y: 0.9999995, z: 1.0000017}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824473786568597860}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -13.460644, y: 3.6312337, z: -12.597022}
+--- !u!1 &9090285297517154145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5742400399025656883}
+  m_Layer: 0
+  m_Name: WraithWeaponR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5742400399025656883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9090285297517154145}
+  m_LocalRotation: {x: 0.7262964, y: 0.6864415, z: -0.007737121, w: -0.035097502}
+  m_LocalPosition: {x: -0.096933365, y: -0.035062637, z: 0.0028175735}
+  m_LocalScale: {x: 0.99997663, y: 0.9999648, z: 1.0000541}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8467527584703410164}
+  m_Father: {fileID: 2156729244486268094}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -2.3127456, y: -176.59085, z: 93.16285}
+--- !u!1 &9117650900686301211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815714132284391062}
+  - component: {fileID: 2003062645626346774}
+  - component: {fileID: 3445711523590581224}
+  m_Layer: 0
+  m_Name: S_WraithScythe_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &815714132284391062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117650900686301211}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 879370277138964941}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2003062645626346774
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117650900686301211}
+  m_Mesh: {fileID: -4273338204984301649, guid: 1d4737fc58824ae47a2c9e7520b1be16, type: 3}
+--- !u!23 &3445711523590581224
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117650900686301211}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bb2cc45cdb275e04f84603de8919b0b6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &9135943086359262542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8467527584703410164}
+  - component: {fileID: 3735925904281426053}
+  m_Layer: 0
+  m_Name: S_WraithScythe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8467527584703410164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135943086359262542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 879370277138964941}
+  m_Father: {fileID: 5742400399025656883}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &3735925904281426053
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135943086359262542}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.004744835, y: 0.18465078, z: 0.016039953}
+  m_Size: 1.3845112
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3445711523590581224}
+  - screenRelativeHeight: 0.125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8963324707401055679}
+  - screenRelativeHeight: 0.01
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7482951071655838892}
+  m_Enabled: 1

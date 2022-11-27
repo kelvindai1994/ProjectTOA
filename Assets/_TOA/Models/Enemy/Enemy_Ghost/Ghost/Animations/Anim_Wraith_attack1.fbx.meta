@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: cc6304d4a7afcf244a550f7d6eaceb20
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 8993902097722301239
+    second: Anim_Wraith_attack1
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Anim_Wraith_attack1
+      takeName: Unreal Take
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Preview(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Preview
+      parentName: Preview(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Preview(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 3.0616168e-17, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WraithPelvis
+      parentName: root
+      position: {x: 0.0036829896, y: 0.0048822165, z: 0.51540655}
+      rotation: {x: -0.7561617, y: 0.11333984, z: 0.64356846, w: -0.03454166}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: WraithSpine1
+      parentName: WraithPelvis
+      position: {x: -0.045809403, y: -0.0035049438, z: -0.000000019073486}
+      rotation: {x: -0.004168867, y: -0.018513009, z: 0.026550079, w: 0.9994674}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.9999998}
+    - name: WraithSpine2
+      parentName: WraithSpine1
+      position: {x: -0.13191155, y: -0.000000076293944, z: 0.000000019073486}
+      rotation: {x: -0.02106233, y: -0.039071865, z: -0.08533565, w: 0.99536306}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+    - name: WraithSpine3
+      parentName: WraithSpine2
+      position: {x: -0.11237091, y: 0.000000076293944, z: -3.5527136e-17}
+      rotation: {x: -0.029682657, y: -0.038196504, z: 0.016963253, w: 0.99868524}
+      scale: {x: 1.0000006, y: 1.0000004, z: 0.99999994}
+    - name: WraithSpine4
+      parentName: WraithSpine3
+      position: {x: -0.12075676, y: 0.000000076293944, z: -0.000000038146972}
+      rotation: {x: -0.035850674, y: -0.023614815, z: -0.16070361, w: 0.9860687}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+    - name: WraithRibcage
+      parentName: WraithSpine4
+      position: {x: -0.16272369, y: 0, z: -3.5527136e-17}
+      rotation: {x: -0.0214194, y: 0.0146693, z: -0.008059162, w: 0.9996305}
+      scale: {x: 0.99999934, y: 0.99999934, z: 1.0000006}
+    - name: WraithLCollarbone
+      parentName: WraithRibcage
+      position: {x: -0.010411148, y: 0.116123505, z: 0.030109959}
+      rotation: {x: 0.027584894, y: 0.76280755, z: 0.23014024, w: 0.6036549}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000006}
+    - name: WraithLUpperarm
+      parentName: WraithLCollarbone
+      position: {x: -0.17046936, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.4236541, y: 0.016622687, z: -0.16845258, w: 0.8898678}
+      scale: {x: 1.0000008, y: 0.9999974, z: 1.0000019}
+    - name: WraithLForearm
+      parentName: WraithLUpperarm
+      position: {x: -0.29245588, y: 0.000000028610229, z: 0.000000076293944}
+      rotation: {x: 0.29890954, y: -0.015131643, z: -0.011912766, w: 0.95408714}
+      scale: {x: 1.0000081, y: 0.9999763, z: 1.0000182}
+    - name: WraithLPalm
+      parentName: WraithLForearm
+      position: {x: -0.32229394, y: 0, z: 0}
+      rotation: {x: -0.69733286, y: -0.20057616, z: 0.022741128, w: 0.6877346}
+      scale: {x: 1.0000061, y: 1.0000055, z: 0.99998766}
+    - name: WraithLDigit11
+      parentName: WraithLPalm
+      position: {x: -0.023274878, y: -0.0043836976, z: 0.025047302}
+      rotation: {x: 0.47540796, y: 0.10817663, z: 0.0036652037, w: 0.8730818}
+      scale: {x: 1.0000429, y: 1, z: 0.9999595}
+    - name: WraithLDigit12
+      parentName: WraithLDigit11
+      position: {x: -0.056665495, y: 0.000000076293944, z: -0.000000076293944}
+      rotation: {x: -0.000000029802301, y: -0.000002317129, z: 0.036990702, w: 0.9993157}
+      scale: {x: 1.0000578, y: 0.999926, z: 1.0000213}
+    - name: WraithLDigit13
+      parentName: WraithLDigit12
+      position: {x: -0.035469282, y: 0, z: 0}
+      rotation: {x: 0.000000083266286, y: 0.00000006793673, z: 0.09627548, w: 0.9953548}
+      scale: {x: 1.0001149, y: 0.9998529, z: 1.0000427}
+    - name: WraithLDigit21
+      parentName: WraithLPalm
+      position: {x: -0.12592086, y: -0.00058799743, z: 0.039395902}
+      rotation: {x: 0.032327935, y: 0.3349248, z: 0.12554389, w: 0.933284}
+      scale: {x: 1.0000312, y: 1.000068, z: 0.99990344}
+    - name: WraithLDigit22
+      parentName: WraithLDigit21
+      position: {x: -0.057468526, y: 0, z: 0.000000038146972}
+      rotation: {x: -0.0035912397, y: -0.00046041585, z: 0.023420395, w: 0.9997192}
+      scale: {x: 1.0000314, y: 1.000157, z: 0.999817}
+    - name: WraithLDigit23
+      parentName: WraithLDigit22
+      position: {x: -0.032498512, y: 0, z: -0.000000038146972}
+      rotation: {x: -2.4697605e-11, y: 0.00000066639484, z: 0.178879, w: 0.9838711}
+      scale: {x: 1.0001286, y: 1.0002478, z: 0.99963415}
+    - name: WraithLDigit31
+      parentName: WraithLPalm
+      position: {x: -0.13147736, y: -0.0018254851, z: 0.011780662}
+      rotation: {x: 0.037614133, y: 0.0054412126, z: 0.026369357, w: 0.99892956}
+      scale: {x: 1.0000275, y: 1.0000674, z: 0.99990755}
+    - name: WraithLDigit32
+      parentName: WraithLDigit31
+      position: {x: -0.061664656, y: -0.000000076293944, z: 0.000000038146972}
+      rotation: {x: -0.0000069141356, y: 0.0000015548422, z: 0.017524336, w: 0.99984646}
+      scale: {x: 1.0000229, y: 1.0001665, z: 0.9998157}
+    - name: WraithLDigit33
+      parentName: WraithLDigit32
+      position: {x: -0.043543473, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.00000015577896, y: 0.0000005719887, z: 0.17289315, w: 0.9849406}
+      scale: {x: 1.0001311, y: 1.0002475, z: 0.9996313}
+    - name: WraithLDigit41
+      parentName: WraithLPalm
+      position: {x: -0.12901855, y: -0.0024771118, z: -0.018416595}
+      rotation: {x: -0.0063996282, y: -0.034539923, z: 0.017149203, w: 0.99923575}
+      scale: {x: 1.00003, y: 1.0000671, z: 0.9999057}
+    - name: WraithLDigit42
+      parentName: WraithLDigit41
+      position: {x: -0.05945671, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.0000062417193, y: 0.0000036843094, z: 0.015534936, w: 0.99987936}
+      scale: {x: 1.0000219, y: 1.0001689, z: 0.9998151}
+    - name: WraithLDigit43
+      parentName: WraithLDigit42
+      position: {x: -0.03242958, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.00000013445717, y: 0.00000025977153, z: 0.13982803, w: 0.99017584}
+      scale: {x: 1.0001378, y: 1.000243, z: 0.99963}
+    - name: WraithLDigit51
+      parentName: WraithLPalm
+      position: {x: -0.117026895, y: 0.00051567075, z: -0.04542629}
+      rotation: {x: -0.07665466, y: -0.0194383, z: 0.043954078, w: 0.9958987}
+      scale: {x: 1.0000366, y: 1.0000687, z: 0.9998975}
+    - name: WraithLDigit52
+      parentName: WraithLDigit51
+      position: {x: -0.042040136, y: 1.4210854e-16, z: 0.000000076293944}
+      rotation: {x: 0.0018024587, y: 0.00035340327, z: 0.025843237, w: 0.99966437}
+      scale: {x: 1.0000396, y: 1.0001508, z: 0.99981505}
+    - name: WraithLDigit53
+      parentName: WraithLDigit52
+      position: {x: -0.03, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.00000023805106, y: 0.000000044005105, z: 0.18177603, w: 0.98333997}
+      scale: {x: 1.0001339, y: 1.0002464, z: 0.9996301}
+    - name: WraithWeaponR001
+      parentName: WraithLPalm
+      position: {x: -0.10317112, y: -0.04047142, z: -0.00018428802}
+      rotation: {x: 0.000011673744, y: 0.000046022367, z: -0.5518241, w: 0.8339606}
+      scale: {x: 0.99994504, y: 1.0000212, z: 1.0000328}
+    - name: WraithRCollarbone
+      parentName: WraithRibcage
+      position: {x: -0.010411301, y: 0.116123654, z: -0.030109996}
+      rotation: {x: 0.03799808, y: -0.7367284, z: 0.16794239, w: 0.65389806}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.000001}
+    - name: WraithRUpperarm
+      parentName: WraithRCollarbone
+      position: {x: -0.17046936, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.4361371, y: -0.037039004, z: -0.15986069, w: 0.8847922}
+      scale: {x: 1.0000014, y: 0.9999947, z: 1.0000039}
+    - name: WraithRForearm
+      parentName: WraithRUpperarm
+      position: {x: -0.29245582, y: -0.000000038146972, z: 1.4210854e-16}
+      rotation: {x: -0.3402824, y: 0.026397856, z: -0.0073316917, w: 0.9399241}
+      scale: {x: 1.0000036, y: 1.0000081, z: 0.9999906}
+    - name: WraithRPalm
+      parentName: WraithRForearm
+      position: {x: -0.32229394, y: -0.000000038146972, z: 0}
+      rotation: {x: 0.7553602, y: 0.18965381, z: 0.1540434, w: 0.6080569}
+      scale: {x: 0.9999896, y: 0.99996763, z: 1.0000418}
+    - name: WraithRDigit11
+      parentName: WraithRPalm
+      position: {x: -0.023274459, y: -0.00438385, z: -0.025046578}
+      rotation: {x: -0.6412115, y: -0.099040814, z: 0.0015571683, w: 0.7609443}
+      scale: {x: 0.999984, y: 0.9999488, z: 1.0000707}
+    - name: WraithRDigit12
+      parentName: WraithRDigit11
+      position: {x: -0.056665495, y: 0.000000019073486, z: -7.105427e-17}
+      rotation: {x: -0.0000032484504, y: -0.000007599586, z: 0.028345404, w: 0.99959826}
+      scale: {x: 0.9999598, y: 1.0000441, z: 1.000003}
+    - name: WraithRDigit13
+      parentName: WraithRDigit12
+      position: {x: -0.035469208, y: 7.105427e-17, z: -0.000000038146972}
+      rotation: {x: -0.00000014499223, y: 0.000000022623954, z: 0.26043758, w: 0.9654907}
+      scale: {x: 0.99990344, y: 1.0001038, z: 1.000006}
+    - name: WraithRDigit21
+      parentName: WraithRPalm
+      position: {x: -0.1259191, y: -0.0005882263, z: -0.039395142}
+      rotation: {x: 0.14455292, y: -0.31254286, z: 0.30847216, w: 0.88671666}
+      scale: {x: 1.0000063, y: 0.99988836, z: 1.000109}
+    - name: WraithRDigit22
+      parentName: WraithRDigit21
+      position: {x: -0.05746864, y: 0, z: 0}
+      rotation: {x: 0.0071390825, y: 0.00007835026, z: 0.008459645, w: 0.9999387}
+      scale: {x: 1.0000494, y: 0.9997506, z: 1.0002074}
+    - name: WraithRDigit23
+      parentName: WraithRDigit22
+      position: {x: -0.032498397, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.00000026843028, y: -0.0000005932425, z: 0.53494424, w: 0.8448874}
+      scale: {x: 1.0000639, y: 0.9995357, z: 1.0004146}
+    - name: WraithRDigit31
+      parentName: WraithRPalm
+      position: {x: -0.13147545, y: -0.0018255615, z: -0.011780319}
+      rotation: {x: 0.006945279, y: -0.04152028, z: 0.0507643, w: 0.9978231}
+      scale: {x: 1.0000064, y: 0.999893, z: 1.0001045}
+    - name: WraithRDigit32
+      parentName: WraithRDigit31
+      position: {x: -0.061664656, y: -1.4210854e-16, z: 0.000000038146972}
+      rotation: {x: 0.0000058631376, y: -0.00000014156095, z: 0.0006176358, w: 0.9999999}
+      scale: {x: 1.0000504, y: 0.9997491, z: 1.000208}
+    - name: WraithRDigit33
+      parentName: WraithRDigit32
+      position: {x: -0.043543547, y: 0, z: 0}
+      rotation: {x: -0.00000041503807, y: -0.0000003901832, z: 0.6049594, w: 0.7962563}
+      scale: {x: 1.0000893, y: 0.99950993, z: 1.0004159}
+    - name: WraithRDigit41
+      parentName: WraithRPalm
+      position: {x: -0.12901656, y: -0.0024771881, z: 0.018416023}
+      rotation: {x: 0.16017543, y: -0.036696013, z: 0.059978478, w: 0.98458105}
+      scale: {x: 1.0000073, y: 0.99988985, z: 1.0001063}
+    - name: WraithRDigit42
+      parentName: WraithRDigit41
+      position: {x: -0.05945671, y: 0, z: -7.105427e-17}
+      rotation: {x: 0.000013932579, y: 0.000014480196, z: 0.01026795, w: 0.99994737}
+      scale: {x: 1.0000478, y: 0.99975115, z: 1.000208}
+    - name: WraithRDigit43
+      parentName: WraithRDigit42
+      position: {x: -0.03242958, y: 0, z: 7.105427e-17}
+      rotation: {x: -0.00000018856026, y: -0.00000029321652, z: 0.24372107, w: 0.96984535}
+      scale: {x: 0.9999369, y: 0.99966073, z: 1.0004158}
+    - name: WraithRDigit51
+      parentName: WraithRPalm
+      position: {x: -0.11702499, y: 0.00051605224, z: 0.04542469}
+      rotation: {x: 0.2660027, y: -0.026836047, z: 0.068255864, w: 0.9611782}
+      scale: {x: 1.0000058, y: 0.9998825, z: 1.0001153}
+    - name: WraithRDigit52
+      parentName: WraithRDigit51
+      position: {x: -0.042040177, y: 0.000000038146972, z: -0.000000076293944}
+      rotation: {x: -0.0023742893, y: -0.00019912592, z: 0.020921057, w: 0.99977833}
+      scale: {x: 1.0000159, y: 0.99978364, z: 1.0002075}
+    - name: WraithRDigit53
+      parentName: WraithRDigit52
+      position: {x: -0.02999998, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.0000002313493, y: -0.0000000050240603, z: 0.27849635, w: 0.9604373}
+      scale: {x: 0.99994934, y: 0.99964994, z: 1.000415}
+    - name: WraithWeaponR
+      parentName: WraithRPalm
+      position: {x: -0.096933365, y: -0.035062637, z: 0.0028175735}
+      rotation: {x: 0.7262964, y: 0.6864415, z: -0.007737121, w: -0.035097502}
+      scale: {x: 0.99997663, y: 0.9999648, z: 1.0000541}
+    - name: WraithNeck1
+      parentName: WraithRibcage
+      position: {x: -0.0007959747, y: -0.0035049438, z: -0.000000038146972}
+      rotation: {x: -0.020444872, y: -0.0201506, z: -0.055313032, w: 0.99805635}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: WraithNeck2
+      parentName: WraithNeck1
+      position: {x: -0.07075092, y: -0.00000015258789, z: 1.7763568e-17}
+      rotation: {x: -0.0816087, y: -0.034923647, z: 0.25909874, w: 0.9617631}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: WraithHead
+      parentName: WraithNeck2
+      position: {x: -0.07075103, y: -0.000000076293944, z: -0.000000019073486}
+      rotation: {x: -0.007911616, y: -0.024120092, z: 0.17286427, w: 0.98461854}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000002}
+    - name: WraithJaw
+      parentName: WraithHead
+      position: {x: -0.004579315, y: 0.030688439, z: 0.000000014305114}
+      rotation: {x: 0.00000003775386, y: 0.00000017541697, z: 0.87046385, w: -0.49223238}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: WraithEye_R
+      parentName: WraithHead
+      position: {x: -0.053106382, y: 0.12450305, z: -0.029838953}
+      rotation: {x: -0.066633046, y: -0.028474012, z: -0.76811916, w: 0.6361936}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: WraithEye_L
+      parentName: WraithHead
+      position: {x: -0.05310623, y: 0.12450298, z: 0.029838962}
+      rotation: {x: 0.06663305, y: 0.028474089, z: -0.7681192, w: 0.6361935}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: WraithHair_1_R1
+      parentName: WraithHead
+      position: {x: -0.07236175, y: 0.103813626, z: -0.06888097}
+      rotation: {x: 0.08756058, y: -0.2109152, z: 0.9559646, w: -0.18433547}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1}
+    - name: WraithHair_1_L1
+      parentName: WraithHead
+      position: {x: -0.07236175, y: 0.10381359, z: 0.06888097}
+      rotation: {x: -0.06755515, y: -0.041086257, z: 0.98111105, w: -0.1765487}
+      scale: {x: 1.000001, y: 0.9999999, z: 1.0000002}
+    - name: WraithHair_2_R1
+      parentName: WraithHead
+      position: {x: -0.05487213, y: 0.030152205, z: -0.060016155}
+      rotation: {x: 0.4288838, y: -0.17039365, z: 0.8845742, w: 0.06747745}
+      scale: {x: 0.9999992, y: 1.0000002, z: 1.0000012}
+    - name: WraithHair_2_L1
+      parentName: WraithHead
+      position: {x: -0.05487228, y: 0.030152129, z: 0.060016163}
+      rotation: {x: -0.4495941, y: -0.21459456, z: 0.8657506, w: 0.047857024}
+      scale: {x: 0.9999996, y: 1.0000004, z: 1.0000013}
+    - name: WraithHair_3_L1
+      parentName: WraithHead
+      position: {x: -0.07137924, y: -0.035654183, z: 0.030431347}
+      rotation: {x: -0.41410884, y: -0.5533838, z: 0.6426744, w: 0.3305296}
+      scale: {x: 1.000002, y: 1.0000002, z: 0.999999}
+    - name: WraithHair_3_R1
+      parentName: WraithHead
+      position: {x: -0.07137924, y: -0.035654105, z: -0.030431336}
+      rotation: {x: 0.53804314, y: 0.26445955, z: 0.7299927, w: 0.32814848}
+      scale: {x: 1.0000018, y: 1.0000005, z: 0.9999989}
+    - name: Wraithnecklace
+      parentName: WraithRibcage
+      position: {x: 0.0076908874, y: 0.09849365, z: 0}
+      rotation: {x: -0.000000008413406, y: 0.000000012015585, z: -0.819152, w: 0.57357657}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: WraithClothR1
+      parentName: WraithRibcage
+      position: {x: -0.046438597, y: 0.035378873, z: -0.12593476}
+      rotation: {x: -0.011161849, y: -0.013935855, z: -0.829108, w: 0.55880344}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: WraithClothR2
+      parentName: WraithClothR1
+      position: {x: -0.3357028, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.4587181, y: 0.026174854, z: -0.08866642, w: 0.88375956}
+      scale: {x: 1.0000012, y: 1.0000018, z: 0.99999964}
+    - name: WraithClothR3
+      parentName: WraithClothR2
+      position: {x: -0.3339013, y: 0.000000009536743, z: 0.000000019073486}
+      rotation: {x: 0.42992654, y: -0.24180649, z: -0.5457605, w: 0.6773761}
+      scale: {x: 1.0000021, y: 1.0000035, z: 0.99999887}
+    - name: WraithClothL1
+      parentName: WraithRibcage
+      position: {x: -0.046438523, y: 0.03537857, z: 0.12593473}
+      rotation: {x: -0.002005869, y: 0.020005113, z: -0.80008763, w: 0.59954613}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+    - name: WraithClothL2
+      parentName: WraithClothL1
+      position: {x: -0.33570266, y: 0, z: -7.105427e-17}
+      rotation: {x: 0.1436213, y: 0.12179204, z: -0.38157228, w: 0.9049543}
+      scale: {x: 1.0000011, y: 1.0000011, z: 0.99999994}
+    - name: WraithClothL3
+      parentName: WraithClothL2
+      position: {x: -0.33390144, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.19578429, y: -0.30572224, z: -0.100356735, w: 0.9263536}
+      scale: {x: 1.0000031, y: 1.0000021, z: 0.9999995}
+    - name: WraithCape1
+      parentName: WraithRibcage
+      position: {x: 0.13039817, y: -0.13245483, z: 0.000000019073486}
+      rotation: {x: -0.0052442197, y: -0.026750667, z: 0.9992888, w: -0.026055694}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: WraithCape2
+      parentName: WraithCape1
+      position: {x: -0.3100959, y: 2.842171e-16, z: -0.000000019073486}
+      rotation: {x: 0.060407367, y: 0.061299313, z: 0.1293691, w: 0.9878547}
+      scale: {x: 1.0000011, y: 1.0000012, z: 1.0000004}
+    - name: WraithDress_R1
+      parentName: WraithPelvis
+      position: {x: -0.01748741, y: 0.008907318, z: -0.16175048}
+      rotation: {x: -0.014235525, y: -0.66989654, z: 0.7422869, w: -0.006798391}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: WraithDress_R2
+      parentName: WraithDress_R1
+      position: {x: -0.2609813, y: 0.000000019073486, z: 0}
+      rotation: {x: -0.081791244, y: 0.10165188, z: 0.08240249, w: 0.98802173}
+      scale: {x: 0.99999976, y: 1, z: 1.0000006}
+    - name: WraithDress_R3
+      parentName: WraithDress_R2
+      position: {x: -0.20835167, y: -0.000000019073486, z: -1.4210854e-16}
+      rotation: {x: 0.41643482, y: 0.16163807, z: -0.19234714, w: 0.8737607}
+      scale: {x: 0.9999993, y: 0.9999995, z: 1.0000017}
+    - name: WraithDress_Front1
+      parentName: WraithPelvis
+      position: {x: 0.029591521, y: 0.17920387, z: 0.000000038146972}
+      rotation: {x: -0.0029678382, y: 0.004497149, z: 0.99998283, w: 0.002312711}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: WraithDress_Front2
+      parentName: WraithDress_Front1
+      position: {x: -0.23396805, y: 0, z: -0.000000019073486}
+      rotation: {x: 0.0000662293, y: 0.13062017, z: 0.005412424, w: 0.9914177}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: WraithDress_Front3
+      parentName: WraithDress_Front2
+      position: {x: -0.25000006, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.25410154, y: 0.028120441, z: -0.15841244, w: 0.95370185}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: WraithDress_Back1
+      parentName: WraithPelvis
+      position: {x: -0.017758789, y: -0.068822324, z: -3.5527136e-17}
+      rotation: {x: 0.008955748, y: -0.020938568, z: 0.9682145, w: 0.24908239}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: WraithDress_Back2
+      parentName: WraithDress_Back1
+      position: {x: -0.2609813, y: 0, z: -3.5527136e-17}
+      rotation: {x: -0.050792392, y: 0.3299922, z: 0.14351702, w: 0.9316266}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: WraithDress_Back3
+      parentName: WraithDress_Back2
+      position: {x: -0.25, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.3670577, y: 0.09540305, z: -0.19203438, w: 0.90514624}
+      scale: {x: 1, y: 1.0000001, z: 1.0000005}
+    - name: WraithDress_L1
+      parentName: WraithPelvis
+      position: {x: -0.01748764, y: 0.008907318, z: 0.16175042}
+      rotation: {x: -0.04665739, y: 0.6667181, z: 0.7416118, w: 0.057637975}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: WraithDress_L2
+      parentName: WraithDress_L1
+      position: {x: -0.26098135, y: -0.000000038146972, z: -0.000000076293944}
+      rotation: {x: -0.16820636, y: -0.115301855, z: -0.250334, w: 0.9464381}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: WraithDress_L3
+      parentName: WraithDress_L2
+      position: {x: -0.24999997, y: 0.000000076293944, z: -0.000000076293944}
+      rotation: {x: 0.19011943, y: -0.11123023, z: 0.20245989, w: 0.9541973}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000005}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 10a5c388d95bcb94ebb6de217d6a1de0, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

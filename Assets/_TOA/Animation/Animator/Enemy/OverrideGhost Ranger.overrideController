@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OverrideGhost Ranger
+  m_Controller: {fileID: 9100000, guid: 9622e0ce94e07084e825d4b7634647f0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 2646724620217826704, guid: 2d2e1e7b06363fb45a19f783b499fa12, type: 3}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 02a8d6debccd12c469a50a09f0bd4106, type: 3}
+  - m_OriginalClip: {fileID: 5490388026963770155, guid: 2d2e1e7b06363fb45a19f783b499fa12, type: 3}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 8c2201df7fc07eb44b22da9b936df4c9, type: 3}
+  - m_OriginalClip: {fileID: -8086047558812005389, guid: 2d2e1e7b06363fb45a19f783b499fa12, type: 3}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 948a2dded44737a4d9f7f87ef65e844f, type: 3}
+  - m_OriginalClip: {fileID: -6239216113759591374, guid: 2d2e1e7b06363fb45a19f783b499fa12, type: 3}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 4b3edbc7d48cdf14ab4e5c1c88ff717c, type: 3}
+  - m_OriginalClip: {fileID: -566917892213607882, guid: 2d2e1e7b06363fb45a19f783b499fa12, type: 3}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: f97560051c4c9f04ab15f8d5e19b07f5, type: 3}
+  - m_OriginalClip: {fileID: 4348485665485846014, guid: 2d2e1e7b06363fb45a19f783b499fa12, type: 3}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: d60cb289b66b6aa4b98a0deca9cfdedb, type: 3}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68e9cb874bb69342be809d665ee59b7, type: 3}
+  m_Name: DataEnemy
+  m_EditorClassIdentifier: 
+  enemyDatas:
+  - Model: {fileID: 712790343112063388, guid: 357ae58d221726d47ac54276fe3fe991, type: 3}
+    BaseHP: 250
+    EvadeChance: 5
+    MinAtckDamage: 50
+    MaxAtkDamage: 100
+    AtkRange: 2.5
+    ExpOnDeath: 150
+  - Model: {fileID: 5721844303433704680, guid: 90e9400aa53f6dd4787d6b22a3cf6924, type: 3}
+    BaseHP: 150
+    EvadeChance: 15
+    MinAtckDamage: 30
+    MaxAtkDamage: 70
+    AtkRange: 3
+    ExpOnDeath: 50
+  - Model: {fileID: 8541121828305170398, guid: 2a406b42082817d45ba00e726fb78498, type: 3}
+    BaseHP: 500
+    EvadeChance: 0
+    MinAtckDamage: 100
+    MaxAtkDamage: 200
+    AtkRange: 4
+    ExpOnDeath: 500
+  - Model: {fileID: 2494542790542970956, guid: 88ba6f4e94b996040a52aedb48ddbb4d, type: 3}
+    BaseHP: 1
+    EvadeChance: 95
+    MinAtckDamage: 100
+    MaxAtkDamage: 100
+    AtkRange: 2.5
+    ExpOnDeath: 800

@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainGame/0/MenuScene.unity
+    guid: cf7b231ad30d1e7439fec9b2e39b669a
+  - enabled: 1
+    path: Assets/Scenes/MainGame/1/CharacterSelection.unity
+    guid: 2c180daa07c1a004287d56228ee5384c
+  - enabled: 1
+    path: Assets/Scenes/MainGame/2/TownMap.unity
+    guid: d5a0c37e9308f334182b2d6e4e320270
+  - enabled: 1
+    path: Assets/Scenes/MainGame/3/LVL1.unity
+    guid: 448e499fcc12c2d42b0fdfb1a050363d
   m_configObjects: {}
