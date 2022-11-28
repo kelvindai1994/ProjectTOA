@@ -47,7 +47,7 @@ public class WeaponHandler : MonoBehaviour
     {
         if(action == Action.Equip)
         {
-            AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Equip, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME));
+            AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Equip, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 4f, 0.25f);
             Weapon.SetParent(WeaponHandle);
             subCam_1.enabled = false;
             subCam_2.enabled = true;

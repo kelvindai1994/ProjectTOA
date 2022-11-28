@@ -5,8 +5,10 @@ using UnityEngine;
 public class Arrow : Weapon
 {
     [SerializeField] private GameObject bowTrail;
-
+    [SerializeField] private AudioSource hitEnemyAudio;
+    [SerializeField] private AudioSource hitObjectAudio;
     private Rigidbody rb;
+    
 
     private int arrowDamage;
     private bool isMiss;
@@ -49,6 +51,13 @@ public class Arrow : Weapon
             //stick arrow to enemy's body parts
             this.gameObject.transform.SetParent(enemy.transform, true);
             bowTrail.SetActive(false);
+
+            //Audio
+            hitEnemyAudio.Play();
+        }
+        else
+        {
+            hitObjectAudio.Play();
         }
 
     }

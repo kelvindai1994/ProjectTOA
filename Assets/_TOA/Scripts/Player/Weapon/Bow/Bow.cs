@@ -5,9 +5,14 @@ using UnityEngine;
 
 public class Bow : MonoBehaviour
 {
+    [Header("Arrow References")]
     public GameObject arrowObject_HandR;
     public GameObject arrowPrefab;
-
+    [Header("Bow References")]
+    public GameObject rightHand;
+    public GameObject bowResetPullPoint;
+    public GameObject bowPullPoint;
+    [Header("Aim point")]
     public Transform raycastOrigin;
     public Transform raycastDestination;
 
@@ -17,6 +22,8 @@ public class Bow : MonoBehaviour
     private GameObject arrow;
 
     private bool aimPointCreated;
+    private bool isStringPulled;
+    private bool isStringReleased;
     private bool arrowCreated;
     private bool arrowDespawned;
     private bool arrowShot;
@@ -54,6 +61,17 @@ public class Bow : MonoBehaviour
 
             arrowShot = false;
         }
+        
+        if(isStringPulled)
+        {
+            bowPullPoint.transform.SetParent(rightHand.transform, false);
+            bowPullPoint.transform.SetPositionAndRotation(rightHand.transform.position, Quaternion.identity);
+        }
+        if (isStringReleased)
+        {
+            bowPullPoint.transform.SetParent(bowResetPullPoint.transform, false);
+            bowPullPoint.transform.SetPositionAndRotation(bowResetPullPoint.transform.position, Quaternion.identity);
+        }
     }
 
     
@@ -79,6 +97,24 @@ public class Bow : MonoBehaviour
         arrowShot = true;    
         
     }
+    public void StringPullTrigger()
+    {
+        isStringReleased = false;
+        isStringPulled = true;
+    }
+    public void StringReleaseTrigger()
+    {
+        isStringReleased = true;
+    }
+    public void PullStringSound()
+    {
+        AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Pull, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 5f);
+    }
+    public void ReleaseStringSound()
+    {
+        isStringReleased = true;
+        AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Release, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 5f);
+    }
     #endregion
 
     #region PrivateFunction
@@ -99,12 +135,11 @@ public class Bow : MonoBehaviour
     }
     private void ShotArrow()
     {
-        arrowObject_HandR.SetActive(false);
         arrow = Instantiate(arrowPrefab, ray.origin, this.gameObject.transform.rotation);
         CheckComponent<Rigidbody>(arrow);
         CheckComponent<Arrow>(arrow);
 
-        arrow.GetComponent<Rigidbody>().AddForce(ray.direction * 1000 * stringForce);
+        arrow.GetComponent<Rigidbody>().AddForce(1000 * stringForce * ray.direction);
         //AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Arrow_Fly, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 4);
     }
     private void CheckComponent<T>(GameObject Ob) where T : Component

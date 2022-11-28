@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class CrossHairTarget : MonoBehaviour
 {
+    [SerializeField] private LayerMask ignore;
     private Camera mainCamera;
     private Ray ray;
     private RaycastHit hitfor;
-    private LayerMask player;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +22,6 @@ public class CrossHairTarget : MonoBehaviour
         ray.direction = mainCamera.transform.forward;
 
 
-        transform.position = Physics.Raycast(ray, out hitfor) ? hitfor.point : ray.GetPoint(250f);
+        transform.position = Physics.Raycast(ray, out hitfor, ignore) ? hitfor.point : ray.GetPoint(250f);
     }
 }

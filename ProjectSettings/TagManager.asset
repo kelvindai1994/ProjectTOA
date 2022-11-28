@@ -3,12 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - UI
+  - Player_Crosshair
+  - EnemyHPBar
+  - EnemySpawnPoint
+  - Enemy
+  - EnemyParts
+  - EnemyWeapon
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -36,7 +44,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - EnemySpawnArea
   m_SortingLayers:
   - name: Default
     uniqueID: 0

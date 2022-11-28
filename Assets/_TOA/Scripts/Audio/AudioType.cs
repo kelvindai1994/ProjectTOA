@@ -6,6 +6,7 @@ public enum AudioType
     SFX_UI_Click,
     SFX_UI_Slider,
     SFX_Player_Bow_Equip,
-    SFX_Player_Arrow_Nocking,
+    SFX_Player_Bow_Pull,
+    SFX_Player_Bow_Release,
     SFX_Player_Arrow_Fly
 }
