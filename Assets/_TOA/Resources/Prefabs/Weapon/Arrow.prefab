@@ -85,7 +85,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 94a786aabf0173d439cb1a74915c90eb, type: 2}
+  - {fileID: 2100000, guid: 789c6b6ef3f89714a8f951682ec04fb1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,7 +110,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -1984189768132459027, guid: 2c78049678ce27b428a14977a375f03b, type: 3}
+  m_Mesh: {fileID: -1984189768132459027, guid: c9520f4a1c14e8b4c8eb3176e268afc0, type: 3}
   m_Bones:
   - {fileID: 2552499899314382554}
   m_BlendShapeWeights: []
@@ -5058,7 +5058,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 538a4f409bfb6844c9d51639bcb3b976, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a543b6c70fda5684eaf606de885e73c5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -10238,7 +10238,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8f5b1aa218226c04f90538cbfdc3cbcf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dd56b5437d6563348b13771a13b667c3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
