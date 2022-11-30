@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2196406760126012095}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_Back3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8359005657245128064}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithJaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4686314605405475177}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithCape2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2561087188332956068}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithClothL3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6213245931061405137}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7278716221921333800}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_L2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2368493725129776545}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithHair_1_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3980128901535451250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 106515167922768235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616805134962540310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithNeck2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2087937240755573600}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_Front1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2086850417491715065}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRibcage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1427007334173999458}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2624085833596884558}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithHair_3_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4196749971466019143}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8218961456085339465}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -519,7 +519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4073066293537558862}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -551,7 +551,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3802861169700938361}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5943730542138105983}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1431496224200256178}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 857704335608704293}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -680,7 +680,8 @@ GameObject:
   - component: {fileID: 3014515495276841718}
   - component: {fileID: 3341403338863774044}
   - component: {fileID: 5573847967919686597}
-  m_Layer: 0
+  - component: {fileID: 7008822939355055836}
+  m_Layer: 7
   m_Name: Ghost
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -738,6 +739,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: f7ca3c223def25744babb7cdf7ce1862, type: 3}
   image: {fileID: 0}
+--- !u!136 &7008822939355055836
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494542790542970956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &2640914450396833843
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 282158460135534802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithEye_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4869464090452916397}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithSpine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 38857138780305039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -842,7 +857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6708027512108149444}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithNeck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -875,7 +890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4718678051976056795}
   - component: {fileID: 2614852039308601392}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WraithHead
   m_TagString: EnemyParts
   m_Icon: {fileID: 0}
@@ -929,7 +944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2469577303427525039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -961,7 +976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6654274961802136566}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +1013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4534481059704124350}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1029,7 +1044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7651268440911605045}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: S_WraithAxe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 585890287369042515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1095,7 +1110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3308745276453492438}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,7 +1142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8158696855406766655}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithClothL2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,7 +1175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706866755279454332}
   - component: {fileID: 3280150965651056883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WraithRForearm
   m_TagString: EnemyParts
   m_Icon: {fileID: 0}
@@ -1206,7 +1221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2769463197314583070}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1237,7 +1252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2178179716949969493}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithPelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1273,7 +1288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7728820935354727601}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithClothR3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6326784595425090297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1335,7 +1350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2497491235453273388}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_R3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1366,7 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4403048636143374876}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1398,7 +1413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1010948978210941819}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithWeaponR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1430,7 +1445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4032686806478332056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithWeaponR001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1461,7 +1476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5578796725771503853}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithSpine4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,7 +1508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 730365296038431057}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1525,7 +1540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2952577701494618363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithHair_1_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1558,7 +1573,7 @@ GameObject:
   - component: {fileID: 4745056906172275569}
   - component: {fileID: 541500358340848640}
   - component: {fileID: 1428093328087733027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: S_WraithAxe
   m_TagString: EnemyWeapon
   m_Icon: {fileID: 0}
@@ -1630,7 +1645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5483890638238221383}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithEye_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1661,7 +1676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1217338637877536841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithHair_2_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1693,7 +1708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1232839747184534938}
   - component: {fileID: 6981203722320565441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WraithRUpperarm
   m_TagString: EnemyParts
   m_Icon: {fileID: 0}
@@ -1740,7 +1755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112697923174573476}
   - component: {fileID: 9171168555074927602}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Preview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1905,7 +1920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5234996824298652586}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1937,7 +1952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5254057908408604580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1969,7 +1984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9197266616263891328}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithClothL1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2001,7 +2016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2998400400042896485}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2032,7 +2047,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2675470947028843996}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2064,7 +2079,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7929729391222876538}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_Front2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2097,7 +2112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8974741613138214125}
   - component: {fileID: 3013576061038483123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WraithSpine1
   m_TagString: EnemyParts
   m_Icon: {fileID: 0}
@@ -2143,7 +2158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7888946124933207208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2174,7 +2189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8702593724941788461}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_Front3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2205,7 +2220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5830982543063743492}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436677439129402708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2269,7 +2284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6299056577577714675}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2301,7 +2316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 53593358587493960}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_Back1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,7 +2348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8696846572932620598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithCape1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2365,7 +2380,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 308601037189843419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2397,7 +2412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2595399330993683253}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_L3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2430,7 +2445,7 @@ GameObject:
   - component: {fileID: 594419446654005528}
   - component: {fileID: 5323398568688787276}
   - component: {fileID: 2593116086117738993}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: S_WraithAxe_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1252623075326565932}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_R2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2543,7 +2558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8575994316957634970}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithHair_2_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2574,7 +2589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9138657978713663865}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2607,7 +2622,7 @@ GameObject:
   - component: {fileID: 7385384178488356915}
   - component: {fileID: 6507483399760160406}
   - component: {fileID: 607575225894074283}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UCX_S_WraithAxe_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2688,7 +2703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8689790045377919382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2725,7 +2740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3604033815297656406}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wraithnecklace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2756,7 +2771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7177019059101810946}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2789,7 +2804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2581238283087727088}
   - component: {fileID: 650564758349639501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WraithLForearm
   m_TagString: EnemyParts
   m_Icon: {fileID: 0}
@@ -2835,7 +2850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2022923561295683709}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithClothR2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2869,7 +2884,7 @@ GameObject:
   - component: {fileID: 1453365496713822284}
   - component: {fileID: 6994725320308373387}
   - component: {fileID: 2104466322142032084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: S_WraithAxe_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2950,7 +2965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4173481707118563700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2982,7 +2997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9129765247781487194}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithDress_Back2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3014,7 +3029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5012263907610803340}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithSpine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3046,7 +3061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2119777170308300023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithRDigit43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3077,7 +3092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5848474366271229822}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithClothR1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3110,7 +3125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7361303656442299462}
   - component: {fileID: 2057774534897333617}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WraithLUpperarm
   m_TagString: EnemyParts
   m_Icon: {fileID: 0}
@@ -3156,7 +3171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5700984260708114119}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithHair_3_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3187,7 +3202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4244770665325672184}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLDigit42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3219,7 +3234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3686485042702542171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WraithLCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

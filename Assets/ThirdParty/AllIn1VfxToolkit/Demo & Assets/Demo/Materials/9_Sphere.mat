@@ -2,19 +2,25 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 9_Sphere
-  m_Shader: {fileID: 4800000, guid: 6eb86e4931b506a408fd1477edec61ea, type: 3}
-  m_ShaderKeywords: RIM_ON SHAKEUV_ON SHAPE1CONTRAST_ON SHAPE1DISTORT_ON SHAPE2DISTORT_ON
-    SHAPE2_ON
+  m_Shader: {fileID: 4800000, guid: b430983578466934c944e7171b4c372c, type: 3}
+  m_ValidKeywords:
+  - RIM_ON
+  - SHAKEUV_ON
+  - SHAPE1CONTRAST_ON
+  - SHAPE1DISTORT_ON
+  - SHAPE2DISTORT_ON
+  - SHAPE3DISTORT_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -50,7 +56,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 1a748330fd1f90e448ec7b4fb53ed8af, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: 2f6642b43dc405d498acba7e288c068c, type: 3}
@@ -62,23 +68,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Shape2DistortTex:
         m_Texture: {fileID: 2800000, guid: e92591d2af0e500419c0943ff6ba43ed, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shape2Tex:
         m_Texture: {fileID: 2800000, guid: e4fe2219612aa4d4ba987bd61ef901c0, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shape3DistortTex:
-        m_Texture: {fileID: 2800000, guid: 48da24d771916524899d36e4bfe7f762, type: 3}
+        m_Texture: {fileID: 2800000, guid: e92591d2af0e500419c0943ff6ba43ed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shape3Tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e4fe2219612aa4d4ba987bd61ef901c0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShapeDistortTex:
         m_Texture: {fileID: 2800000, guid: 0338952b563fb0447a521e1e1728116c, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TrailWidthGradient:
         m_Texture: {fileID: 0}
@@ -88,6 +94,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 48da24d771916524899d36e4bfe7f762, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Alpha: 1
     - _AlphaBrightness: 0
@@ -120,7 +127,7 @@ Material:
     - _DistortionScrollXSpeed: 0
     - _DistortionScrollYSpeed: 0
     - _DstMode: 0
-    - _EditorDrawers: 61
+    - _EditorDrawers: 4
     - _FadeAmount: -0.1
     - _FadeBurnGlow: 5
     - _FadeBurnWidth: 0.01
@@ -160,7 +167,7 @@ Material:
     - _ScreenUvSh1DistScale: 1
     - _ScreenUvSh2DistScale: 1
     - _ScreenUvSh3DistScale: 1
-    - _ScreenUvShDistScale: 1
+    - _ScreenUvShDistScale: 0
     - _Sh1BlendOffset: 0
     - _Sh2BlendOffset: 0
     - _Sh3BlendOffset: 0
@@ -176,34 +183,34 @@ Material:
     - _Shape2ColorWeight: 2
     - _Shape2Contrast: 1
     - _Shape2DistortAmount: 0.24
-    - _Shape2DistortXSpeed: 2.64
-    - _Shape2DistortYSpeed: 0.76
+    - _Shape2DistortXSpeed: 0
+    - _Shape2DistortYSpeed: 0
     - _Shape2RotationOffset: 0
     - _Shape2RotationSpeed: 0
-    - _Shape2XSpeed: 0.03
-    - _Shape2YSpeed: 0.02
+    - _Shape2XSpeed: 0
+    - _Shape2YSpeed: 0
     - _Shape3AlphaWeight: 2
     - _Shape3Brightness: 0
     - _Shape3ColorWeight: 2
     - _Shape3Contrast: 1
-    - _Shape3DistortAmount: 0.5
-    - _Shape3DistortXSpeed: 0.1
-    - _Shape3DistortYSpeed: 0.1
+    - _Shape3DistortAmount: 0.24
+    - _Shape3DistortXSpeed: 0
+    - _Shape3DistortYSpeed: 0
     - _Shape3RotationOffset: 0
     - _Shape3RotationSpeed: 0
     - _Shape3XSpeed: 0
     - _Shape3YSpeed: 0
     - _ShapeAlphaWeight: 1
-    - _ShapeBrightness: 0.168
+    - _ShapeBrightness: 0.5
     - _ShapeColorWeight: 1
-    - _ShapeContrast: 1.33
+    - _ShapeContrast: 0.5
     - _ShapeDistortAmount: 1.6
-    - _ShapeDistortXSpeed: 0.1
-    - _ShapeDistortYSpeed: 0.1
+    - _ShapeDistortXSpeed: 0
+    - _ShapeDistortYSpeed: 0
     - _ShapeRotationOffset: 0
     - _ShapeRotationSpeed: 0
-    - _ShapeXSpeed: 0.1
-    - _ShapeYSpeed: 0.1
+    - _ShapeXSpeed: 1
+    - _ShapeYSpeed: 0.5
     - _SoftFactor: 0.5
     - _SrcMode: 1
     - _TextureScrollXSpeed: 1
@@ -228,7 +235,7 @@ Material:
     - _ZoomAmount: 1.5
     m_Colors:
     - _BackFaceTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _Color: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
+    - _Color: {r: 0.2264151, g: 0.22086152, b: 0.22086152, a: 1}
     - _ColorGradingDark: {r: 1, g: 1, b: 1, a: 1}
     - _ColorGradingLight: {r: 1, g: 1, b: 1, a: 1}
     - _ColorGradingMiddle: {r: 1, g: 1, b: 1, a: 1}
@@ -241,3 +248,4 @@ Material:
     - _Shape2Color: {r: 1, g: 1, b: 1, a: 1}
     - _Shape3Color: {r: 1, g: 1, b: 1, a: 1}
     - _ShapeColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

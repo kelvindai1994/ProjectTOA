@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class AnimAttackControler : AnimBase
 {
+    public GameObject playerCrossHair;
     //Backstab
     public EnemyBackstab enemyBackstab;
     public float OffsetBackStab;
@@ -11,7 +12,13 @@ public class AnimAttackControler : AnimBase
     [Range(0,1)]public float OffsetDistanceBetweenPlayerAndEnemy;
 
     #region UnityFunction
-
+    private void Awake()
+    {
+        if (playerCrossHair == null)
+        {
+            playerCrossHair = GameObject.FindGameObjectWithTag("Player_Crosshair");
+        }
+    }
     void FixedUpdate()
     {
         //Equip Weapon
@@ -45,16 +52,16 @@ public class AnimAttackControler : AnimBase
     #region PrivateFunction
     private void Attack()
     {
-        if (!animator.GetBool("isRMPressed"))
+        if (!animator.GetBool("isRMPressed") )
         {
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0) && playerCrossHair.activeSelf == true)
             {
                 SetAttack(1);
             }
         }
         else
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && playerCrossHair.activeSelf == true)
             {
                 SetAttack(2);
             }

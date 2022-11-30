@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnimBase : MonoBehaviour
 {
     //Param Anim Move
+    protected int ParamAnim_CanMove = Animator.StringToHash("CanMove");
     protected int ParamAnim_Velocity_X = Animator.StringToHash("Velocity_X");
     protected int ParamAnim_Velocity_Z = Animator.StringToHash("Velocity_Z");
     protected int ParamAnim_Velocity = Animator.StringToHash("Velocity");

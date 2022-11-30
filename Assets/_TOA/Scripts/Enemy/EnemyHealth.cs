@@ -3,16 +3,15 @@ using System;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public static Action<int, bool> OnTakeDamage;
     public static Action<int> OnDamage;
 
     private Animator animator;
-
     private BaseInfoEnemy baseInfo;
 
     private FloatingHPBar healthBar;
     private float maxHealth;
     private int currentHealth;
+
 
     public float MaxHealth => maxHealth;
     #region UnityFunction
@@ -33,18 +32,9 @@ public class EnemyHealth : MonoBehaviour
         {
             EnemyHitBox hitBox = capCollider.gameObject.AddComponent<EnemyHitBox>();
             hitBox.enemyHealth = this;
-        }
+        }      
+    }
 
-        
-    }
-    private void OnEnable()
-    {
-        OnTakeDamage += TakeDamage;
-    }
-    private void OnDisable()
-    {
-        OnTakeDamage -= TakeDamage;
-    }
     #endregion
 
     #region PublicFunction
@@ -62,6 +52,7 @@ public class EnemyHealth : MonoBehaviour
             currentHealth = 0;
             Die();
         }
+        
     }
     #endregion
 

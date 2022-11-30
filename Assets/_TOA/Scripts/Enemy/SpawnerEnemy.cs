@@ -58,7 +58,7 @@ public class SpawnerEnemy : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             if(Target == null)
             {
@@ -98,7 +98,7 @@ public class SpawnerEnemy : MonoBehaviour
     #region PrivateFunction
     private void SetDefaultComponent(GameObject go)
     {
-        if (!go.gameObject.activeSelf) go.gameObject.SetActive(true);
+        if (!go.activeSelf) go.SetActive(true);
         if (!go.GetComponent<NavMeshAgent>())
         {
             go.AddComponent<NavMeshAgent>();
@@ -114,9 +114,7 @@ public class SpawnerEnemy : MonoBehaviour
         GameObject go = Instantiate(sO_DataEnemy.enemyDatas[modelIndex].Model,
             pointsInstance[i].transform.position, pointsInstance[i].transform.rotation, pointsInstance[i].transform);
         SetDefaultComponent(go);
-
-        ConfigNavMesh(go, modelIndex);
-
+        
         var dataInfo = sO_DataEnemy.enemyDatas[modelIndex];
         int playerLevel = PlayerStats.Instance.Level;
         go.GetComponent<BaseInfoEnemy>().SetBaseInfo(dataInfo.BaseHP + (0.1f * dataInfo.BaseHP * (playerLevel - 1)),
@@ -125,13 +123,12 @@ public class SpawnerEnemy : MonoBehaviour
             dataInfo.ExpOnDeath);
         if (!go.GetComponent<EnemyHealth>()) go.AddComponent<EnemyHealth>();
 
-
-        //Add health bar
-        FloatingHPBar.Create(new Vector3(go.transform.position.x, go.transform.position.y + 2f, go.transform.position.z), go.transform, enemyName);
+        ConfigAI(go, modelIndex);
+      
         //Add this enemy icon to compass
         CompassBar.Instance.AddEnemyMarker(go.GetComponent<EnemyMarker>());
     }
-    private void ConfigNavMesh(GameObject go, int modelIndex)
+    private void ConfigAI(GameObject go, int modelIndex)
     {
         switch (modelIndex)
         {
@@ -139,6 +136,8 @@ public class SpawnerEnemy : MonoBehaviour
                 {
                     //Black Wolf - Tank
                     enemyName = "Black Werewolf";
+                    //Add health bar
+                    FloatingHPBar.Create(new Vector3(go.transform.position.x, go.transform.position.y + 2f, go.transform.position.z), go.transform, enemyName);
                     go.GetComponent<NavMeshAgent>().speed = 3f;
                     break;
                 }
@@ -146,6 +145,8 @@ public class SpawnerEnemy : MonoBehaviour
                 {
                     //Grey Wolf - Speed
                     enemyName = "Grey Werewolf";
+                    //Add health bar
+                    FloatingHPBar.Create(new Vector3(go.transform.position.x, go.transform.position.y + 1.8f, go.transform.position.z), go.transform, enemyName);
                     go.GetComponent<NavMeshAgent>().speed = 5f;
                     break;
                 }
@@ -153,6 +154,8 @@ public class SpawnerEnemy : MonoBehaviour
                 {
                     //Orange Wolf - Elite
                     enemyName = "(Elite) Werewolf";
+                    //Add health bar
+                    FloatingHPBar.Create(new Vector3(go.transform.position.x, go.transform.position.y + 2.6f, go.transform.position.z), go.transform, enemyName);
                     go.GetComponent<NavMeshAgent>().speed = 4f;
                     break;
                 }
@@ -160,11 +163,15 @@ public class SpawnerEnemy : MonoBehaviour
                 {
                     //Ghost
                     enemyName = "(Melee) Ghost";
+                    //Add health bar
+                    FloatingHPBar.Create(new Vector3(go.transform.position.x, go.transform.position.y + 2f, go.transform.position.z), go.transform, enemyName);
                     go.GetComponent<NavMeshAgent>().speed = 10f;
                     break;
                 }
             default:
                 {
+                    //Add health bar
+                    FloatingHPBar.Create(new Vector3(go.transform.position.x, go.transform.position.y + 2f, go.transform.position.z), go.transform, enemyName);
                     break;
                 }
         }

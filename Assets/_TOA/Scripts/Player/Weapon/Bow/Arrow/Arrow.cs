@@ -20,12 +20,13 @@ public class Arrow : Weapon
     private float combineVelocity;
     private float fallAngle;
 
+    private bool hasCollisionOccured;
     #region UnityFunction
-    public override void Start()
+    public override void Awake()
     {
-        base.Start(); 
+        base.Awake(); 
         rb = GetComponent<Rigidbody>();
-        arrowDamage = Damage + (10 * PlayerStats.Instance.Level);
+        arrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
 
         Destroy(this.gameObject, 10f);
     }
@@ -36,6 +37,7 @@ public class Arrow : Weapon
         rb.useGravity = false;
         rb.velocity = Vector3.zero;
         rb.isKinematic = true;
+        if (hasCollisionOccured) return;
         if (collision.gameObject.CompareTag("EnemyParts"))
         {
             Transform enemy = collision.gameObject.transform;
@@ -54,12 +56,17 @@ public class Arrow : Weapon
 
             //Audio
             hitEnemyAudio.Play();
+
+            hasCollisionOccured = true;
+        }
+        else if (collision.gameObject.CompareTag("DefendObject"))
+        {
+            DefendObject.OnTakeDamge(arrowDamage * 100);
         }
         else
         {
             hitObjectAudio.Play();
         }
-
     }
     private void Update()
     {

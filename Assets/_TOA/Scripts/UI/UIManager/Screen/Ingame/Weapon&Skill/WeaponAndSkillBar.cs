@@ -5,31 +5,26 @@ using UnityEngine;
 public class WeaponAndSkillBar : MonoBehaviour
 {
     [Header("Weapon UI")]
-    [SerializeField] private GameObject weaponParent;
-    [SerializeField] private List<GameObject> weapons;
+    [SerializeField] private GameObject[] weapons;
 
     [Header("Skills UI")]
-    [SerializeField] private GameObject skillParent;
-    [SerializeField] private List<GameObject> skills;
-
-
-
+    [SerializeField] private GameObject[] skills;
     private void Start()
     {
-        for (int i = 0; i < weaponParent.transform.childCount; i++)
+        for(int i =0;i < weapons.Length; i++)
         {
-            GameObject weapon = weaponParent.transform.GetChild(i).gameObject;
-            weapon.SetActive(false);
-            weapons.Add(weapon);
+            weapons[i].SetActive(false);
         }
-        for (int i = 0; i < skillParent.transform.childCount; i++)
+        for(int i = 0; i< skills.Length; i++)
         {
-            GameObject skill = skillParent.transform.GetChild(i).gameObject;
-            skill.SetActive(false);
-            skills.Add(skill);
+            skills[i].SetActive(false);
         }
-
+        if (!PlayerPrefs.HasKey("SelectedCharacter"))
+        {
+            Debug.LogError("No character selected !!!");
+            return;
+        }
         weapons[PlayerPrefs.GetInt("SelectedCharacter")].SetActive(true);
-        skills[PlayerPrefs.GetInt("SelectedCharacter")].SetActive(true);
+        skills[PlayerPrefs.GetInt("SelectedCharacter")].SetActive(true);         
     }
 }

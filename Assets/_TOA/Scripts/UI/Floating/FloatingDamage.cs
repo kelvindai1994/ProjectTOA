@@ -52,12 +52,12 @@ public class FloatingDamage : MonoBehaviour
         }
         if (!isCrit)
         {
-            txt.fontSize = 2f;
+            txt.fontSize = 1f;
             txtColor = Color.white;
         }
         else
         {
-            txt.fontSize = 3f;
+            txt.fontSize = 2f;
             txtColor = Color.yellow;
         }
         txt.color = txtColor;

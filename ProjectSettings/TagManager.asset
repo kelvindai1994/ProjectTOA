@@ -12,6 +12,10 @@ TagManager:
   - Enemy
   - EnemyParts
   - EnemyWeapon
+  - Enviroment
+  - Skill1
+  - Skill2
+  - DefendObject
   layers:
   - Default
   - TransparentFX
@@ -20,6 +24,8 @@ TagManager:
   - Water
   - UI
   - Arrow
+  - Enemy
+  - EnemyParts
   - 
   - 
   - 
@@ -38,12 +44,10 @@ TagManager:
   - 
   - 
   - 
+  - Skill
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - DefendObject
   - EnemySpawnArea
   m_SortingLayers:
   - name: Default

@@ -144,6 +144,8 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
         {
             UIManager.Instance.ShowNotify<NotifyLoading>();
             NotifyLoading.Instance.Load((int)SceneIndex.Map1);
+
+            UIManager.Instance.ShowNotify<Notification>();
         }
     }
     #endregion

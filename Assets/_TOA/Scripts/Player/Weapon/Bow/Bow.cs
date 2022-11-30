@@ -108,12 +108,12 @@ public class Bow : MonoBehaviour
     }
     public void PullStringSound()
     {
-        AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Pull, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 5f);
+        AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Pull, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 10f);
     }
     public void ReleaseStringSound()
     {
         isStringReleased = true;
-        AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Release, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 5f);
+        AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Bow_Release, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 10f);
     }
     #endregion
 

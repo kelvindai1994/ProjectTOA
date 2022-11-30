@@ -13,6 +13,7 @@ public class AnimMoveControler : AnimBase
     [SerializeField] private KeyCode sprintKey;
     [SerializeField] private KeyCode toggleWalkKey;
 
+    [Space]
     [Header("MOVEMENT PARAMETERS")]
     //Jump
     public float jumpHeight;
@@ -38,7 +39,10 @@ public class AnimMoveControler : AnimBase
     private bool isWalk;                                    
     //Camera
     Camera mainCamera;
-  
+
+    private int isSliding = 0;
+    private int secondLayer;
+    private float layerWeightVelocity;
     #region ParrentOverride
     public override void Start()
     {
@@ -48,6 +52,8 @@ public class AnimMoveControler : AnimBase
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        secondLayer = animator.GetLayerIndex("Aim Layer");
     }
     #endregion
 
@@ -89,7 +95,13 @@ public class AnimMoveControler : AnimBase
         {
             UpdateOnGround();
         }
+    }
+    #endregion
 
+    #region PublicFuntion
+    public void SlideCheck(int isSlide)
+    {
+        isSliding = isSlide;
     }
     #endregion
 
@@ -98,6 +110,7 @@ public class AnimMoveControler : AnimBase
     //Character Move
     private void MoveControl()
     {
+        if (!animator.GetBool(ParamAnim_CanMove)) return;
         playerInput.x = Input.GetAxis("Horizontal");
         playerInput.z = Input.GetAxis("Vertical");
 
@@ -132,19 +145,34 @@ public class AnimMoveControler : AnimBase
         }
         else
         {
-            isRMPressed = false;
+            float currentWeight = animator.GetLayerWeight(secondLayer);
             animator.SetFloat(ParamAnim_MoveState, 1f);
             animator.SetFloat(ParamAnim_Velocity_X, currentVelocity.x, dampTime, Time.deltaTime);
             animator.SetFloat(ParamAnim_Velocity_Z, currentVelocity.z, dampTime, Time.deltaTime);
 
-            if (Input.GetMouseButton(1))
-            {
+            if (Input.GetMouseButton(1) && isSliding == 0)
+            {           
                 isRMPressed = true;
+                animator.SetBool("isRMPressed", isRMPressed);
                 animator.SetFloat(ParamAnim_Velocity_X, currentVelocity.x, dampTime, Time.deltaTime);
                 animator.SetFloat(ParamAnim_Velocity_Z, currentVelocity.z, dampTime, Time.deltaTime);
             }
+            else if (Input.GetMouseButtonUp(1))
+            {
+                isRMPressed = false;
+                animator.SetBool("isRMPressed", isRMPressed);
+            }
+
+            if (!isRMPressed)
+            {
+                animator.SetLayerWeight(secondLayer, Mathf.SmoothDamp(currentWeight, 0f, ref layerWeightVelocity, 0.5f));
+            }
+            else
+            {
+                animator.SetLayerWeight(secondLayer, Mathf.SmoothDamp(currentWeight, 1f, ref layerWeightVelocity, 0.2f));
+            }
         }
-        animator.SetBool("isRMPressed", isRMPressed);
+        
     }
     private void UpdateOnGround()
     {
@@ -199,6 +227,7 @@ public class AnimMoveControler : AnimBase
         {
             PlayerStats.OnDodge();
             animator.SetTrigger(paramAnim);
+            animator.SetLayerWeight(secondLayer, 0f);
         }
     }
     //Character Jump
@@ -276,10 +305,6 @@ public class AnimMoveControler : AnimBase
         {
             Debug.Log("Exp Gained !!!");
             PlayerStats.OnKill(100);
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad2))
-        {
-            EnemyHealth.OnTakeDamage(50,true);
         }
     }
     #endregion

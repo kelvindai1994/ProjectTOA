@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1494018505116941397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 2961895082222995693}
   - component: {fileID: 9058210863905896666}
   - component: {fileID: 8041081839447849802}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4983,7 +4983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinDmg: 25
   MaxDmg: 50
-  CritChance: 25
+  CritChance: 100
   bowTrail: {fileID: 5999724356734384913}
   hitEnemyAudio: {fileID: 1545328797781766469}
   hitObjectAudio: {fileID: 1422809535348867204}
@@ -5026,7 +5026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7842389466322040459}
   - component: {fileID: 1545328797781766469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5240,7 +5240,7 @@ GameObject:
   - component: {fileID: 5999724356301953195}
   - component: {fileID: 5999724356301953194}
   - component: {fileID: 6434398664459882258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5393,7 +5393,7 @@ GameObject:
   - component: {fileID: 5999724356734384912}
   - component: {fileID: 8627311054878122285}
   - component: {fileID: 4707752403009899311}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BowTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10206,7 +10206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2593208613309543737}
   - component: {fileID: 1422809535348867204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -10,9 +10,17 @@ public class Weapon : MonoBehaviour
 
     protected int Damage;
     protected BoxCollider bx;
-    public virtual void Start()
+    protected SphereCollider spx;
+    public virtual void Awake()
     {
-        bx = GetComponent<BoxCollider>();
+        if (this.gameObject.GetComponent<BoxCollider>())
+        {
+            bx = GetComponent<BoxCollider>();
+        }
+        if (this.gameObject.GetComponent<SphereCollider>())
+        {
+            spx = GetComponent<SphereCollider>();
+        }
         Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
     }
 
@@ -21,4 +29,5 @@ public class Weapon : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")) return;
         bx.isTrigger = true;
     }
+
 }

@@ -12,7 +12,7 @@ public class EnemyHitBox : MonoBehaviour
         }
     }
 
-    public void OnHit(int amount, bool isCrit)
+    public void OnHit(int amount, bool isCrit = false)
     {
         enemyHealth.TakeDamage(amount, isCrit);
     }

@@ -42,6 +42,7 @@ public class ScreenCharacterSelection : BaseScreen
         NotifyLoading.Instance.Load((int)SceneIndex.TownMap);
         UIManager.Instance.HideAllScreens();
         UIManager.Instance.ShowScreen<ScreenIngame>();
+        
     }
     public void BackButton()
     {

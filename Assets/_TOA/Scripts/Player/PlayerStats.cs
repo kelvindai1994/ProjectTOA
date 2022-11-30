@@ -214,7 +214,7 @@ public class PlayerStats : MonoBehaviour
     private IEnumerator RegenaratingHealth()
     {
         yield return new WaitForSeconds(HPRegenDelay);
-        WaitForSeconds timeToWait = new WaitForSeconds(HPRegenTimeTick);
+        WaitForSeconds timeToWait = new(HPRegenTimeTick);
 
         while (currentHP < maxHP)
         {
@@ -234,7 +234,7 @@ public class PlayerStats : MonoBehaviour
     private IEnumerator RegenaratingStamina()
     {
         yield return new WaitForSeconds(STARegenDelay);
-        WaitForSeconds timeToWait = new WaitForSeconds(STARegenTimeTick);
+        WaitForSeconds timeToWait = new(STARegenTimeTick);
 
         while(CurrentSTA < maxSTA)
         {

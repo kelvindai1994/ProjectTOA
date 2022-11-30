@@ -36,7 +36,7 @@ MonoBehaviour:
     ExpOnDeath: 500
   - Model: {fileID: 2494542790542970956, guid: 88ba6f4e94b996040a52aedb48ddbb4d, type: 3}
     BaseHP: 1
-    EvadeChance: 95
+    EvadeChance: 75
     MinAtckDamage: 100
     MaxAtkDamage: 100
     AtkRange: 2.5
