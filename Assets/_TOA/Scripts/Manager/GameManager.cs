@@ -2,7 +2,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : SingletonMonoBehaviour<GameManager>
 {
+    private bool isDead;
     private bool isPaused;
+
     #region ParentOverride
     protected override void Awake()
     {
@@ -11,6 +13,14 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     #endregion
 
     #region UnityFunctions
+    private void OnEnable()
+    {
+        PlayerStats.OnDeath += PlayerDie;
+    }
+    private void OnDisable()
+    {
+        PlayerStats.OnDeath -= PlayerDie;
+    }
     private void Start()
     {
         if (!UIManager.HasInstance) return;
@@ -24,12 +34,11 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
 
     private void Update()
     {
+        if (isDead) return;
+
         EscButton();
 
         MouseControl();
-
-
-
         ChangeSceneTest();
     }
     #endregion
@@ -59,10 +68,25 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
 
 
     #region PrivateFunction
+    private void PlayerDie(bool die)
+    {
+        isDead = die;
+        if (isDead)
+        {
+            //Hide all current GUIs
+            UIManager.Instance.HideAllNotify();
+            UIManager.Instance.HideAllScreens();
+            UIManager.Instance.HideAllPopups();
+            //Show death screen
+            UIManager.Instance.ShowScreen<ScreenDeath>();
+        }
+    }
+
 
     private void EscButton()
     {
         if (!UIManager.HasInstance) return;
+
         if (SceneManager.GetActiveScene().buildIndex <= 1)
         {
             if (Input.GetKeyDown(KeyCode.Escape))
@@ -109,6 +133,9 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
                 isPaused = false;
 
                 SetGameFlowTime(1);
+
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
             }
         }
     }

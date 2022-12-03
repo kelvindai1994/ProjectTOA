@@ -5,10 +5,11 @@ using UnityEngine;
 public class BaseInfoEnemy : MonoBehaviour
 {
     public static BaseInfoEnemy Instance;
-    private float baseHP, atkDamage, atkRange, evadeChance, expOnDeath;
+    private float baseHP, minAtkDamage, maxAtkDamage, atkRange, evadeChance, expOnDeath;
    
     public float BaseHP => baseHP;
-    public float AtkDamage => atkDamage;
+    public float MinAtkDamage => minAtkDamage;
+    public float MaxAttDamage => maxAtkDamage;
     public float AtkRange => atkRange;
     public float EvadeChance => evadeChance;
     public float ExpOnDeath => expOnDeath;
@@ -17,10 +18,11 @@ public class BaseInfoEnemy : MonoBehaviour
         Instance = this;
     }
 
-    public void SetBaseInfo(float baseHP, float atkDamage, float atkRange, float evadeChance, float expOnDeath)
+    public void SetBaseInfo(float baseHP, float minAtkDamage, float maxAtkDamage, float atkRange, float evadeChance, float expOnDeath)
     {
         this.baseHP = baseHP;
-        this.atkDamage = atkDamage;
+        this.minAtkDamage = minAtkDamage;
+        this.maxAtkDamage = maxAtkDamage;
         this.atkRange = atkRange;
         this.evadeChance = evadeChance;
         this.expOnDeath = expOnDeath;

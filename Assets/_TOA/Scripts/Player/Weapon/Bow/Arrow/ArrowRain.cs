@@ -15,7 +15,6 @@ public class ArrowRain : Weapon
     }
     private void OnEnable()
     {
-        arrowRainDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
         CheckCollider();
     }
 
@@ -26,12 +25,15 @@ public class ArrowRain : Weapon
         {
             if (c.CompareTag("Enemy"))
             {
+                Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
+                arrowRainDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
+
                 Transform enemy = c.gameObject.transform;
                 EnemyHitBox hitbox = c.GetComponent<EnemyHitBox>();
 
                 CheckMissAndCrit(enemy);
 
-                FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 1f, enemy.position.z - 0.5f), arrowRainDamage, isCrit, isMiss);
+                FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 2f, enemy.position.z - 0.5f), arrowRainDamage, isCrit, isMiss);
 
                 hitbox.OnHit(arrowRainDamage, isCrit);
  

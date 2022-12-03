@@ -70,7 +70,6 @@ public class SpawnerEnemy : MonoBehaviour
             }
         }
     }
-
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -118,7 +117,7 @@ public class SpawnerEnemy : MonoBehaviour
         var dataInfo = sO_DataEnemy.enemyDatas[modelIndex];
         int playerLevel = PlayerStats.Instance.Level;
         go.GetComponent<BaseInfoEnemy>().SetBaseInfo(dataInfo.BaseHP + (0.1f * dataInfo.BaseHP * (playerLevel - 1)),
-            (int)Random.Range(dataInfo.MinAtckDamage, dataInfo.MaxAtkDamage) + (10 * (playerLevel - 1)),
+            dataInfo.MinAtckDamage + (10 * (playerLevel - 1)), dataInfo.MaxAtkDamage + (10 * (playerLevel - 1)),
             dataInfo.AtkRange, dataInfo.EvadeChance,
             dataInfo.ExpOnDeath);
         if (!go.GetComponent<EnemyHealth>()) go.AddComponent<EnemyHealth>();
