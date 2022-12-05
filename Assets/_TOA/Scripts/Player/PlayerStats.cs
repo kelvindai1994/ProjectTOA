@@ -21,7 +21,7 @@ public class PlayerStats : MonoBehaviour
     public static Action<float> OnDamage;
     public static Action<float> OnHeal;
     public static Action<float> OnHPChange;
-    public static Action OnDeath;
+    public static Action<bool> OnDeath;
 
     [SerializeField] private float maxHP;
     [SerializeField] private float maxHPIncreaseMulti;
@@ -114,13 +114,20 @@ public class PlayerStats : MonoBehaviour
     }
     private void KillPlayer()
     {
+        CharacterController characterController = gameObject.GetComponent<CharacterController>();
+        AnimMoveControler animMove = gameObject.GetComponent<AnimMoveControler>();
+        AnimAttackControler animAttack = gameObject.GetComponent<AnimAttackControler>();
+
+        characterController.enabled = false;
+        animMove.enabled = false;
+        animAttack.enabled = false;
+
         currentHP = 0;
 
         if (regenaratingHealth != null)
             StopCoroutine(regenaratingHealth);
 
         // show Death UI
-        OnDeath?.Invoke();
     }
 
     //Handle Stamina
