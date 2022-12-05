@@ -560,18 +560,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 4633906149006220316, guid: 321fbd4a660649844ae9d30f707c7890, type: 3}
-      propertyPath: tracks.Array.data[2].audio.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633906149006220316, guid: 321fbd4a660649844ae9d30f707c7890, type: 3}
-      propertyPath: tracks.Array.data[2].audio.Array.data[3].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 90a0d74374f38c0489ccc472400b3602, type: 3}
-    - target: {fileID: 4633906149006220316, guid: 321fbd4a660649844ae9d30f707c7890, type: 3}
-      propertyPath: tracks.Array.data[2].audio.Array.data[3].type
-      value: 9
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 321fbd4a660649844ae9d30f707c7890, type: 3}
 --- !u!64 &14688764624472765

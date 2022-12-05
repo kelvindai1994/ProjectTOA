@@ -16,8 +16,6 @@ TagManager:
   - Skill1
   - Skill2
   - DefendObject
-  - SkillShotPoint
-  - Target
   layers:
   - Default
   - TransparentFX
@@ -28,7 +26,7 @@ TagManager:
   - Arrow
   - Enemy
   - EnemyParts
-  - EnemyWeapons
+  - 
   - 
   - 
   - 

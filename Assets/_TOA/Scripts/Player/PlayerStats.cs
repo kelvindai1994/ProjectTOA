@@ -6,25 +6,23 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     public static PlayerStats Instance;
-    public Animator animator;
-
-    [Space]
     [Header("LEVEL PARAMETERS")]
     public static Action<float> OnKill;
     public static Action<float> OnEXPGain;
     public static Action<int> OnLVLChange;
+
     [SerializeField] private int level;
     [SerializeField] private float maxExp;
     [SerializeField] private float MaxExpIncreaseMulti;
     private float currentExp;
 
-    [Space]
     [Header("HP PARAMETERS")]
     public static Action<float> OnTakeDamage;
     public static Action<float> OnDamage;
     public static Action<float> OnHeal;
     public static Action<float> OnHPChange;
-    public static Action<bool> OnDeath;
+    public static Action OnDeath;
+
     [SerializeField] private float maxHP;
     [SerializeField] private float maxHPIncreaseMulti;
     [SerializeField] private float HPRegenDelay;
@@ -33,11 +31,12 @@ public class PlayerStats : MonoBehaviour
     private float baseHPRegen;
     private Coroutine regenaratingHealth;
 
-    [Space]
     [Header("STAMINA PARAMETERS")]
     public static Action OnSprint;
     public static Action OnDodge;
     public static Action<float> OnSTAChange;
+    public static Action OnSprintCheck;
+
     [SerializeField] private float maxSTA;
     [SerializeField] private float maxSTAIncreaseMulti;
     [SerializeField] private float sprintSTAConsump;
@@ -58,7 +57,6 @@ public class PlayerStats : MonoBehaviour
     public float MaxEXP => maxExp;
     public float DodgeSta => dodgeSTAConsump;
 
-    private bool isDead;
     #region UnityFunction
     private void OnEnable()
     {
@@ -66,7 +64,6 @@ public class PlayerStats : MonoBehaviour
         OnTakeDamage += TakeDamage;
         OnSprint += UseStaminaSprint;
         OnDodge += UseStaminaDodge;
-
     }
     private void OnDisable()
     {
@@ -74,17 +71,13 @@ public class PlayerStats : MonoBehaviour
         OnTakeDamage -= TakeDamage;
         OnSprint -= UseStaminaSprint;
         OnDodge -= UseStaminaDodge;
-
     }
     private void Awake()
     {
         Instance = this;
-        isDead = false;
-        //Animator
-        if (animator == null)
-        {
-            animator = this.gameObject.GetComponent<Animator>();
-        }
+    }
+    private void Start()
+    {
         //Health
         currentHP = maxHP;
         baseHPRegen = maxHP * (0.5f / 100); // regen 0.5%hp of maxHp
@@ -108,45 +101,28 @@ public class PlayerStats : MonoBehaviour
     //Handle TakeDamage
     private void TakeDamage(float dmgAmount)
     {
-        if (isDead) return;
         currentHP -= dmgAmount;
 
         OnDamage?.Invoke(currentHP);
 
-       
         if (currentHP <= 0)
             KillPlayer();
         else if (regenaratingHealth != null)
             StopCoroutine(regenaratingHealth);
 
-
         regenaratingHealth = StartCoroutine(RegenaratingHealth());
     }
     private void KillPlayer()
     {
-        CharacterController characterController = gameObject.GetComponent<CharacterController>();
-        AnimMoveControler animMove = gameObject.GetComponent<AnimMoveControler>();
-        AnimAttackControler animAttack = gameObject.GetComponent<AnimAttackControler>();
-
-        characterController.enabled = false;
-        animMove.enabled = false;
-        animAttack.enabled = false;
-
         currentHP = 0;
-        animator.SetTrigger("Dead");
-       
+
         if (regenaratingHealth != null)
             StopCoroutine(regenaratingHealth);
-        isDead = true;
-        OnDeath?.Invoke(isDead);
+
         // show Death UI
-
-
-
-        //Turn off other components - bad way
-
-
+        OnDeath?.Invoke();
     }
+
     //Handle Stamina
 
     private void UseStaminaSprint()
