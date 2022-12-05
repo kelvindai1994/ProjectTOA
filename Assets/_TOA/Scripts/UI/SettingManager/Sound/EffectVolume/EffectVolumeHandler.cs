@@ -7,6 +7,7 @@ public class EffectVolumeHandler : SettingManager
 
     private AudioTrack playerTrack;
 
+
     #region ParentOverride
     public override void SettingGroupChange(float value, float savedValue)
     {

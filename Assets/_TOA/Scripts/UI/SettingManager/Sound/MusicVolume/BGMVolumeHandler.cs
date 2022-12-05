@@ -7,6 +7,7 @@ public class BGMVolumeHandler : SettingManager
 
     private AudioTrack track;
 
+
     #region ParentOverride
     public override void SettingGroupChange(float value, float savedValue)
     {

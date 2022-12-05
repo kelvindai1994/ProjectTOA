@@ -5,6 +5,7 @@ public class ScreenMenu : BaseScreen
 {
     private int maxScrollSensitivity = 20;
     private int minScrollSensitivity = 0;
+
     #region UnityFunctions
     private void Start()
     {

@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
     private Hashtable m_AudioTable;
     private Hashtable m_JobTable;
 
+
     #region Class
     
     private class AudioJob

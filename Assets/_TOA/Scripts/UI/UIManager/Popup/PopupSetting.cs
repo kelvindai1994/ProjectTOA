@@ -5,6 +5,7 @@ using UnityEngine;
 public class PopupSetting : BasePopup
 {
     #region ParentOverride
+
     public override void Hide()
     {
         base.Hide();

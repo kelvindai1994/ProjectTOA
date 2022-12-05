@@ -21,6 +21,7 @@ public class SaveConfirm : MonoBehaviour
 
     public bool isPromp;
 
+
     #region UnityFunctions
     private void Awake()
     {

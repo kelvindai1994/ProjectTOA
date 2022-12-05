@@ -5,6 +5,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     private bool isDead;
     private bool isPaused;
 
+
     #region ParentOverride
     protected override void Awake()
     {

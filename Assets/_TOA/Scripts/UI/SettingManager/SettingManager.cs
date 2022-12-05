@@ -6,7 +6,9 @@ public class SettingManager : MonoBehaviour
     private ScreenMenu menu;
     private PopupSetting setting;
     private PopupPause pause;
-    private PopupSave save;
+    private PopupSave save; 
+
+
 
     #region UnityFunctions
     private void Start()

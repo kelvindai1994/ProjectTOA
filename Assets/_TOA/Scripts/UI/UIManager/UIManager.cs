@@ -29,6 +29,7 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
     public BasePopup CurPopup => curPopup;
     public BaseNotify CurNotify => curNotify;
 
+
     #region ParentOverride
     protected override void Awake()
     {
