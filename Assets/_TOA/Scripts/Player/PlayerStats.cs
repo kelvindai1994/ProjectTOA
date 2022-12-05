@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     public static PlayerStats Instance;
+    public Animator animator;
     [Header("LEVEL PARAMETERS")]
     public static Action<float> OnKill;
     public static Action<float> OnEXPGain;
@@ -57,6 +58,7 @@ public class PlayerStats : MonoBehaviour
     public float MaxEXP => maxExp;
     public float DodgeSta => dodgeSTAConsump;
 
+    private bool isDead;
     #region UnityFunction
     private void OnEnable()
     {
@@ -114,6 +116,7 @@ public class PlayerStats : MonoBehaviour
     }
     private void KillPlayer()
     {
+
         CharacterController characterController = gameObject.GetComponent<CharacterController>();
         AnimMoveControler animMove = gameObject.GetComponent<AnimMoveControler>();
         AnimAttackControler animAttack = gameObject.GetComponent<AnimAttackControler>();
@@ -123,11 +126,13 @@ public class PlayerStats : MonoBehaviour
         animAttack.enabled = false;
 
         currentHP = 0;
+        animator.SetTrigger("Dead");
 
         if (regenaratingHealth != null)
             StopCoroutine(regenaratingHealth);
+        isDead = true;
+        OnDeath?.Invoke(isDead);
 
-        // show Death UI
     }
 
     //Handle Stamina
