@@ -77,9 +77,12 @@ public class PlayerStats : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-    }
-    private void Start()
-    {
+        isDead = false;
+        //Animator
+        if (animator == null)
+        {
+            animator = this.gameObject.GetComponent<Animator>();
+        }
         //Health
         currentHP = maxHP;
         baseHPRegen = maxHP * (0.5f / 100); // regen 0.5%hp of maxHp
