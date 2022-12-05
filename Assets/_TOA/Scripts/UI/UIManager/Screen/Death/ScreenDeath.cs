@@ -6,6 +6,7 @@ using TMPro;
 
 public class ScreenDeath : BaseScreen
 {
+
     [SerializeField] private Image backGround;
 
     [Space]
