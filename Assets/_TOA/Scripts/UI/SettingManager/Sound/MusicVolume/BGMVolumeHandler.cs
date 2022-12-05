@@ -1,6 +1,5 @@
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BGMVolumeHandler : SettingManager
 {
@@ -21,6 +20,9 @@ public class BGMVolumeHandler : SettingManager
         
         SetStartMusicVolume();
         LoadVolume();
+
+        AudioManager.Instance.PlayAudio(AudioType.ST_Menu, true, PlayerPrefs.GetFloat(CONSTANT.PP_MUSIC_VOLUME), 3.5f);
+
     }
     #endregion
 

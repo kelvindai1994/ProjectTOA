@@ -5,7 +5,7 @@ using TMPro;
 public class SaveConfirm : MonoBehaviour
 {
     public static SaveConfirm Instance;
-    public PopupSave popupSave;
+    
 
     [Header("Warning")]
     public CanvasGroup ConfirmWarningCanvas;
@@ -19,7 +19,7 @@ public class SaveConfirm : MonoBehaviour
     private float maxCountDownTime = 15;
     private float CountDownTime;
 
-    public bool isPromp;
+    private bool isPromp;
 
     #region UnityFunctions
     private void Awake()
@@ -45,7 +45,6 @@ public class SaveConfirm : MonoBehaviour
     {
         if (isPromp)
         {
-            //popupSave.Show(null);
             //GameManager.Instance.SetCanvas(ConfirmWarningCanvas, true);
             if (CountDownTime > 0)
             {
@@ -69,6 +68,7 @@ public class SaveConfirm : MonoBehaviour
     #region ButtonControl
     public void KeepChangeButton()
     {
+        GameManager.Instance.SetCanvas(ConfirmWarningCanvas, false);
         //Quality Changed
         savedQualityLevel = SettingReferences.Instance.qualityDD.value;
         //Play mode Changed
@@ -77,12 +77,11 @@ public class SaveConfirm : MonoBehaviour
         savedResolution = SettingReferences.Instance.resolutionDD.value;
 
         ResetState();
-
-        popupSave.Hide();
     }
 
     public void RevertButton()
     {
+        GameManager.Instance.SetCanvas(ConfirmWarningCanvas, false);
 
         ResetDropDownSetting(SettingReferences.Instance.qualityDD, CONSTANT.PP_QUALITY, savedQualityLevel);
         QualitySettings.SetQualityLevel(savedQualityLevel);
@@ -90,8 +89,6 @@ public class SaveConfirm : MonoBehaviour
         ResetDropDownSetting(SettingReferences.Instance.resolutionDD, CONSTANT.PP_RESOLUTION_INDEX, savedResolution);
 
         ResetState();
-
-        popupSave.Hide();
     }
     #endregion
 

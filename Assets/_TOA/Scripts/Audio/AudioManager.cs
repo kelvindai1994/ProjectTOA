@@ -48,6 +48,10 @@ public class AudioManager : MonoBehaviour
             Configure();
         }
     }
+    private void OnDisable()
+    {
+        Dispose();
+    }
     #endregion
 
     #region PublicFunctions

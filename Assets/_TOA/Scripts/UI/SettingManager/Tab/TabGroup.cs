@@ -4,10 +4,10 @@ using UnityEngine.UI;
 
 public class TabGroup : MonoBehaviour
 {
-    public List<TabButtons> tabButtons;
+    public List<TabButton> tabButtons;
     public List<CanvasGroup> objectToSwap;
 
-    public TabButtons selected;
+    public TabButton selected;
 
     [Header("Sprite Swap")]
     public Sprite tabIdle;
@@ -23,7 +23,7 @@ public class TabGroup : MonoBehaviour
     #endregion
 
     #region Events
-    public void OnTabEnter(TabButtons btn)
+    public void OnTabEnter(TabButton btn)
     {
         ResetTab();
         if (selected == null || btn != selected)
@@ -32,7 +32,7 @@ public class TabGroup : MonoBehaviour
         }
     }
 
-    public void OnTabSelected(TabButtons btn)
+    public void OnTabSelected(TabButton btn)
     {
         selected = btn;
         ResetTab();
@@ -41,7 +41,7 @@ public class TabGroup : MonoBehaviour
         PlayerPrefs.SetInt(CONSTANT.PP_TAB, selected.index);
     }
 
-    public void OnTabExit(TabButtons btn)
+    public void OnTabExit(TabButton btn)
     {
         ResetTab();
     }
@@ -50,7 +50,7 @@ public class TabGroup : MonoBehaviour
     #region PrivateFunctions
     private void ResetTab()
     {
-        foreach (TabButtons btn in tabButtons)
+        foreach (TabButton btn in tabButtons)
         {
             if (selected != null && btn == selected) continue;
             btn.background.sprite = tabIdle;
@@ -67,7 +67,7 @@ public class TabGroup : MonoBehaviour
         tabButtons[index].background.sprite = tabActive;
         selected = tabButtons[index];
     }
-    private void SetActivePage(TabButtons btn)
+    private void SetActivePage(TabButton btn)
     {
         for (int i = 0; i < objectToSwap.Count; i++)
         {
