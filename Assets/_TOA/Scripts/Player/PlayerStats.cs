@@ -124,6 +124,7 @@ public class PlayerStats : MonoBehaviour
     }
     private void KillPlayer()
     {
+
         CharacterController characterController = gameObject.GetComponent<CharacterController>();
         AnimMoveControler animMove = gameObject.GetComponent<AnimMoveControler>();
         AnimAttackControler animAttack = gameObject.GetComponent<AnimAttackControler>();
