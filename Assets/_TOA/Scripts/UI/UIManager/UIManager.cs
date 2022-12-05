@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : SingletonMonoBehaviour<UIManager>
+public class UIManager : Singleton<UIManager>
 {
     public GameObject cScreen, cPopup, cNotify;
 
@@ -28,13 +28,6 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
     public BaseScreen CurScreen => curScreen;
     public BasePopup CurPopup => curPopup;
     public BaseNotify CurNotify => curNotify;
-
-    #region ParentOverride
-    protected override void Awake()
-    {
-        base.Awake();
-    }
-    #endregion
 
     #region PublicFunctions
     #region Screen
@@ -276,130 +269,6 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
                 {
                     Destroy(popups[v].gameObject);
                     popups.Remove(v);
-
-                    Resources.UnloadUnusedAssets();
-                    System.GC.Collect();
-                }
-                break;
-            }
-        }
-    }
-    #endregion
-    #region Notify
-    public void ShowNotify<T>(object data = null, bool forceShowData = false) where T : BaseNotify
-    {
-        string nameNotify = typeof(T).Name;
-        BaseNotify result = null;
-
-        if (curNotify != null)
-        {
-            var curName = curNotify.GetType().Name;
-            if (curName.Equals(nameNotify))
-            {
-                result = curNotify;
-            }
-            else
-            {
-                RemoveNotify(curName);
-            }
-        }
-
-        if (result == null)
-        {
-            if (!notifies.ContainsKey(nameNotify))
-            {
-                BaseNotify notifyScr = GetNewNotify<T>();
-                if (notifyScr != null)
-                {
-                    notifies.Add(nameNotify, notifyScr);
-                }
-            }
-
-            if (notifies.ContainsKey(nameNotify))
-            {
-                result = notifies[nameNotify];
-            }
-        }
-
-        bool isShow = false;
-        if (result != null)
-        {
-            if (forceShowData)
-            {
-                isShow = true;
-            }
-            else
-            {
-                if (result.IsHide)
-                {
-                    isShow = true;
-                }
-            }
-        }
-
-        if (isShow)
-        {
-            curNotify = result;
-            result.transform.SetAsLastSibling();
-            result.Show(data);
-        }
-    }
-
-    private BaseNotify GetNewNotify<T>() where T : BaseNotify
-    {
-        string nameNotify = typeof(T).Name;
-        GameObject pfNotify = GetUIPrefab(UIType.Notify, nameNotify);
-        if (pfNotify == null || !pfNotify.GetComponent<BaseNotify>())
-        {
-            throw new MissingReferenceException("Cant find " + nameNotify + " notify. !!!");
-        }
-        GameObject ob = Instantiate(pfNotify) as GameObject;
-        ob.transform.SetParent(this.cNotify.transform);
-        ob.transform.localScale = Vector3.one;
-        ob.transform.localPosition = Vector3.zero;
-#if UNITY_EDITOR
-        ob.name = "NOTIFY_" + nameNotify;
-#endif
-        BaseNotify notifyScr = ob.GetComponent<BaseNotify>();
-        notifyScr.Init();
-        return notifyScr;
-    }
-
-    public void HideAllNotify()
-    {
-        BaseNotify notifyScr = null;
-        foreach (KeyValuePair<string, BaseNotify> item in notifies)
-        {
-            notifyScr = item.Value;
-            if (notifyScr == null || notifyScr.IsHide)
-                continue;
-            notifyScr.Hide();
-
-            if (notifies.Count <= 0)
-                break;
-        }
-    }
-
-    public T GetExistNotify<T>() where T : BaseNotify
-    {
-        string nameNotify = typeof(T).Name;
-        if (notifies.ContainsKey(nameNotify))
-        {
-            return notifies[nameNotify] as T;
-        }
-        return null;
-    }
-
-    private void RemoveNotify(string v)
-    {
-        for (int i = 0; i < rmNotifies.Count; i++)
-        {
-            if (rmNotifies[i].Equals(v))
-            {
-                if (notifies.ContainsKey(v))
-                {
-                    Destroy(notifies[v].gameObject);
-                    notifies.Remove(v);
 
                     Resources.UnloadUnusedAssets();
                     System.GC.Collect();

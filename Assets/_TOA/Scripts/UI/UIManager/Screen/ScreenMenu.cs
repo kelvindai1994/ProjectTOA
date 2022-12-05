@@ -30,29 +30,15 @@ public class ScreenMenu : BaseScreen
         GameManager.Instance.SetCanvas(MenuReferences.Instance.PlaymodeCanvas, true);
 
     }
-    public void SinglePlayerButton()
-    {
-        if (!UIManager.HasInstance) return;
-        UIManager.Instance.ShowNotify<NotifyLoading>();
-        NotifyLoading.Instance.Load((int)SceneIndex.CharacterSelection);
-        UIManager.Instance.HideAllScreens();
-        UIManager.Instance.ShowScreen<ScreenCharacterSelection>();
-    }
     public void SettingButton()
     {
-        if (!UIManager.HasInstance) return;
-
-        UIManager.Instance.HideAllScreens();
-        UIManager.Instance.ShowPopup<PopupSetting>();
+        if (UIManager.HasInstance)
+        {
+            UIManager.Instance.ShowPopup<PopupSetting>();
+            UIManager.Instance.HideAllScreens();
+        }
     }
-    public void CreditButton()
-    {
-        if (!UIManager.HasInstance) return;
 
-        UIManager.Instance.ShowNotify<NotifyLoading>();
-        UIManager.Instance.HideAllScreens();
-        UIManager.Instance.HideAllPopups();
-    }
 
     public void BackButton()
     {
@@ -77,6 +63,7 @@ public class ScreenMenu : BaseScreen
     #endregion
 
     #endregion
+
 
 
 

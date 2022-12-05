@@ -18,11 +18,11 @@ public class BaseUIElement : MonoBehaviour
     #region Events
     public void OnButtonClick()
     {
-        AudioManager.Instance.PlayAudio(AudioType.SFX_UI_Click, false, PlayerPrefs.GetFloat(CONSTANT.PP_UI_VOLUME));
+        AudioManager.Instance.PlayAudio(AudioType.SFX_UI_Click);
     }
     public void OnSliderMove()
     {
-        AudioManager.Instance.PlayAudio(AudioType.SFX_UI_Slider, false, PlayerPrefs.GetFloat(CONSTANT.PP_UI_VOLUME));
+        AudioManager.Instance.PlayAudio(AudioType.SFX_UI_Slider);
     }
     #endregion
 

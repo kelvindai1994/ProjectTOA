@@ -1,20 +1,14 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections.Generic;
 
 public class SettingManager : MonoBehaviour
 {
-    private ScreenMenu menu;
-    private PopupSetting setting;
-    private PopupPause pause;
-    private PopupSave save;
 
     #region UnityFunctions
     private void Start()
     {
-        menu = UIManager.Instance.GetExistScreen<ScreenMenu>();
-        setting = UIManager.Instance.GetExistPopup<PopupSetting>();
-        save = UIManager.Instance.GetExistPopup<PopupSave>();
-        pause = UIManager.Instance.GetExistPopup<PopupPause>();
         ChangeControlGroup(false);
     }
     private void Update()
@@ -35,10 +29,6 @@ public class SettingManager : MonoBehaviour
         {
             ShowSaveConfirm();
         }
-        else
-        {
-            HideSaveConfirm();
-        }
     }
     //Sound
     public virtual void SettingGroupChange(float value, float savedValue)
@@ -52,9 +42,13 @@ public class SettingManager : MonoBehaviour
             ChangeControlGroup(false);
         }
     }
+    #endregion
+
     #region ButtonControl
     public void DefaultButton()
     {
+
+
         //Grahpic
         SettingReferences.Instance.qualityDD.value = CONSTANT.DEFAULT_QUALITY;
         SettingReferences.Instance.modeDD.value = CONSTANT.DEFAULT_MODE;
@@ -68,26 +62,6 @@ public class SettingManager : MonoBehaviour
 
         HideSaveConfirm();
         ChangeControlGroup(false);
-    }
-    public void CloseButton()
-    {
-        if (SceneManager.GetActiveScene().buildIndex == (int)SceneIndex.Menu)
-        {
-            setting.Hide();
-            menu.Show(null);
-        }
-        else
-        {
-            setting.Hide();
-            if(pause == null)
-            {
-                UIManager.Instance.ShowPopup<PopupPause>();
-            }
-            else
-            {
-                pause.Show(null);
-            }    
-        }
     }
     public void SaveButton()
     {
@@ -108,35 +82,31 @@ public class SettingManager : MonoBehaviour
         ChangeControlGroup(false);
     }
     #endregion
-    #endregion
 
     #region PrivateFunctions
 
     private void ShowSaveConfirm()
     {
-        if(save == null)
+        PopupSave popupSave = UIManager.Instance.GetExistPopup<PopupSave>();
+        if (popupSave != null)
         {
-            UIManager.Instance.ShowPopup<PopupSave>();
+            popupSave.Show(null);
         }
         else
         {
-            save.Show(null);
+            UIManager.Instance.ShowPopup<PopupSave>();
         }
         SaveConfirm.Instance.SaveTrigger(true);
     }
 
     private void HideSaveConfirm()
     {
-        if (save == null)
+        PopupSave popupSave = UIManager.Instance.GetExistPopup<PopupSave>();
+        if (popupSave != null)
         {
-            UIManager.Instance.ShowPopup<PopupSave>();
-            UIManager.Instance.HideAllPopups();
+            popupSave.Hide();
+            SaveConfirm.Instance.SaveTrigger(false);
         }
-        else
-        {
-            save.Show(null);
-        }
-        SaveConfirm.Instance.SaveTrigger(false);
     }
 
 

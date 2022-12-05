@@ -16,4 +16,19 @@ public class PopupSetting : BasePopup
     #endregion
 
 
+    #region PublicFunctions
+
+    #region ButtionControl
+    public void OnClickScreenMenu()
+    {
+        if (UIManager.HasInstance)
+        {
+            UIManager.Instance.ShowScreen<ScreenMenu>();
+            UIManager.Instance.HideAllPopups();
+        }
+    }
+    #endregion
+
+    #endregion
+
 }

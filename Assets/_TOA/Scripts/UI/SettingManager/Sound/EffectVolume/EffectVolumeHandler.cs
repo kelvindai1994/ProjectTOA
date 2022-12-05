@@ -5,7 +5,7 @@ using UnityEngine;
 public class EffectVolumeHandler : SettingManager
 {
 
-    private AudioTrack playerTrack;
+    private AudioTrack track;
 
     #region ParentOverride
     public override void SettingGroupChange(float value, float savedValue)
@@ -17,7 +17,7 @@ public class EffectVolumeHandler : SettingManager
     #region UnityFunctions
     private void Start()
     {
-        playerTrack = AudioManager.Instance.GetTrackName(AudioManager.Instance.tracks, "Player_Effect");
+        track = AudioManager.Instance.GetTrackName(AudioManager.Instance.tracks, "Effect");
 
         SetStartEffectVolume();
         LoadVolume();
@@ -29,7 +29,7 @@ public class EffectVolumeHandler : SettingManager
     #region OnValueChange
     public void SetEffectVolume(float value)
     {
-        playerTrack.source.volume = value;
+        track.source.volume = value;
 
         SettingGroupChange(SettingReferences.Instance.effectS.value, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME));
     }
@@ -49,7 +49,7 @@ public class EffectVolumeHandler : SettingManager
             PlayerPrefs.SetFloat(CONSTANT.PP_EFFECT_VOLUME, CONSTANT.DEFAULT_EFFECT_VOLUME);
         }
 
-        playerTrack.source.volume = PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME);
+        track.source.volume = PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME);
     }
     #endregion
 
