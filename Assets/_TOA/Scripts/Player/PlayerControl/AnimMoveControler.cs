@@ -299,7 +299,7 @@ public class AnimMoveControler : AnimBase
         if (Input.GetKeyDown(KeyCode.Keypad3))
         {
             Debug.Log("Take Damage !!!");
-            PlayerStats.OnTakeDamage(100);
+            PlayerStats.OnTakeDamage(-100);
         }
         if (Input.GetKeyDown(KeyCode.Keypad1))
         {
