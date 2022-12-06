@@ -43,7 +43,6 @@ public class AnimMoveControler : AnimBase
     private int isSliding = 0;
     private int secondLayer;
     private float layerWeightVelocity;
-
     #region ParrentOverride
     public override void Start()
     {
@@ -55,15 +54,12 @@ public class AnimMoveControler : AnimBase
         Cursor.visible = false;
 
         secondLayer = animator.GetLayerIndex("Aim Layer");
-
     }
     #endregion
 
     #region UnityFunction
-
     void Update()
-    {
-
+    {     
         MoveControl();
         SprintControl();
 

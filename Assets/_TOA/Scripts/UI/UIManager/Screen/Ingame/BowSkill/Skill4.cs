@@ -14,7 +14,6 @@ public class Skill4 : MonoBehaviour
     [Header("Skills Info")]
     public int skillID;
     public string skillName;
-    public Transform SkillPoint;
     public GameObject skillShotEffect;
     public GameObject skillCastPrefab;
     public GameObject skillPrefab;
@@ -57,11 +56,7 @@ public class Skill4 : MonoBehaviour
         if(player == null )
         {
             player = GameObject.FindGameObjectWithTag("Player");
-        }
-        if (player != null)
-        {
             animator = player.GetComponent<Animator>();
-            SkillPoint = GameObject.FindGameObjectWithTag("SkillShotPoint").transform;
         }
         GetInput();
         ApplyCoolDown();
@@ -77,7 +72,7 @@ public class Skill4 : MonoBehaviour
         {
             if (isCoolDown)
             {
-                AudioManager.Instance.PlayAudio(AudioType.SFX_Player_Skill_CoolDown, false, PlayerPrefs.GetFloat(CONSTANT.PP_EFFECT_VOLUME) / 10f, 0);
+                Debug.Log("Skill is not ready yet");
                 return;
             }
             StartCoroutine(Precast());
@@ -160,7 +155,6 @@ public class Skill4 : MonoBehaviour
                     GameObject castEffect = Instantiate(skillCastPrefab, player.transform);
                     //skillCastPrefab.transform.SetPositionAndRotation(player.transform.position, player.transform.rotation);
                     castEffect.GetComponent<ParticleSystem>().Play();
-                    Destroy(castEffect, 3f);
                     yield return new WaitForSeconds(castTime);
 
                     //Play Skill Effect
