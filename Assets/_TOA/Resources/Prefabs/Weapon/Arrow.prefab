@@ -4981,8 +4981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c7df10989067b46b50cb860dd1c34b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinDmg: 25
-  MaxDmg: 50
+  MinDmg: 250
+  MaxDmg: 500
   CritChance: 25
   bowTrail: {fileID: 5999724356734384913}
   hitEnemyAudio: {fileID: 1545328797781766469}

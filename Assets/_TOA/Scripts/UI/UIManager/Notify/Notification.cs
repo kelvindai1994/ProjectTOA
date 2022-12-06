@@ -46,6 +46,10 @@ public class Notification : BaseNotify
     {
         DefendObject.OnDamage += UpdateText;
     }
+    private void OnDisable()
+    {
+        DefendObject.OnDamage -= UpdateText;
+    }
     private void Start()
     {
 

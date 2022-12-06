@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4663033676431518539}
   - component: {fileID: 9132202705430777620}
+  - component: {fileID: 7050597950650499128}
   m_Layer: 5
   m_Name: TextHolder
   m_TagString: Untagged
@@ -50,6 +51,14 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!222 &7050597950650499128
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916689109766959767}
+  m_CullTransparentMesh: 1
 --- !u!1 &2947219354939373636
 GameObject:
   m_ObjectHideFlags: 0

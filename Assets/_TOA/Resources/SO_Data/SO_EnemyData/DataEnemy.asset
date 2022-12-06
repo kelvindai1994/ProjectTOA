@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyDatas:
   - Model: {fileID: 712790343112063388, guid: 357ae58d221726d47ac54276fe3fe991, type: 3}
-    BaseHP: 250
+    BaseHP: 2500
     EvadeChance: 5
     MinAtckDamage: 50
     MaxAtkDamage: 100
     AtkRange: 2
     ExpOnDeath: 150
   - Model: {fileID: 5721844303433704680, guid: 90e9400aa53f6dd4787d6b22a3cf6924, type: 3}
-    BaseHP: 150
+    BaseHP: 1500
     EvadeChance: 15
     MinAtckDamage: 30
     MaxAtkDamage: 70
     AtkRange: 2
     ExpOnDeath: 50
   - Model: {fileID: 8541121828305170398, guid: 2a406b42082817d45ba00e726fb78498, type: 3}
-    BaseHP: 500
+    BaseHP: 5000
     EvadeChance: 0
     MinAtckDamage: 50
     MaxAtkDamage: 200

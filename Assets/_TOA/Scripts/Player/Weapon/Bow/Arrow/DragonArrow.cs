@@ -24,7 +24,6 @@ public class DragonArrow : Weapon
         {
             if (c.CompareTag("Enemy"))
             {
-                Debug.Log(c.name);
                 Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
                 dragonArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
 

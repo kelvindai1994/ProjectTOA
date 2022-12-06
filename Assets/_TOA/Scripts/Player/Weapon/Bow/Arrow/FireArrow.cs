@@ -8,7 +8,6 @@ public class FireArrow : Weapon
     private bool isCrit;
     private bool isMiss;
 
-
     public override void Awake()
     {
         base.Awake();
