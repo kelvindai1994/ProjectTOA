@@ -7,6 +7,9 @@ public class HPPotion : MonoBehaviour
     public Image potionCrack;
     public int healAmount;
 
+    public AudioSource emptyPotion;
+    public AudioSource drinkPotion;
+    
     private const float MAX_DELAY_TIMER = 1.5f;
     private float fillDelayTimer;
 
@@ -31,10 +34,13 @@ public class HPPotion : MonoBehaviour
             if(potionFill.fillAmount < 1f)
             {
                 //Play error sound
+
                 Debug.Log("Potion is unavailable !!!");
             }
             else if(potionFill.fillAmount >= 1f)
             {
+                //Play drink potion sound
+
                 potionFill.fillAmount = 0f;
                 PlayerStats.OnTakeDamage(-healAmount);
             }
