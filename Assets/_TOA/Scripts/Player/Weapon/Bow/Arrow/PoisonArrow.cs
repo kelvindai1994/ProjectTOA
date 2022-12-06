@@ -11,26 +11,24 @@ public class PoisonArrow : Weapon
     public override void Awake()
     {
         base.Awake();
+        Destroy(this.gameObject, 1.5f);
     }
-    private void OnParticleTrigger()
+    private void OnTriggerEnter(Collider other)
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, this.GetComponent<ParticleSystem>().trigger.radiusScale);
-        foreach (Collider c in colliders)
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            if (c.CompareTag("Enemy"))
-            {
-                Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
-                poisonArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
+            Debug.Log(other.name);
+            Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
+            poisonArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
 
-                Transform enemy = c.gameObject.transform;
-                EnemyHitBox hitbox = c.GetComponent<EnemyHitBox>();
+            Transform enemy = other.gameObject.transform;
+            EnemyHitBox hitbox = enemy.gameObject.GetComponent<EnemyHitBox>();
 
-                CheckMissAndCrit(enemy);
+            CheckMissAndCrit(enemy);
 
-                FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 2f, enemy.position.z - 0.5f), poisonArrowDamage, isCrit, isMiss);
+            FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 2f, enemy.position.z - 0.5f), poisonArrowDamage, isCrit, isMiss);
 
-                hitbox.OnHit(poisonArrowDamage, isCrit);
-            }
+            hitbox.OnHit(poisonArrowDamage, isCrit);
         }
     }
     private void CheckMissAndCrit(Transform enemy)

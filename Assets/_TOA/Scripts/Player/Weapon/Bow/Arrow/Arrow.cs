@@ -28,7 +28,7 @@ public class Arrow : Weapon
         rb = GetComponent<Rigidbody>();
         arrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
 
-        Destroy(this.gameObject, 10f);
+        Destroy(this.gameObject, 7f);
     }
 
     public override void OnCollisionEnter(Collision collision)

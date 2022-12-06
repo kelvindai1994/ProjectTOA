@@ -5512,7 +5512,7 @@ ParticleSystem:
     angle: 0
     length: 1
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 0.7
+    radiusThickness: 1
     donutRadius: 0.2
     m_Position: {x: 0, y: 8, z: 0}
     m_Rotation: {x: -90, y: 0, z: 0}

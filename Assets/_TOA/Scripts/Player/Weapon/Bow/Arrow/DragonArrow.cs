@@ -13,30 +13,22 @@ public class DragonArrow : Weapon
     {
         base.Awake();
     }
-    private void OnParticleTrigger()
+    private void OnTriggerEnter(Collider other)
     {
-        CheckCollider();
-    }
-    private void CheckCollider()
-    {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, this.GetComponent<ParticleSystem>().trigger.radiusScale);
-        foreach (Collider c in colliders)
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            if (c.CompareTag("Enemy"))
-            {
-                Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
-                dragonArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
+            Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
+            dragonArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
 
-                Transform enemy = c.gameObject.transform;
-                EnemyHitBox hitbox = c.GetComponent<EnemyHitBox>();
+            Transform enemy = other.gameObject.transform;
+            EnemyHitBox hitbox = enemy.GetComponent<EnemyHitBox>();
 
-                CheckMissAndCrit(enemy);
+            CheckMissAndCrit(enemy);
 
-                FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 2f, enemy.position.z - 0.5f), dragonArrowDamage, isCrit, isMiss);
+            FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 2f, enemy.position.z - 0.5f), dragonArrowDamage, isCrit, isMiss);
 
-                hitbox.OnHit(dragonArrowDamage, isCrit);
+            hitbox.OnHit(dragonArrowDamage, isCrit);
 
-            }
         }
     }
     private void CheckMissAndCrit(Transform enemy)

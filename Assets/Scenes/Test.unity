@@ -3149,6 +3149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Taliya
       objectReference: {fileID: 0}
+    - target: {fileID: 8658527196775836129, guid: 65becb5efdba7bd41957567c42c6fcc5, type: 3}
+      propertyPath: fakeArrowPrefab
+      value: 
+      objectReference: {fileID: 2883143634855599584, guid: 483b1f48cc630e34e96fc44d8742bfa4, type: 3}
     - target: {fileID: 9017689833083219906, guid: 65becb5efdba7bd41957567c42c6fcc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3249,7 +3253,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.000000034815297
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2379365337097440547, guid: 65becb5efdba7bd41957567c42c6fcc5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 65becb5efdba7bd41957567c42c6fcc5, type: 3}
 --- !u!1001 &5801519039711129489
 PrefabInstance:

@@ -123,11 +123,12 @@ public class Skill3 : MonoBehaviour
             Destroy(castEffect, 1.5f);
 
             //Play Shot Effect
-            skillShotEffect.transform.SetPositionAndRotation(player.transform.position, Quaternion.LookRotation(forwardCamera));
-            skillShotEffect.GetComponent<ParticleSystem>().Play();
-            if(skillShotEffect.GetComponentsInChildren<FrontAttack>() != null)
+            GameObject shotEffect = Instantiate(skillShotEffect);
+            shotEffect.transform.SetPositionAndRotation(player.transform.position, Quaternion.LookRotation(forwardCamera));
+            shotEffect.GetComponent<ParticleSystem>().Play();
+            if(shotEffect.GetComponentsInChildren<FrontAttack>() != null)
             {
-                foreach (var component in skillShotEffect.GetComponentsInChildren<FrontAttack>())
+                foreach (var component in shotEffect.GetComponentsInChildren<FrontAttack>())
                 {
                     component.playMeshEffect = true;
                 }

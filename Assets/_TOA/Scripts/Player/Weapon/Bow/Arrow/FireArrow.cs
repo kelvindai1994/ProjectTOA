@@ -8,30 +8,27 @@ public class FireArrow : Weapon
     private bool isCrit;
     private bool isMiss;
 
+
     public override void Awake()
     {
         base.Awake();
+        Destroy(this.gameObject, 0.3f);
     }
-    private void OnParticleTrigger()
+    private void OnTriggerEnter(Collider other)
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, this.GetComponent<ParticleSystem>().trigger.radiusScale);
-        foreach (Collider c in colliders)
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            if (c.CompareTag("Enemy"))
-            {
-                Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
-                fireArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
+            Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
+            fireArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
 
-                Transform enemy = c.gameObject.transform;
-                EnemyHitBox hitbox = c.GetComponent<EnemyHitBox>();
+            Transform enemy = other.gameObject.transform;
+            EnemyHitBox hitbox = enemy.gameObject.GetComponent<EnemyHitBox>();
 
-                CheckMissAndCrit(enemy);
+            CheckMissAndCrit(enemy);
 
-                FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 2f, enemy.position.z - 0.5f), fireArrowDamage, isCrit, isMiss);
+            FloatingDamage.Create(new Vector3(enemy.position.x, enemy.position.y + 2f, enemy.position.z - 0.5f), fireArrowDamage, isCrit, isMiss);
 
-                hitbox.OnHit(fireArrowDamage, isCrit);
-
-            }
+            hitbox.OnHit(fireArrowDamage, isCrit);
         }
     }
     private void CheckMissAndCrit(Transform enemy)

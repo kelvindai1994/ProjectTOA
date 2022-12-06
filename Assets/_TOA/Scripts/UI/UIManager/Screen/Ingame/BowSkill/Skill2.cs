@@ -18,6 +18,8 @@ public class Skill2 : MonoBehaviour
     public Transform SkillPoint;
     public GameObject skillShotEffect;
     public GameObject skillCastPrefab;
+    public GameObject skillHitEffect;
+
     public float castTime;
     public float maxCoolDown;
 
@@ -123,8 +125,13 @@ public class Skill2 : MonoBehaviour
             Destroy(castEffect, 1.5f);
 
             //Play Shot Effect
-            skillShotEffect.transform.SetPositionAndRotation(player.transform.position, Quaternion.LookRotation(forwardCamera));
-            skillShotEffect.GetComponent<ParticleSystem>().Play();
+            GameObject shotEffect = Instantiate(skillShotEffect);
+            shotEffect.transform.SetPositionAndRotation(player.transform.position, Quaternion.LookRotation(forwardCamera));
+            shotEffect.GetComponent<ParticleSystem>().Play();
+
+            //Play hit effect
+            GameObject skillHit = Instantiate(skillHitEffect);
+            skillHit.transform.SetPositionAndRotation(player.transform.position, Quaternion.identity);
             yield return null;
         }
     }

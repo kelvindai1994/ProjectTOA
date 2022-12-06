@@ -26,7 +26,10 @@ public class FrontAttack : MonoBehaviour
     public Animator[] anim;
     public float delay = 0f;
     public bool playMeshEffect;
-
+    private void Start()
+    {
+        Destroy(this.gameObject, 1.2f);
+    }
     private void Update()
     {
         if (playMeshEffect == true)

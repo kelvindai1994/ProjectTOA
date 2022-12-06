@@ -22,30 +22,32 @@ public class HPPotion : MonoBehaviour
         potionCrack.fillAmount = 1f;
 
     }
-    #endregion
-
-    #region PublicFunction
     private void Update()
     {
         PotionRegen();
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            if(potionFill.fillAmount < 1f)
+            if (potionFill.fillAmount < 1f)
             {
                 //Play error sound
 
                 Debug.Log("Potion is unavailable !!!");
             }
-            else if(potionFill.fillAmount >= 1f)
+            else if (potionFill.fillAmount >= 1f)
             {
                 //Play drink potion sound
 
                 potionFill.fillAmount = 0f;
+                potionCrack.fillAmount = 1f;
                 PlayerStats.OnTakeDamage(-healAmount);
             }
         }
     }
+    #endregion
+
+    #region PublicFunction
+
     #endregion
 
     #region PrivateFunction

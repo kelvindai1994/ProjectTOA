@@ -18,6 +18,7 @@ public class Skill1 : MonoBehaviour
     public Transform SkillPoint;
     public GameObject skillShotEffect;
     public GameObject skillCastPrefab;
+
     public float castTime;
     public float maxCoolDown;
 
@@ -75,6 +76,9 @@ public class Skill1 : MonoBehaviour
                 return;
             }
             StartCoroutine(FrontAttack());
+
+
+           
         }
     }
     private void ApplyCoolDown()
@@ -125,7 +129,11 @@ public class Skill1 : MonoBehaviour
             //Play Shot Effect
             skillShotEffect.transform.SetPositionAndRotation(SkillPoint.transform.position, Quaternion.LookRotation(forwardCamera));
             skillShotEffect.GetComponent<ParticleSystem>().Play();
+
+            //Instantitate arrow
+
             yield return null;
+
         }
     }
     #endregion

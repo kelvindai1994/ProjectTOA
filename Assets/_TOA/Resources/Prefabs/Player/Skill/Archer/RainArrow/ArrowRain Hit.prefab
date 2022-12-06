@@ -14697,8 +14697,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a505f331234533c49bf99c1c7558522f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinDmg: 800
-  MaxDmg: 2000
+  MinDmg: 5000
+  MaxDmg: 10000
   CritChance: 30
 --- !u!1 &1288123815096300
 GameObject:
