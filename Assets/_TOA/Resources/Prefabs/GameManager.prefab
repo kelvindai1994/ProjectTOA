@@ -523,6 +523,8 @@ MonoBehaviour:
       clip: {fileID: 8300000, guid: b2a4e4c5f885a53469f87bf9847c7330, type: 3}
     - type: 7
       clip: {fileID: 8300000, guid: 9db47ef14d3cd0440ac9133af9730ff3, type: 3}
+    - type: 9
+      clip: {fileID: 8300000, guid: d0f79eea3c9378846bb1f7c3153dde82, type: 3}
     loop: 0
 --- !u!1 &8704947389752726661
 GameObject:

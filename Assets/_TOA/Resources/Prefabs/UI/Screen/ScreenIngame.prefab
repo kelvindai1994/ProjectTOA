@@ -1198,7 +1198,6 @@ MonoBehaviour:
   timerText: {fileID: 7502802106427804213}
   skillID: 4
   skillName: RainArrow
-  SkillPoint: {fileID: 0}
   skillShotEffect: {fileID: 1424882917224758, guid: 054a39a40579bd74491091fda18ed7a0, type: 3}
   skillCastPrefab: {fileID: 1059258296366010, guid: d2738fd635c1ad14cac37d2d24baf190, type: 3}
   skillPrefab: {fileID: 1109835763071532}
@@ -1760,6 +1759,291 @@ MonoBehaviour:
   m_FillOrigin: 2
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2040154729245012299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2256049242958037605}
+  - component: {fileID: 2253610702926934617}
+  - component: {fileID: 2145132123822086327}
+  m_Layer: 5
+  m_Name: Bottle A_Fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2256049242958037605
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040154729245012299}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.00008, y: 1.00008, z: 1.00008}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2255525791963224821}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2253610702926934617
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040154729245012299}
+  m_CullTransparentMesh: 1
+--- !u!114 &2145132123822086327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040154729245012299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1cd21f5b1db804ac796e3ba60056c14e, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 1
+  m_FillAmount: 0.1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2040161472895453525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2255974477114987053}
+  - component: {fileID: 2253323957756107325}
+  - component: {fileID: 2144966787992917417}
+  m_Layer: 5
+  m_Name: Bottle A_Cracks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2255974477114987053
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040161472895453525}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000936, y: 1.0000936, z: 1.0000936}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2255525791963224821}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2253323957756107325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040161472895453525}
+  m_CullTransparentMesh: 1
+--- !u!114 &2144966787992917417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040161472895453525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2bc8dcfcf3f694c968241464bf655b2b, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 1
+  m_FillAmount: 0.9
+  m_FillClockwise: 1
+  m_FillOrigin: 1
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2041820998025318135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2256083523838596167}
+  - component: {fileID: 2253645935980326639}
+  - component: {fileID: 2145353211920749015}
+  m_Layer: 5
+  m_Name: Bottle A_Glass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2256083523838596167
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041820998025318135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.00008, y: 1.00008, z: 1.00008}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2255525791963224821}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2253645935980326639
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041820998025318135}
+  m_CullTransparentMesh: 1
+--- !u!114 &2145353211920749015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041820998025318135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3829c13dada4640fea96ae4e1f5bcb68, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2042034795907895517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2255525791963224821}
+  - component: {fileID: 2255525791963224822}
+  m_Layer: 5
+  m_Name: POTION A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2255525791963224821
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042034795907895517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2256049242958037605}
+  - {fileID: 2256083523838596167}
+  - {fileID: 2255974477114987053}
+  m_Father: {fileID: 5330541720481214035}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &2255525791963224822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042034795907895517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c7bd852e573bb4b9ec041e0a6df30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionFill: {fileID: 2145132123822086327}
+  potionCrack: {fileID: 2144966787992917417}
+  healAmount: 250
+  emptyPotion: {fileID: 0}
+  drinkPotion: {fileID: 0}
 --- !u!1 &2098555242704792254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,7 +2130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4970693359772852203}
-  - component: {fileID: 1993040493}
+  - component: {fileID: 61686168}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -1878,7 +2162,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1993040493
+--- !u!114 &61686168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1887,7 +2171,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2248302983174372416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52252021720f8bb44b2991220ce34efe, type: 3}
+  m_Script: {fileID: 11500000, guid: 21f55e4da5e4bc6458d34fb48c9b6997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
@@ -1899,8 +2183,8 @@ MonoBehaviour:
   SkillPoint: {fileID: 0}
   skillShotEffect: {fileID: 1437106910823156}
   skillCastPrefab: {fileID: 1245865416996662, guid: 080fd97e9ee4a174897aa3f0e9de21b7, type: 3}
-  castTime: 1
-  maxCoolDown: 18
+  castTime: 1.5
+  maxCoolDown: 22
 --- !u!1 &2332430165182034280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,7 +2466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4039445170953243369}
-  - component: {fileID: 44799467}
+  - component: {fileID: 1497705258}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -2214,7 +2498,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &44799467
+--- !u!114 &1497705258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2223,7 +2507,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2546340911695663335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4321331521604ac43ab2c7716737e49c, type: 3}
+  m_Script: {fileID: 11500000, guid: 56bece73bd330ac4abb4f704b10f0a80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
@@ -2236,7 +2520,7 @@ MonoBehaviour:
   skillShotEffect: {fileID: 1122126403583540}
   skillCastPrefab: {fileID: 1251481168314106, guid: 7df83265c57ad5547977206de4868dad, type: 3}
   castTime: 1.5
-  maxCoolDown: 12
+  maxCoolDown: 15
 --- !u!1 &2651993664243721943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,7 +2720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8594233955693123566}
-  - component: {fileID: 1497705247}
+  - component: {fileID: 1497705259}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -2468,7 +2752,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1497705247
+--- !u!114 &1497705259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2477,7 +2761,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2990702241383876058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e541d8facc724154394998edf718615f, type: 3}
+  m_Script: {fileID: 11500000, guid: aec025ecd653b8b4d8e7128f18924f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
@@ -2490,7 +2774,7 @@ MonoBehaviour:
   skillShotEffect: {fileID: 1959580492896800}
   skillCastPrefab: {fileID: 1398625787422678, guid: 23f7f5a303f6ee84c95938181416b47b, type: 3}
   castTime: 1
-  maxCoolDown: 8
+  maxCoolDown: 10
 --- !u!1 &3053346317137527107
 GameObject:
   m_ObjectHideFlags: 0
@@ -4190,6 +4474,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5330541719206873915}
+  - {fileID: 2255525791963224821}
   m_Father: {fileID: 5330541720171342558}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7314,8 +7599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e483a6ea0f45e7b4b9cf7fabef62c32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinDmg: 200
-  MaxDmg: 350
+  MinDmg: 250
+  MaxDmg: 400
   CritChance: 25
 --- !u!1 &1437106910823156 stripped
 GameObject:
@@ -7339,8 +7624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e483a6ea0f45e7b4b9cf7fabef62c32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinDmg: 100
-  MaxDmg: 100
+  MinDmg: 350
+  MaxDmg: 500
   CritChance: 15
 --- !u!1 &1850128300224624 stripped
 GameObject:
@@ -7359,8 +7644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e483a6ea0f45e7b4b9cf7fabef62c32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinDmg: 200
-  MaxDmg: 350
+  MinDmg: 250
+  MaxDmg: 400
   CritChance: 25
 --- !u!4 &4276663416472328 stripped
 Transform:
@@ -7572,29 +7857,17 @@ PrefabInstance:
       propertyPath: TriggerModule.enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8936696758852241516, guid: e6cfa266ffdd11945933a806f3390d13, type: 3}
+      propertyPath: MaxDmg
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936696758852241516, guid: e6cfa266ffdd11945933a806f3390d13, type: 3}
+      propertyPath: MinDmg
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 284822184, guid: e6cfa266ffdd11945933a806f3390d13, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6cfa266ffdd11945933a806f3390d13, type: 3}
---- !u!1 &1511308664450822 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1511307482762940, guid: e6cfa266ffdd11945933a806f3390d13, type: 3}
-  m_PrefabInstance: {fileID: 1237262778}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &264100590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511308664450822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daa442096b5cb424488dfd5e784eafb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MinDmg: 1
-  MaxDmg: 5
-  CritChance: 0
 --- !u!1 &1959580492896800 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1959579542829978, guid: e6cfa266ffdd11945933a806f3390d13, type: 3}
@@ -7664,13 +7937,29 @@ PrefabInstance:
       propertyPath: TriggerModule.colliderQueryMode
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 663743698, guid: 25351f84a6151da45a65f94eee2d123b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25351f84a6151da45a65f94eee2d123b, type: 3}
 --- !u!1 &1122126403583540 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122125053305958, guid: 25351f84a6151da45a65f94eee2d123b, type: 3}
   m_PrefabInstance: {fileID: 1889507922}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2123849461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122126403583540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d388be0a622da264da18e434b6a0d609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinDmg: 20
+  MaxDmg: 50
+  CritChance: 10
 --- !u!4 &4557761893889534 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4557762691887020, guid: 25351f84a6151da45a65f94eee2d123b, type: 3}

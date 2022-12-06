@@ -18,14 +18,14 @@ MonoBehaviour:
     EvadeChance: 5
     MinAtckDamage: 50
     MaxAtkDamage: 100
-    AtkRange: 2
+    AtkRange: 1.5
     ExpOnDeath: 150
   - Model: {fileID: 5721844303433704680, guid: 90e9400aa53f6dd4787d6b22a3cf6924, type: 3}
     BaseHP: 2000
     EvadeChance: 15
     MinAtckDamage: 30
     MaxAtkDamage: 70
-    AtkRange: 2
+    AtkRange: 1.5
     ExpOnDeath: 100
   - Model: {fileID: 8541121828305170398, guid: 2a406b42082817d45ba00e726fb78498, type: 3}
     BaseHP: 5000
@@ -39,5 +39,5 @@ MonoBehaviour:
     EvadeChance: 75
     MinAtckDamage: 100
     MaxAtkDamage: 100
-    AtkRange: 1.5
+    AtkRange: 1
     ExpOnDeath: 800

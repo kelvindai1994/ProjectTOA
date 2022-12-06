@@ -16,6 +16,7 @@ TagManager:
   - Skill1
   - Skill2
   - DefendObject
+  - SkillShotPoint
   layers:
   - Default
   - TransparentFX
