@@ -61,7 +61,7 @@ public class Arrow : Weapon
         }
         else if (collision.gameObject.CompareTag("DefendObject"))
         {
-            DefendObject.OnTakeDamge(arrowDamage * 100);
+            DefendObject.OnTakeDamge(arrowDamage * (int)Random.Range(50,101));
         }
         else
         {

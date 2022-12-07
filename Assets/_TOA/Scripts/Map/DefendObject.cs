@@ -11,7 +11,9 @@ public class DefendObject : MonoBehaviour
     [SerializeField] private GameObject sphere;
     [SerializeField] private ParticleSystem[] effects;
     [SerializeField] private int maxHP;
-    
+
+    [Space]
+    [SerializeField] private GameObject[] waves;
     private int currentHP;
 
     private float maxEmitRate = 100f;
@@ -37,6 +39,41 @@ public class DefendObject : MonoBehaviour
             var emission = effects[i].emission;
             emission.rateOverTime = maxEmitRate;
         }
+        for(int i = 0; i < waves.Length; i++)
+        {
+            waves[i].SetActive(false);
+        }
+    }
+    private void Update()
+    {   // final wave when objective is 10% hp
+        if (currentHP <= maxHP * 0.9f)
+        {
+            waves[3].SetActive(true);
+            return;
+        }
+        // third wave when objective is 30% hp
+        if (currentHP <= maxHP * 0.7f)
+        {
+            waves[2].SetActive(true);
+            return;
+        }
+        // second wave when objective is 50% hp
+        if (currentHP <= maxHP * 0.5f)
+        {
+            waves[1].SetActive(true);
+            return;
+        }
+        // first wave when objective is 70% hp
+        if (currentHP <= maxHP * 0.3f)
+        {
+            waves[0].SetActive(true);
+            return;
+        }
+        
+       
+       
+
+
     }
     #endregion
 
@@ -46,17 +83,26 @@ public class DefendObject : MonoBehaviour
     {
         currentHP -= damage;
         OnDamage?.Invoke(currentHP);
-        if (currentHP <= 0)
-        {
-            currentHP = 0;
-            sphere.SetActive(false);
-        }
         for (int i = 0; i < effects.Length; i++)
         {
             var emission = effects[i].emission;
             emission.rateOverTime = (int)((float)currentHP / (float)maxHP * 100);
         }
-        
+        if (currentHP <= 0)
+        {
+            ObjectiveExplode();
+        }
+    }
+
+    private void ObjectiveExplode()
+    {
+        currentHP = 0;
+        sphere.SetActive(false);
+
+        UIManager.Instance.ShowNotify<NotifyLoading>();
+        NotifyLoading.Instance.Load((int)SceneIndex.Map2);
+
+        UIManager.Instance.ShowNotify<Notification>();
     }
     #endregion
 }

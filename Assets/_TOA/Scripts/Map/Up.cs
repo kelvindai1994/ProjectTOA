@@ -8,53 +8,62 @@ public class Up : MonoBehaviour
     private float speed = 2.0f;
     //private Vector3 direction = new Vector3(-0.37f, 10f, 0.88f);
     public Transform up;
-    public Transform targetPos;
-    public Transform resetPos;
-    public Transform[] resetPlayerParent;
 
-    public bool isUp;
-    public bool isDown;
+    public Transform destination;
+    public Transform origin;
 
-    private float maxTimer = 15f;
+    private bool isMove;
+    private bool hasMove;
+
+    private float maxTimer = 10f;
     private float timer;
     private void Start()
     {
-        isDown = true;
-        isUp = !isDown;
         timer = maxTimer;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
+        if (isMove)
+        {
+            up.position = Vector3.MoveTowards(up.position, destination.position, speed * Time.deltaTime);
+            if (CalculateDistance(up, destination) <= 0)
+            {
+                isMove = false;
+                hasMove = true;
 
-        if(isDown)
+                GameObject player = GameObject.FindGameObjectWithTag("Player");
+                player.transform.SetParent(null);
+            }
+        }    
+        if(!isMove && hasMove)
         {
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
-                up.position = Vector3.MoveTowards(up.position, targetPos.position, speed * Time.deltaTime);
-                if (CalculateDistance(up, targetPos) <= 0)
+                up.position = Vector3.MoveTowards(up.position, origin.position, speed * Time.deltaTime);
+                if (CalculateDistance(up, origin) <= 0)
                 {
-                    isDown = false;
-                    isUp = !isDown;
+                    isMove = false;
+                    hasMove = false;
+
+                    
+
+                    timer = maxTimer;
                 }
             }
         }
-        if (isUp)
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
         {
-            timer -= Time.deltaTime;
-            if (timer <= 0)
-            {
-                up.position = Vector3.MoveTowards(up.position, resetPos.position, speed * Time.deltaTime);
-                if (CalculateDistance(up, resetPos) <= 0)
-                {
-                    isDown = true;
-                    isUp = !isDown;
-                }
-            }        
+            GameObject player = other.gameObject;
+            player.transform.SetParent(up.transform, false);
+            player.transform.localScale = Vector3.one;
+            isMove = true;
         }
     }
-
     #region PrivateFunction
     private float CalculateDistance(Transform origin, Transform target)
     {   
