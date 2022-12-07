@@ -15,7 +15,6 @@ public class DefendObject : MonoBehaviour
     private int currentHP;
 
     private float maxEmitRate = 100f;
-    private float minEmitRate = 0f;
     public int MaxHP => maxHP;
     #region UnityFunction
     private void Awake()

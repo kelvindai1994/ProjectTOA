@@ -235,6 +235,7 @@ public class AnimMoveControler : AnimBase
     {
         if (!isJump)
         {
+            animator.SetTrigger("Jumping");
             float jumpVelocity = Mathf.Sqrt(2 * gravity * jumpHeight);
             SetInAir(jumpVelocity);
         }

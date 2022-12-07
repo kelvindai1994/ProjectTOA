@@ -17,7 +17,6 @@ public class PoisonArrow : Weapon
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log(other.name);
             Damage = (int)Random.Range(MinDmg, MaxDmg + 1);
             poisonArrowDamage = Damage + (10 * (PlayerStats.Instance.Level - 1));
 

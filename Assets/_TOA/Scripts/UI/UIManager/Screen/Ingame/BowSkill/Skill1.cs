@@ -127,8 +127,9 @@ public class Skill1 : MonoBehaviour
             Destroy(castEffect, 1.5f);
 
             //Play Shot Effect
-            skillShotEffect.transform.SetPositionAndRotation(SkillPoint.transform.position, Quaternion.LookRotation(forwardCamera));
-            skillShotEffect.GetComponent<ParticleSystem>().Play();
+            GameObject shotEffect = Instantiate(skillShotEffect);
+            shotEffect.transform.SetPositionAndRotation(SkillPoint.transform.position, Quaternion.LookRotation(forwardCamera));
+            shotEffect.GetComponent<ParticleSystem>().Play();
 
             //Instantitate arrow
 

@@ -161,7 +161,7 @@ public class Bow : MonoBehaviour
         fakeArrow = Instantiate(fakeArrowPrefab, 
             new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y + 1.5f, this.gameObject.transform.position.z), 
             this.gameObject.transform.rotation);    
-        fakeArrow.GetComponent<Rigidbody>().AddForce(1800 * stringForce * this.gameObject.transform.forward);
+        fakeArrow.GetComponent<Rigidbody>().AddForce(1000 * stringForce * this.gameObject.transform.forward);
 
 
     }
