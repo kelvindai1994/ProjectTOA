@@ -90,10 +90,12 @@ public class AnimMoveControler : AnimBase
         if (isJump)
         {
             UpdateInAir();
+            
         }
         else
         {
             UpdateOnGround();
+            
         }
     }
     #endregion
@@ -180,7 +182,9 @@ public class AnimMoveControler : AnimBase
         Vector3 stepDownAmount = Vector3.down * stepDownOffset;
         characterController.Move(stepForwardAmount + stepDownAmount);
         rootmotion = Vector3.zero;
-
+        animator.SetBool("isGrounded", characterController.isGrounded);
+        animator.SetBool("isFalling", !characterController.isGrounded);
+        animator.SetBool("isJumping", !characterController.isGrounded);
         if (!characterController.isGrounded)
         {
             SetInAir(0);
@@ -235,7 +239,8 @@ public class AnimMoveControler : AnimBase
     {
         if (!isJump)
         {
-            animator.SetTrigger("Jumping");
+            animator.SetBool("isJumping", true);
+            animator.SetBool("isGrounded", false);
             float jumpVelocity = Mathf.Sqrt(2 * gravity * jumpHeight);
             SetInAir(jumpVelocity);
         }
@@ -254,6 +259,10 @@ public class AnimMoveControler : AnimBase
             characterController.Move(displacement);
         }
         isJump = !characterController.isGrounded;
+        animator.SetBool("isFalling", true);
+        animator.SetBool("isJumping", false);
+        animator.SetBool("isGrounded", false);
+
         rootmotion = Vector3.zero;
     }
     private void SetInAir(float jumpVelocity)

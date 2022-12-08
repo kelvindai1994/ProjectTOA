@@ -39,5 +39,5 @@ MonoBehaviour:
     EvadeChance: 75
     MinAtckDamage: 100
     MaxAtkDamage: 100
-    AtkRange: 1
+    AtkRange: 1.5
     ExpOnDeath: 800

@@ -40,7 +40,6 @@ public class ChaseState_Enemy : StateMachineBehaviour
         {
             animator.SetBool("isChase", false);
             Transform reset = agent.gameObject.GetComponentInParent<PointSpawner>().gameObject.transform;
-            Debug.Log("Reset " + reset.name);
             agent.SetDestination(reset.position);
         }
         //if(agent.remainingDistance >= 10)
