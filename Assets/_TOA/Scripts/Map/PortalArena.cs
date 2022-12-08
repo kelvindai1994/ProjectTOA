@@ -42,7 +42,8 @@ public class PortalArena : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Change Scene");
+            UIManager.Instance.ShowNotify<NotifyLoading>();
+            NotifyLoading.Instance.Load((int)SceneIndex.Arena);
         }
     }
 }

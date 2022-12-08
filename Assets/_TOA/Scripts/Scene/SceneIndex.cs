@@ -4,5 +4,6 @@ public enum SceneIndex
     CharacterSelection = 1,
     TownMap = 2,
     Map1 = 3,
-    Map2 = 4
+    Map2 = 4,
+    Arena = 5
 }
