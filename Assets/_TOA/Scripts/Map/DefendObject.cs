@@ -1,10 +1,13 @@
 
 using UnityEngine;
 using System;
+using System.Collections;
+
 public class DefendObject : MonoBehaviour
 {
     public static DefendObject Instance;
-
+    public ParticleSystem Explosion;
+    public ParticleSystem Portal;
     public static Action<int> OnTakeDamge;
     public static Action<int> OnDamage;
 
@@ -97,12 +100,19 @@ public class DefendObject : MonoBehaviour
     private void ObjectiveExplode()
     {
         currentHP = 0;
+        Explosion.Play();
         sphere.SetActive(false);
+        StartCoroutine("PortalOpen");
 
         UIManager.Instance.ShowNotify<NotifyLoading>();
         NotifyLoading.Instance.Load((int)SceneIndex.Map2);
 
         UIManager.Instance.ShowNotify<Notification>();
+    }
+    IEnumerator PortalOpen()
+    {
+        Portal.Play();
+        yield return new WaitForSeconds(3f);
     }
     #endregion
 }
