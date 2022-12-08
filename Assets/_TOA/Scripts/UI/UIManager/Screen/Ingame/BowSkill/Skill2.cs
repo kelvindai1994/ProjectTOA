@@ -128,6 +128,7 @@ public class Skill2 : MonoBehaviour
             GameObject shotEffect = Instantiate(skillShotEffect);
             shotEffect.transform.SetPositionAndRotation(player.transform.position, Quaternion.LookRotation(forwardCamera));
             shotEffect.GetComponent<ParticleSystem>().Play();
+            Destroy(shotEffect, 1.5f);
 
             //Play hit effect
             GameObject skillHit = Instantiate(skillHitEffect);

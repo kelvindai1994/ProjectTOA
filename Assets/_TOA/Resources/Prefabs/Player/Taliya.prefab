@@ -9771,10 +9771,10 @@ MonoBehaviour:
   sprintKey: 304
   toggleWalkKey: 306
   jumpHeight: 1.5
-  jumpDamp: 0.8
+  jumpDamp: 0.5
   gravity: 20
   groundSpeed: 1.2
-  stepDownOffset: 0.1
+  stepDownOffset: 0.3
   isRMPressed: 0
   airControl: 2.5
 --- !u!114 &8658527196775836131

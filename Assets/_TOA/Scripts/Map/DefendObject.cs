@@ -21,6 +21,9 @@ public class DefendObject : MonoBehaviour
 
     private float maxEmitRate = 100f;
     public int MaxHP => maxHP;
+
+    private bool triggerPortal;
+    private float portalDelay;
     #region UnityFunction
     private void Awake()
     {
@@ -37,6 +40,8 @@ public class DefendObject : MonoBehaviour
     }
     private void Start()
     {
+        Portal.gameObject.GetComponent<BoxCollider>().enabled = false;
+
         for (int i = 0; i < effects.Length; i++)
         {
             var emission = effects[i].emission;
@@ -48,34 +53,42 @@ public class DefendObject : MonoBehaviour
         }
     }
     private void Update()
-    {   // final wave when objective is 10% hp
-        if (currentHP <= maxHP * 0.9f)
+    {
+        if (triggerPortal)
+        {
+            portalDelay -= Time.deltaTime;
+            if(portalDelay <= 0f)
+            {
+                Portal.Play();
+                Portal.gameObject.GetComponent<BoxCollider>().enabled = true;
+            }
+        }
+
+        if (waves.Length <= 0) return;
+        // final wave when objective is 10% hp
+        if (currentHP <= maxHP * 0.3f)
         {
             waves[3].SetActive(true);
             return;
         }
         // third wave when objective is 30% hp
-        if (currentHP <= maxHP * 0.7f)
+        if (currentHP <= maxHP * 0.5f)
         {
             waves[2].SetActive(true);
             return;
         }
         // second wave when objective is 50% hp
-        if (currentHP <= maxHP * 0.5f)
+        if (currentHP <= maxHP * 0.7f)
         {
             waves[1].SetActive(true);
             return;
         }
         // first wave when objective is 70% hp
-        if (currentHP <= maxHP * 0.3f)
+        if (currentHP <= maxHP * 0.9f)
         {
             waves[0].SetActive(true);
             return;
         }
-        
-       
-       
-
 
     }
     #endregion
@@ -100,19 +113,16 @@ public class DefendObject : MonoBehaviour
     private void ObjectiveExplode()
     {
         currentHP = 0;
-        Explosion.Play();
         sphere.SetActive(false);
-        StartCoroutine("PortalOpen");
+        this.gameObject.GetComponent<BoxCollider>().enabled = false;
 
-        UIManager.Instance.ShowNotify<NotifyLoading>();
-        NotifyLoading.Instance.Load((int)SceneIndex.Map2);
+        Explosion.Play();
+        AudioSource explodeSound = Explosion.GetComponent<AudioSource>();
+        AudioClip clip = explodeSound.clip;
+        explodeSound.PlayOneShot(clip);
 
-        UIManager.Instance.ShowNotify<Notification>();
-    }
-    IEnumerator PortalOpen()
-    {
-        Portal.Play();
-        yield return new WaitForSeconds(3f);
+        triggerPortal = true;
+        portalDelay = 3f;
     }
     #endregion
 }

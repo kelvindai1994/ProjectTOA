@@ -259,6 +259,7 @@ public class AnimMoveControler : AnimBase
             characterController.Move(displacement);
         }
         isJump = !characterController.isGrounded;
+
         animator.SetBool("isFalling", true);
         animator.SetBool("isJumping", false);
         animator.SetBool("isGrounded", false);

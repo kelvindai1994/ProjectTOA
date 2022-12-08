@@ -130,7 +130,7 @@ public class Skill1 : MonoBehaviour
             GameObject shotEffect = Instantiate(skillShotEffect);
             shotEffect.transform.SetPositionAndRotation(SkillPoint.transform.position, Quaternion.LookRotation(forwardCamera));
             shotEffect.GetComponent<ParticleSystem>().Play();
-
+            Destroy(shotEffect, 1.5f);
             //Instantitate arrow
 
             yield return null;

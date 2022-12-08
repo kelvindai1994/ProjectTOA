@@ -8,7 +8,7 @@ public class ParticalEvent : MonoBehaviour
     ParticleSystem[] childFx;
 
     [System.Obsolete]
-    void PlayParticle(float Duration)
+    void PlayParticle()
     {
         childFx = VFX_FireAtk.transform.GetComponentsInChildren<ParticleSystem>();
         foreach(ParticleSystem child in childFx)
@@ -16,7 +16,6 @@ public class ParticalEvent : MonoBehaviour
             child.Stop();
             child.loop = true;
             var mainFx = child.main;
-            mainFx.duration = Duration;
             child.Play();
         }
     }

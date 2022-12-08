@@ -2,7 +2,9 @@ public enum AudioType
 {
     Unknown,
     ST_Menu,
-    ST_InGame,
+    ST_Town,
+    ST_Map1,
+    ST_Map2,
     SFX_UI_Click,
     SFX_UI_Slider,
     SFX_Player_Bow_Equip,

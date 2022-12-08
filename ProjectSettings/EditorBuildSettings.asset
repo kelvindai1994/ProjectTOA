@@ -17,13 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGame/3/LVL1.unity
     guid: 448e499fcc12c2d42b0fdfb1a050363d
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainGame/4/MapLVL2.unity
     guid: 2b35f3a31ef2da646a7f65202bad6ed1
   - enabled: 1
     path: Assets/Scenes/MainGame/5/ArenaMapFN.unity
     guid: 1196e42dca2325c4aa4db1f8d78a519e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

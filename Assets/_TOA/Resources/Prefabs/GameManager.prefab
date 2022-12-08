@@ -504,26 +504,30 @@ MonoBehaviour:
     - type: 1
       clip: {fileID: 8300000, guid: 0b415879c2a58a94897ef3fa6672d839, type: 3}
     - type: 2
-      clip: {fileID: 8300000, guid: 6880e74c5281e428cace07ef42b5a6d9, type: 3}
+      clip: {fileID: 8300000, guid: f5aa3ba157bf6474b9ea6e54a2109cbf, type: 3}
+    - type: 3
+      clip: {fileID: 8300000, guid: 6fbd540688c9e5b46b72041ecf95c751, type: 3}
+    - type: 4
+      clip: {fileID: 8300000, guid: d456bfa16889fa745af3ea7885fe2961, type: 3}
     loop: 1
   - name: UI
     source: {fileID: 2343933066342334243}
     audio:
-    - type: 3
+    - type: 5
       clip: {fileID: 8300000, guid: 795c4ea2ea1ffc54982c652644a64520, type: 3}
-    - type: 4
+    - type: 6
       clip: {fileID: 8300000, guid: 76900dfe0d15dc34fb621e6ab0cf8466, type: 3}
     loop: 0
   - name: Player_Effect
     source: {fileID: 8343122262093646284}
     audio:
-    - type: 5
-      clip: {fileID: 8300000, guid: 9b38350e503e064468774b9d46ca7a30, type: 3}
-    - type: 6
-      clip: {fileID: 8300000, guid: b2a4e4c5f885a53469f87bf9847c7330, type: 3}
     - type: 7
-      clip: {fileID: 8300000, guid: 9db47ef14d3cd0440ac9133af9730ff3, type: 3}
+      clip: {fileID: 8300000, guid: 9b38350e503e064468774b9d46ca7a30, type: 3}
+    - type: 8
+      clip: {fileID: 8300000, guid: b2a4e4c5f885a53469f87bf9847c7330, type: 3}
     - type: 9
+      clip: {fileID: 8300000, guid: 9db47ef14d3cd0440ac9133af9730ff3, type: 3}
+    - type: 11
       clip: {fileID: 8300000, guid: d0f79eea3c9378846bb1f7c3153dde82, type: 3}
     loop: 0
 --- !u!1 &8704947389752726661

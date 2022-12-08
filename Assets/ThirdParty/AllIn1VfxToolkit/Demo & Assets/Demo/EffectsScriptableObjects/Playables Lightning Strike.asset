@@ -17,8 +17,7 @@ MonoBehaviour:
   randomSpreadRadius: 4
   cooldown: 0
   isShootProjectile: 0
-  effectPrefab: {fileID: 6974084246394710616, guid: b202acbc71e0a8242a574cbd85ce4cc6,
-    type: 3}
+  effectPrefab: {fileID: 6974084246394710616, guid: b202acbc71e0a8242a574cbd85ce4cc6, type: 3}
   spawnTouchingFloor: 1
   projectileSpeed: 15
   projectilePrefab: {fileID: 0}

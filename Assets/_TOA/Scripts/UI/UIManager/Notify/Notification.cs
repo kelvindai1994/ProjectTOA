@@ -74,6 +74,7 @@ public class Notification : BaseNotify
     #region PrivateFunction
     private void UpdateText(int amount)
     {
+        this.Show(null);
         float Percentage =  (float) amount / (float) DefendObject.Instance.MaxHP  * 100;
         if(Percentage <= 0)
         {
@@ -86,28 +87,28 @@ public class Notification : BaseNotify
         {
             panelAlpha.alpha = 1f;
             isShow = true;
-            text.SetText($"OBJECTIVE HAS %{Percentage} HP LEFT");
+            text.SetText($"OBJECTIVE HAS %{(int)Percentage} HP LEFT");
             return;
         }
         if(Percentage <= 10)
         {
             panelAlpha.alpha = 1f;
             isShow = true;
-            text.SetText($"OBJECTIVE HAS %{Percentage} HP LEFT");
+            text.SetText($"OBJECTIVE HAS %{(int)Percentage} HP LEFT");
             return;
         }
         if(Percentage <= 25)
         {
             panelAlpha.alpha = 1f;
             isShow = true;
-            text.SetText($"OBJECTIVE HAS %{Percentage} HP LEFT");
+            text.SetText($"OBJECTIVE HAS %{(int)Percentage} HP LEFT");
             return;
         }
         if(Percentage <= 50)
         {
             panelAlpha.alpha = 1f;
             isShow = true;
-            text.SetText($"OBJECTIVE HAS %{Percentage} HP LEFT");
+            text.SetText($"OBJECTIVE HAS %{(int)Percentage} HP LEFT");
             return;
         }       
     }

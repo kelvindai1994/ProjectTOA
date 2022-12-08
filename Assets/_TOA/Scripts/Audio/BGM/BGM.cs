@@ -16,7 +16,12 @@ public class BGM : MonoBehaviour
             if(ScnIndex == (int)SceneIndex.TownMap)
             {
                 AudioManager.Instance.StopAudio(AudioType.ST_Menu, false, PlayerPrefs.GetFloat(CONSTANT.PP_MUSIC_VOLUME), 0f);
-                AudioManager.Instance.PlayAudio(AudioType.ST_InGame, true, PlayerPrefs.GetFloat(CONSTANT.PP_MUSIC_VOLUME), 3.5f);
+                AudioManager.Instance.PlayAudio(AudioType.ST_Town, true, PlayerPrefs.GetFloat(CONSTANT.PP_MUSIC_VOLUME), 1.5f);
+            }
+            if (ScnIndex == (int)SceneIndex.Map1)
+            {
+                AudioManager.Instance.StopAudio(AudioType.ST_Town, false, PlayerPrefs.GetFloat(CONSTANT.PP_MUSIC_VOLUME), 0f);
+                AudioManager.Instance.PlayAudio(AudioType.ST_Map1, true, PlayerPrefs.GetFloat(CONSTANT.PP_MUSIC_VOLUME), 1.5f);
             }
         }
     }

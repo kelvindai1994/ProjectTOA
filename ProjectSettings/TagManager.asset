@@ -18,6 +18,7 @@ TagManager:
   - DefendObject
   - SkillShotPoint
   - Abyss
+  - Boss
   layers:
   - Default
   - TransparentFX
