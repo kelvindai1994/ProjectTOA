@@ -31,7 +31,7 @@ public class IdleState_Enemy : StateMachineBehaviour
         float distanceToTarget = Vector3.Distance(animator.transform.position, target.transform.position);
         //checkInFront 
         bool inFront = spawnerEnemy.CheckInFront(animator.transform, target.transform);
-        if (distanceToTarget < 8 && inFront)
+        if (distanceToTarget <= 15 && inFront)
         {
             animator.SetBool("isChase", true);
         }
