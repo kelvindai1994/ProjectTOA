@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System;
 public class CompassBar : MonoBehaviour
 {
     public static CompassBar Instance;
+    public static Action<bool> ResetCompass;
 
     public GameObject enemyIconPrefab;
     public List<EnemyMarker> enemyMarkers = new();
@@ -20,6 +22,14 @@ public class CompassBar : MonoBehaviour
     {
         Instance = this;
     }
+    private void OnEnable()
+    {
+        ResetCompass += ClearCompass;
+    }
+    private void OnDisable()
+    {
+        ResetCompass -= ClearCompass;
+    }
     private void Start()
     {
         mCam = Camera.main;
@@ -27,7 +37,7 @@ public class CompassBar : MonoBehaviour
     }
 
     private void Update()
-    {
+    {       
         if(mCam == null) mCam = Camera.main;
         compassImage.uvRect = new Rect(mCam.transform.localEulerAngles.y / 360f, 0, 1f, 1f);
 
@@ -86,6 +96,22 @@ public class CompassBar : MonoBehaviour
         float angle = Vector2.SignedAngle(marker.Position - camPos, camFwd);
 
         return new Vector2(compassUnit * angle, 0);
+    }
+
+    private void ClearCompass(bool isReset = false)
+    {
+        if (isReset)
+        {
+            enemyMarkers.Clear();
+            if (compassImage.transform.childCount > 0)
+            {
+                for (int i = 0; i < compassImage.transform.childCount; i++)
+                {
+                    GameObject child = compassImage.gameObject.transform.GetChild(i).gameObject;
+                    Destroy(child);
+                }
+            }
+        }
     }
 
 }

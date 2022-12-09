@@ -70,6 +70,8 @@ public class ScreenDeath : BaseScreen
             UIManager.Instance.HideAllScreens();
             UIManager.Instance.ShowScreen<ScreenIngame>();
 
+            PlayerStats.OnDeath(false);
+            CompassBar.ResetCompass(true);
         }
         ResetState();
     }

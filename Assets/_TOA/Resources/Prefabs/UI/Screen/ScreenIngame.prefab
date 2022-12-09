@@ -5428,7 +5428,7 @@ MonoBehaviour:
   enemyMarkers: []
   compassImage: {fileID: 4869245435333082281}
   mCam: {fileID: 0}
-  maxDistance: 100
+  maxDistance: 50
 --- !u!1 &6397644824321336770
 GameObject:
   m_ObjectHideFlags: 0

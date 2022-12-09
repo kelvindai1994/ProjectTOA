@@ -6,8 +6,8 @@ using System.Collections;
 public class DefendObject : MonoBehaviour
 {
     public static DefendObject Instance;
-    public ParticleSystem Explosion;
-    public ParticleSystem Portal;
+    public GameObject explosion;
+    public GameObject portal;
     public static Action<int> OnTakeDamge;
     public static Action<int> OnDamage;
 
@@ -40,7 +40,8 @@ public class DefendObject : MonoBehaviour
     }
     private void Start()
     {
-        Portal.gameObject.GetComponent<BoxCollider>().enabled = false;
+        explosion.SetActive(false);
+        portal.SetActive(false);
 
         for (int i = 0; i < effects.Length; i++)
         {
@@ -59,8 +60,7 @@ public class DefendObject : MonoBehaviour
             portalDelay -= Time.deltaTime;
             if(portalDelay <= 0f)
             {
-                Portal.Play();
-                Portal.gameObject.GetComponent<BoxCollider>().enabled = true;
+                portal.SetActive(true);
             }
         }
 
@@ -116,8 +116,8 @@ public class DefendObject : MonoBehaviour
         sphere.SetActive(false);
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
 
-        Explosion.Play();
-        AudioSource explodeSound = Explosion.GetComponent<AudioSource>();
+        explosion.SetActive(true);
+        AudioSource explodeSound = explosion.GetComponent<AudioSource>();
         AudioClip clip = explodeSound.clip;
         explodeSound.PlayOneShot(clip);
 

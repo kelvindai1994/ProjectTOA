@@ -80,6 +80,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
             UIManager.Instance.HideAllPopups();
             //Show death screen
             UIManager.Instance.ShowScreen<ScreenDeath>();
+
         }
     }
 

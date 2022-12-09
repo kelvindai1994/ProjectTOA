@@ -59,6 +59,7 @@ public class PlayerStats : MonoBehaviour
     public float DodgeSta => dodgeSTAConsump;
 
     private bool isDead;
+    private int hitCount = 0;
     #region UnityFunction
     private void OnEnable()
     {
@@ -106,8 +107,16 @@ public class PlayerStats : MonoBehaviour
     //Handle TakeDamage
     private void TakeDamage(float dmgAmount)
     {
+        
         currentHP -= dmgAmount;
 
+        hitCount++;
+        if (hitCount >= 3)
+        {
+            animator.SetTrigger("Damage");
+            hitCount = 0;
+        }
+        
         OnDamage?.Invoke(currentHP);
 
         if (currentHP <= 0)
@@ -129,7 +138,7 @@ public class PlayerStats : MonoBehaviour
         animAttack.enabled = false;
 
         currentHP = 0;
-        animator.SetTrigger("Dead");
+        animator.SetBool("isDead", true);
 
         if (regenaratingHealth != null)
             StopCoroutine(regenaratingHealth);
