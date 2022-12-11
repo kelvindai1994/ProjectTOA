@@ -13304,6 +13304,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8042282, y: 2.9928758, z: 0.7524468}
   m_Center: {x: 0.10888028, y: 0.28685728, z: -0.05561919}
+--- !u!114 &2007374103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595406210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a3585449e34f142a090fdebbf9379b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2017569114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13606,6 +13618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064970824}
   - component: {fileID: 2064970825}
+  - component: {fileID: 2064970826}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Untagged
@@ -13642,11 +13655,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdebb0e3c0eab814f82f8508fe59c504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
   portal: {fileID: 595406210}
   eliteEnemies:
   - {fileID: 231665511}
   - {fileID: 2057485991}
   - {fileID: 117041941}
+--- !u!65 &2064970826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064970823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20, y: 5, z: 20}
+  m_Center: {x: 34.3, y: 2.73, z: 3.6}
 --- !u!4 &2089181545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8356133050782009326, guid: b113c326a71cd704c9abf82966d03a90, type: 3}

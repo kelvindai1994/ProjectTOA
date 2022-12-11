@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class SecondGate : MonoBehaviour
 {
+    public GameObject target;
     public GameObject portal;
     public List<GameObject> eliteEnemies;
 
     private bool triggerPortal;
-    private void OnEnable()
+
+    private void Start()
     {
         portal.SetActive(false);
-
-        triggerPortal = true;
     }
 
     private void Update()
@@ -28,7 +28,7 @@ public class SecondGate : MonoBehaviour
             }
         }
 
-        if (eliteEnemies.Count <= 0 || eliteEnemies == null)
+        if ((eliteEnemies.Count <= 0 || eliteEnemies == null) && target)
         {
             portal.SetActive(true);
         }
@@ -38,8 +38,8 @@ public class SecondGate : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            UIManager.Instance.ShowNotify<NotifyLoading>();
-            NotifyLoading.Instance.Load((int)SceneIndex.Arena);
+            triggerPortal = true;
+            target = other.gameObject;
         }
     }
 }

@@ -14618,14 +14618,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096a53fa254bf574b93f1e7adf0b2ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Explosion: {fileID: 0}
-  Portal: {fileID: 0}
-  sphere: {fileID: 8102155473089344357}
+  explosion: {fileID: 0}
+  portal: {fileID: 0}
+  sphere: {fileID: 8102155472799685471}
   effects:
   - {fileID: 8102155472102180648}
   - {fileID: 8102155472241809483}
   - {fileID: 8102155472272100142}
-  maxHP: 1000000
+  maxHP: 500000
   waves:
   - {fileID: 0}
   - {fileID: 0}
