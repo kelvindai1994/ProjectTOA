@@ -1,7 +1,7 @@
 # ProjectTOA by Team NoName
 
 - Advisor :
-  - Trần Thị Kiến Thức
+  - Trần Thiện Kiến Thức
 - Contributors:
   - Lưu Thanh Tuấn
   - Thái Đình Hoàng
